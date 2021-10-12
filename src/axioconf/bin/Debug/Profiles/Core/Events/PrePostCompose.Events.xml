@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventList>
+  <!-- composition -->
+  <Event id="compose.permit">
+    <ProvidesScope>
+      <ScopeRef id="PrePostComposeScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="compose.before">
+    <ProvidesScope>
+      <ScopeRef id="PrePostComposeScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="compose.on">
+    <ProvidesScope>
+      <ScopeRef id="PrePostComposeScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="compose.after">
+    <ProvidesScope>
+      <ScopeRef id="PrePostComposeScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+</EventList>

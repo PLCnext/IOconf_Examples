@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLTextResource xmlns="http://www.FDCML.org/3/1.0" xmlns:fdcml="http://www.FDCML.org/3/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ../fdcml3TextResourcev1.0.xsd">
+  <!-- master types-->
+  <Str tID="t0001">Auslastung des zugeordneten CPU-Anteils (Share)</Str>
+  <Str tID="t0002">Verwendeter Anteil (in Prozent) der zur Verfügung stehenden CPU-Bandbreite in Prozent, die für die Profinet-Kommunikation reserviert ist.</Str>
+  <Str tID="t0003">AR-Speicher</Str>
+  <Str tID="t0004">Speicherauslastung</Str>
+  <Str tID="t0005">PTCP Subdomain Name</Str>
+  <Str tID="t0006">PTCP Subdomain Name für IRT</Str>
+  <Str tID="t0007">Multiple Interface Modus</Str>
+  <Str tID="t0008">Schaltet den Multiple Interface Modus ein</Str>
+  <Str tID="t0009">Ein</Str>
+  <Str tID="t0010">Aus</Str>
+  <Str tID="t1005">PDev konfigurieren</Str>
+  <Str tID="t1006"/>
+  <Str tID="t1007">AML APC Stationsname</Str>
+  <Str tID="t1009">Stationsname für den AutomationML Im-/Export</Str>
+  <!-- device -->
+  <Str tID="t0100">Konfigurationsunterschiede</Str>
+  <Str tID="t0101">Gibt an, wenn ein projektiertes Gerät in Betrieb ist und die aktuelle Konfiguration sich unterscheidet.</Str>
+  <Str tID="t0102">Verbindungszustand protokollieren</Str>
+  <Str tID="t0103">Aktivieren Sie diese Option, wenn Informationen zum Auf- und Abbau der Kommunikationsverbindung zu den IO-Geräten im Diagnosearchiv des IO Controllers protokolliert werden sollen.  So können bspw. sporadische Fehler auf einem IO-Gerät erkannt werden.</Str>
+  <Str tID="t0104">LED BF aktivieren</Str>
+  <Str tID="t0105">Wählen Sie aus, ob die LED BF auf dem IO Controller blinken soll, wenn keine Verbindung aufgebaut werden kann.</Str>
+  <Str tID="t0106">Monitorfaktor</Str>
+  <Str tID="t0107">Multiplikator der Update-Zeit zum Trennen der Verbindung, wenn keine Daten ausgetauscht werden können. Der eingegebene Wert muss ein Vielfaches von 3 sein.</Str>
+  <Str tID="t0108">IP-Adresse von IO Controller</Str>
+  <Str tID="t0109">Wählen Sie aus, ob das Gerät eine IP-Adresse vom IO Controller erhalten soll.</Str>
+  <Str tID="t0110">Stationsname</Str>
+  <Str tID="t0111">Monitorzeit</Str>
+  <Str tID="t0112">AR UID</Str>
+  <Str tID="t0113">AR UUID</Str>
+  <Str tID="t0114">Input Frame ID</Str>
+  <Str tID="t0115">Output Frame ID</Str>
+  <Str tID="t0116">AR starten bei Anlauf</Str>
+  <Str tID="t0117">Lokale Alarmreferenz</Str>
+  <Str tID="t0118">Real-Time-Klasse der SPS verwenden</Str>
+  <Str tID="t0119">Update-Zeit</Str>
+  <Str tID="t0120">Sendetakt der SPS verwenden</Str>
+  <Str tID="t0121">Real-Time-Klasse der SPS verwenden</Str>
+  <Str tID="t0122">DCP Boundary</Str>
+  <Str tID="t0123">Medienredundanz unterstützt</Str>
+  <Str tID="t0124">Die Kommunikation wird unterbrochen, wenn in der angegebenen Zeit keine zyklischen Daten übertragen werden konnten. Die Zeit ergibt sich aus der Multiplikation der Update-Zeit mit dem Monitorfaktor.</Str>
+  <Str tID="t0125">Wählen Sie hier, ob Sie die RT-Klasse von der SPS übernehmen möchten oder eine andere Klasse definieren möchten.</Str>
+  <Str tID="t0130">Ersatzwertverhalten der Eingänge</Str>
+  <Str tID="t0132">Legt fest, ob der Controller beim Starten des Geräts eine Verbindung zu diesem aufbaut. Wenn Sie &apos;Nein&apos; wählen, können Sie mit Hilfe des FB AR_MGT in Ihrer Anwendung eine Verbindung aufbauen. </Str>
+  <Str tID="t0133">Zykluszeit mit der IO-Daten zwischen Controller und Gerät ausgetauscht werden. Die Zeit ergibt sich aus der Multiplikation des Sendetakts des Controllers mit der Untersetzung dieser Schnittstelle.</Str>
+  <Str tID="t0134">Untersetzung</Str>
+  <Str tID="t0135">Dieser Wert bestimmt die Häufigkeit (Frequenz) der Datenübertragung.</Str>
+  <!-- module/submodule -->
+  <Str tID="t0200">Steckplatznummer</Str>
+  <Str tID="t0201"/>
+  <Str tID="t0202">Knoten-ID</Str>
+  <Str tID="t0203">Eindeutige Kennung, die als Adresse in Profinet Kommunikations-FBs verwendet wird.</Str>
+  <Str tID="t0204">Substeckplatznummer</Str>
+  <Str tID="t0205">Aktiv</Str>
+  <Str tID="t0206"/>
+  <!-- editor -->
+  <Str tID="t0400">Alle</Str>
+  <Str tID="t0401">Identität</Str>
+  <Str tID="t0402">Ethernet</Str>
+  <Str tID="t0403">Profinet-Gerät</Str>
+  <Str tID="t0404">Profinet Controller</Str>
+  <Str tID="t0406">Profisafe - Gerätediagnosevariablen</Str>
+  <Str tID="t0407">Profisafe - Zusammenfassung Diagnosevariablen</Str>
+  <Str tID="t0408">Profil</Str>
+  <Str tID="t0409">Profinet IRT Controller</Str>
+  <Str tID="t0410">Profinet Modul</Str>
+  <Str tID="t0411">Profinet DAP Modul</Str>
+  <Str tID="t0412">Profinet Submodul</Str>
+  <Str tID="t0413">Profinet DAP Submodul</Str>
+  <Str tID="t0141">Profinet Interface Submodul</Str>
+  <Str tID="t0415">Profinet Port Submodul</Str>
+  <!-- fast startup -->
+  <Str tID="t0500">Fast start up</Str>
+  <Str tID="t0501">DCP Hello Supported</Str>
+  <Str tID="t0502">Configure FS Hello</Str>
+  <Str tID="t0503">FS Hello Mode</Str>
+  <Str tID="t0504">Wait time between DCP_Hello requests</Str>
+  <Str tID="t0505">Number of retransmissions of DCP_Hello.req</Str>
+  <Str tID="t0506">Wait time between LinkUp.ind and DCP_Hello.req</Str>
+  <!-- values -->
+  <Str tID="t1000">Nein</Str>
+  <Str tID="t1001">Ja</Str>
+  <Str tID="t1002">Neu verbinden</Str>
+  <Str tID="t1003">Auf Null setzen</Str>
+  <Str tID="t1004">Werte behalten</Str>
+  <!-- media redundancy protocol -->
+  <Str tID="t1100">Media redundancy protocol</Str>
+  <Str tID="t1110">MRP Domain UUID</Str>
+  <Str tID="t1111">MRP Domain UUID - Beschreibung</Str>
+  <Str tID="t1120">MRP Rolle</Str>
+  <Str tID="t1121">MRP Rolle - Beschreibung</Str>
+  <Str tID="t1122">Off</Str>
+  <Str tID="t1123">Client</Str>
+  <Str tID="t1124">Manager</Str>
+  <Str tID="t1125">Manager (auto)</Str>
+  <Str tID="t1130">MRP Domain-Name</Str>
+  <Str tID="t1131">MRP Domain-Name - Beschreibung</Str>
+  <Str tID="t1140">MRP LNKdownT</Str>
+  <Str tID="t1141">MRP LNKdownT - Beschreibung</Str>
+  <Str tID="t1150">MRP LNKupT</Str>
+  <Str tID="t1151">MRP LNKupT - Beschreibung</Str>
+  <Str tID="t1160">MRP LNKNRmax</Str>
+  <Str tID="t1161">MRP LNKNRmax - Beschreibung</Str>
+  <!-- ring port configuration -->
+  <Str tID="t1200">Ringport configuration</Str>
+</FDCMLTextResource>

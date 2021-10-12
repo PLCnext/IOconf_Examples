@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLTextResource xmlns="http://www.FDCML.org/3/1.0" xmlns:fdcml="http://www.FDCML.org/3/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ../../../fdcml3TextResourcev1.0.xsd">
+	<!--AXL-->
+	<Str tID="t100">Analoger Eingang</Str>
+	<Str tID="t101">Analoger Ausgang</Str>
+	<Str tID="t102">Funktion</Str>
+	<Str tID="t103">Digitaler Eingang</Str>
+	<Str tID="t104">24-V-Geräteversorgung</Str>
+	<Str tID="t105">GND Geräteversorgung</Str>
+	<Str tID="t106">Eingangskanal 1</Str>
+	<Str tID="t107">Eingangskanal 2</Str>
+	<Str tID="t108">Eingangskanal 3</Str>
+	<Str tID="t109">Eingangskanal 4</Str>
+	<Str tID="t110">Eingangskanal 5</Str>
+	<Str tID="t111">Eingangskanal 6</Str>
+	<Str tID="t112">Eingangskanal 7</Str>
+	<Str tID="t113">Eingangskanal 8</Str>
+	<Str tID="t114">Eingangskanal 9</Str>
+	<Str tID="t115">Eingangskanal 10</Str>
+	<Str tID="t116">Eingangskanal 11</Str>
+	<Str tID="t117">Eingangskanal 12</Str>
+	<Str tID="t118">Eingangskanal 13</Str>
+	<Str tID="t119">Eingangskanal 14</Str>
+	<Str tID="t120">Eingangskanal 15</Str>
+	<Str tID="t121">Eingangskanal 16</Str>
+	<Str tID="t122">Eingangskanal 17</Str>
+	<Str tID="t123">Eingangskanal 18</Str>
+	<Str tID="t124">Eingangskanal 19</Str>
+	<Str tID="t125">Eingangskanal 20</Str>
+	<Str tID="t126">Eingangskanal 21</Str>
+	<Str tID="t127">Eingangskanal 22</Str>
+	<Str tID="t128">Eingangskanal 23</Str>
+	<Str tID="t129">Eingangskanal 24</Str>
+	<Str tID="t130">Eingangskanal 25</Str>
+	<Str tID="t131">Eingangskanal 26</Str>
+	<Str tID="t132">Eingangskanal 27</Str>
+	<Str tID="t133">Eingangskanal 28</Str>
+	<Str tID="t134">Eingangskanal 29</Str>
+	<Str tID="t135">Eingangskanal 30</Str>
+	<Str tID="t136">Eingangskanal 31</Str>
+	<Str tID="t137">Eingangskanal 32</Str>
+	<Str tID="t138">Eingangskanal 33</Str>
+	<Str tID="t139">Eingangskanal 34</Str>
+	<Str tID="t140">Eingangskanal 35</Str>
+	<Str tID="t141">Eingangskanal 36</Str>
+	<Str tID="t142">Eingangskanal 37</Str>
+	<Str tID="t143">Eingangskanal 38</Str>
+	<Str tID="t144">Eingangskanal 39</Str>
+	<Str tID="t145">Eingangskanal 40</Str>
+	<Str tID="t146">Eingangskanal 41</Str>
+	<Str tID="t147">Eingangskanal 42</Str>
+	<Str tID="t148">Eingangskanal 43</Str>
+	<Str tID="t149">Eingangskanal 44</Str>
+	<Str tID="t150">Eingangskanal 45</Str>
+	<Str tID="t151">Eingangskanal 46</Str>
+	<Str tID="t152">Eingangskanal 47</Str>
+	<Str tID="t153">Eingangskanal 48</Str>
+	<Str tID="t154">Eingangskanal 49</Str>
+	<Str tID="t155">Eingangskanal 50</Str>
+	<Str tID="t156">Eingangskanal 51</Str>
+	<Str tID="t157">Eingangskanal 52</Str>
+	<Str tID="t158">Eingangskanal 53</Str>
+	<Str tID="t159">Eingangskanal 54</Str>
+	<Str tID="t160">Eingangskanal 55</Str>
+	<Str tID="t161">Eingangskanal 56</Str>
+	<Str tID="t162">Eingangskanal 57</Str>
+	<Str tID="t163">Eingangskanal 58</Str>
+	<Str tID="t164">Eingangskanal 59</Str>
+	<Str tID="t165">Eingangskanal 60</Str>
+	<Str tID="t166">Eingangskanal 61</Str>
+	<Str tID="t167">Eingangskanal 62</Str>
+	<Str tID="t168">Eingangskanal 63</Str>
+	<Str tID="t169">Eingangskanal 64</Str>
+	<Str tID="t170">Spannungsversorgung</Str>
+	<Str tID="t171">Digitaler Ausgang</Str>
+	<Str tID="t172">Ausgangskanal 1</Str>
+	<Str tID="t173">Ausgangskanal 2</Str>
+	<Str tID="t174">Ausgangskanal 3</Str>
+	<Str tID="t175">Ausgangskanal 4</Str>
+	<Str tID="t176">Ausgangskanal 5</Str>
+	<Str tID="t177">Ausgangskanal 6</Str>
+	<Str tID="t178">Ausgangskanal 7</Str>
+	<Str tID="t179">Ausgangskanal 8</Str>
+	<Str tID="t180">Ausgangskanal 9</Str>
+	<Str tID="t181">Ausgangskanal 10</Str>
+	<Str tID="t182">Ausgangskanal 11</Str>
+	<Str tID="t183">Ausgangskanal 12</Str>
+	<Str tID="t184">Ausgangskanal 13</Str>
+	<Str tID="t185">Ausgangskanal 14</Str>
+	<Str tID="t186">Ausgangskanal 15</Str>
+	<Str tID="t187">Ausgangskanal 16</Str>
+	<Str tID="t188">Ausgangskanal 17</Str>
+	<Str tID="t189">Ausgangskanal 18</Str>
+	<Str tID="t190">Ausgangskanal 19</Str>
+	<Str tID="t191">Ausgangskanal 20</Str>
+	<Str tID="t192">Ausgangskanal 21</Str>
+	<Str tID="t193">Ausgangskanal 22</Str>
+	<Str tID="t194">Ausgangskanal 23</Str>
+	<Str tID="t195">Ausgangskanal 24</Str>
+	<Str tID="t196">Ausgangskanal 25</Str>
+	<Str tID="t197">Ausgangskanal 26</Str>
+	<Str tID="t198">Ausgangskanal 27</Str>
+	<Str tID="t199">Ausgangskanal 28</Str>
+	<Str tID="t200">Bussockel (ankommend)</Str>
+	<Str tID="t201">Max. Stromaufnahme aus Ubus</Str>
+	<Str tID="t202">Bussockel (abgehend)</Str>
+	<Str tID="t203">Axioline F-Gerätetyp (Byte 0-3)</Str>
+	<Str tID="t204">Axioline F-Gerätetyp (Byte 4-7)</Str>
+	<Str tID="t205">Prozessdatenlänge</Str>
+	<Str tID="t206">Max. Ausgangsstrom an Ubus</Str>
+	<Str tID="t207">Ausgangskanal 29</Str>
+	<Str tID="t208">Ausgangskanal 30</Str>
+	<Str tID="t209">Ausgangskanal 31</Str>
+	<Str tID="t210">Ausgangskanal 32</Str>
+	<Str tID="t211">Ausgangskanal 33</Str>
+	<Str tID="t212">Ausgangskanal 34</Str>
+	<Str tID="t213">Ausgangskanal 35</Str>
+	<Str tID="t214">Ausgangskanal 36</Str>
+	<Str tID="t215">Ausgangskanal 37</Str>
+	<Str tID="t216">Ausgangskanal 38</Str>
+	<Str tID="t217">Ausgangskanal 39</Str>
+	<Str tID="t218">Ausgangskanal 40</Str>
+	<Str tID="t219">Ausgangskanal 41</Str>
+	<Str tID="t220">Ausgangskanal 42</Str>
+	<Str tID="t221">Ausgangskanal 43</Str>
+	<Str tID="t222">Ausgangskanal 44</Str>
+	<Str tID="t223">Ausgangskanal 45</Str>
+	<Str tID="t224">Ausgangskanal 46</Str>
+	<Str tID="t225">Ausgangskanal 47</Str>
+	<Str tID="t226">Ausgangskanal 48</Str>
+	<Str tID="t227">Ausgangskanal 49</Str>
+	<Str tID="t228">Ausgangskanal 50</Str>
+	<Str tID="t229">Ausgangskanal 51</Str>
+	<Str tID="t230">Ausgangskanal 52</Str>
+	<Str tID="t231">Ausgangskanal 53</Str>
+	<Str tID="t232">Ausgangskanal 54</Str>
+	<Str tID="t233">Ausgangskanal 55</Str>
+	<Str tID="t234">Ausgangskanal 56</Str>
+	<Str tID="t235">Ausgangskanal 57</Str>
+	<Str tID="t236">Ausgangskanal 58</Str>
+	<Str tID="t237">Ausgangskanal 59</Str>
+	<Str tID="t238">Ausgangskanal 60</Str>
+	<Str tID="t239">Ausgangskanal 61</Str>
+	<Str tID="t240">Ausgangskanal 62</Str>
+	<Str tID="t241">Ausgangskanal 63</Str>
+	<Str tID="t242">Ausgangskanal 64</Str>
+	<Str tID="t243">Digitaler Ein- und Ausgang</Str>
+	<Str tID="t244">Serielle Kommunikation</Str>
+	<Str tID="t245">GND IN1/IN5</Str>
+	<Str tID="t246">GND IN2/IN6</Str>
+	<Str tID="t247">GND IN3/IN7</Str>
+	<Str tID="t248">GND IN4/IN8</Str>
+	<Str tID="t249">Schließerkontakt Relais 1</Str>
+	<Str tID="t250">Hauptkontakt Relais 1</Str>
+	<Str tID="t251">Schließerkontakt Relais 2</Str>
+	<Str tID="t252">Hauptkontakt Relais 2</Str>
+	<Str tID="t253">Schließerkontakt Relais 3</Str>
+	<Str tID="t254">Hauptkontakt Relais 3</Str>
+	<Str tID="t255">Schließerkontakt Relais 4</Str>
+	<Str tID="t256">Hauptkontakt Relais 4</Str>
+	<Str tID="t257">Sicherer digitaler Eingang</Str>
+	<Str tID="t258">Sicherer digitaler Ausgang</Str>
+	<Str tID="t259">Analoger Ein- und Ausgang</Str>
+	<Str tID="t260">Temperatureingang</Str>
+	<Str tID="t261">SafetyBridge</Str>
+	<Str tID="t262"/>
+	<Str tID="t263"/>
+	<Str tID="t264"/>
+	<Str tID="t265"/>
+	<Str tID="t266"/>
+	<Str tID="t267"/>
+	<Str tID="t268"/>
+	<Str tID="t269"/>
+	<Str tID="t270">OUT0_CH1</Str>
+	<Str tID="t271">OUT0_CH2</Str>
+	<Str tID="t272">OUT1_CH1</Str>
+	<Str tID="t273">OUT1_CH2</Str>
+	<Str tID="t274">OUT2_CH1</Str>
+	<Str tID="t275">OUT2_CH2</Str>
+	<Str tID="t276">OUT3_CH1</Str>
+	<Str tID="t277">OUT3_CH2</Str>
+	<Str tID="t278">IN0_CH1</Str>
+	<Str tID="t279">IN0_CH2</Str>
+	<Str tID="t280">IN1_CH1</Str>
+	<Str tID="t281">IN1_CH2</Str>
+	<Str tID="t282">IN2_CH1</Str>
+	<Str tID="t283">IN2_CH2</Str>
+	<Str tID="t284">IN3_CH1</Str>
+	<Str tID="t285">IN3_CH2</Str>
+	
+	
+	<!-- Device Parameters -->
+	<Str tID="t1000">Kanal inaktiv</Str>
+	<Str tID="t1001">kein Mittelwert</Str>
+	<Str tID="t1002">4-fach</Str>
+	<Str tID="t1003">16-fach</Str>
+	<Str tID="t1004">32-fach</Str>
+	<Str tID="t1005">S7-kompatibel</Str>
+	<Str tID="t1006">Datenformat</Str>
+	<Str tID="t1007">Kanal 1</Str>
+	<Str tID="t1008">Kanal 2</Str>
+	<Str tID="t1009">Kanal 3</Str>
+	<Str tID="t1010">Kanal 4</Str>
+	<Str tID="t1011">Kanal 5</Str>
+	<Str tID="t1012">Kanal 6</Str>
+	<Str tID="t1013">Kanal 7</Str>
+	<Str tID="t1014">Kanal 8</Str>
+	<Str tID="t1015">Ort</Str>
+	<Str tID="t1016">Funktion</Str>
+	<Str tID="t1017">Applikationsspezifische Geräteadresse</Str>
+	<Str tID="t1018">Mittelwert</Str>
+	<Str tID="t1019">Filter</Str>
+	<Str tID="t1020">Messbereich</Str>
+	<Str tID="t1021">Datenformat</Str>
+	<Str tID="t1022">Ersatzwert</Str>
+	<Str tID="t1023">Nullwerte 0 V / 0 mA / 4 mA</Str>
+	<Str tID="t1024">Endwert</Str>
+	<Str tID="t1025">letzte Werte halten</Str>
+	<Str tID="t1026">Ersatzwert</Str>
+	<Str tID="t1027">Kanal 1 Diag</Str>
+	<Str tID="t1028">Kanal 2 Diag</Str>
+	<Str tID="t1029">Kanal 3 Diag</Str>
+	<Str tID="t1030">Kanal 4 Diag</Str>
+	<Str tID="t1031">Ersatzwertverhalten</Str>
+	<Str tID="t1032">hochzählen wenn HIGH</Str>
+	<Str tID="t1033">Ausgangsbereich</Str>
+	<Str tID="t1034">Kanal 5 Diag</Str>
+	<Str tID="t1035">Kanal 6 Diag</Str>
+	<Str tID="t1036">Kanal 7 Diag</Str>
+	<Str tID="t1037">Kanal 8 Diag</Str>
+	<Str tID="t1038">periodisch</Str>
+	<Str tID="t1039">einmalig</Str>
+	<Str tID="t1040">Gate aus</Str>
+	<Str tID="t1041">zählen wenn HIGH</Str>
+	<Str tID="t1042">zählen wenn LOW</Str>
+	<Str tID="t1043">starten bei steigender Flanke</Str>
+	<Str tID="t1044">starten bei fallender Flanke</Str>
+	<Str tID="t1045">zählen wenn HIGH und rücksetzen des Zählerwerts mit steigender Flanke</Str>
+	<Str tID="t1046">zählen wenn LOW und rücksetzen des Zählerwerts mit fallender Flanke</Str>
+	<Str tID="t1047">keine Funktion</Str>
+	<Str tID="t1048">ändern der Richtung mit steigender Flanke</Str>
+	<Str tID="t1049">Startrichtung ist aufwärts</Str>
+	<Str tID="t1050">hochzählen wenn LOW</Str>
+	<Str tID="t1051">Startrichtung ist abwärts</Str>
+	<Str tID="t1052">ändern der Richtung mit fallender Flanke</Str>
+	<Str tID="t1053">stoppen bei steigender Flanke</Str>
+	<Str tID="t1054">stoppen bei fallender Flanke</Str>
+	<Str tID="t1055">deaktiviert</Str>
+	<Str tID="t1056">High (Startzustand ist Low)</Str>
+	<Str tID="t1057">Low (Startzustand ist High)</Str>
+	<Str tID="t1058">wechseln (Startzustand ist Low)</Str>
+	<Str tID="t1059">wechseln (Startzustand ist High)</Str>
+	<Str tID="t1060">High-Puls</Str>
+	<Str tID="t1061">Low-Puls</Str>
+	<Str tID="t1062">von Steuerung gesetzt</Str>
+	<Str tID="t1063">Ausgang nicht verwendet</Str>
+	<Str tID="t1064">Ausgang setzen, wenn unterer Grenzwert erreicht</Str>
+	<Str tID="t1065">Ausgang setzen, wenn oberer Grenzwert erreicht</Str>
+	<Str tID="t1066">Ausgang setzen, wenn Grenzwert erreicht</Str>
+	<Str tID="t1067">inaktiv</Str>
+	<Str tID="t1068">aktiv</Str>
+	<Str tID="t1069">linear</Str>
+	<Str tID="t1070">runden</Str>
+	<Str tID="t1071">symmetrisch</Str>
+	<Str tID="t1072">asymmetrisch</Str>
+	<Str tID="t1073">ohne</Str>
+	<Str tID="t1074">mit</Str>
+	<Str tID="t1075">aus</Str>
+	<Str tID="t1076">ein</Str>
+	<Str tID="t1077">positive Flanke</Str>
+	<Str tID="t1078">negative Flanke</Str>
+	<Str tID="t1079">beide Flanken</Str>
+	<Str tID="t1080">zweifach</Str>
+	<Str tID="t1081">vierfach</Str>
+	<Str tID="t1082">von Steuerung gesetzter Referenzpunkt</Str>
+	<Str tID="t1083">triggern bei steigender Flanke des Referenzsignals in positiver Richtung</Str>
+	<Str tID="t1084">triggern bei steigender Flanke des Referenzsignals in negativer Richtung</Str>
+	<Str tID="t1085">triggern bei fallender Flanke des Referenzsignals in positiver Richtung</Str>
+	<Str tID="t1086">triggern bei fallender Flanke des Referenzsignals in negativer Richtung</Str>
+	<Str tID="t1087">triggern bei steigender Flanke des Referenzsignals in positiver Richtung mit Z</Str>
+	<Str tID="t1088">triggern bei steigender Flanke des Referenzsignals in negativer Richtung mit Z</Str>
+	<Str tID="t1089">triggern bei fallender Flanke des Referenzsignals in positiver Richtung mit Z</Str>
+	<Str tID="t1090">triggern bei fallender Flanke des Referenzsignals in negativer Richtung mit Z</Str>
+	<Str tID="t1091">triggern auf Z</Str>
+	<Str tID="t1092">deaktiviert</Str>
+	<Str tID="t1093">Zählmodus</Str>
+	<Str tID="t1094">Gate-Modus</Str>
+	<Str tID="t1095">Richtungsstopp/Eingangsmodus</Str>
+	<Str tID="t1096">Ausgangsmodus</Str>
+	<Str tID="t1097">Ausgangsverhalten</Str>
+	<Str tID="t1098">Ausgangsimpulsdauer</Str>
+	<Str tID="t1099">Anfangswert</Str>
+	<Str tID="t1100">Unterer Grenzwert</Str>
+	<Str tID="t1101">Oberer Grenzwert</Str>
+	<Str tID="t1102">Kanalaktivierung</Str>
+	<Str tID="t1103">Achstyp</Str>
+	<Str tID="t1104">Encoder-Typ</Str>
+	<Str tID="t1105">Encoder mit Z-Signal</Str>
+	<Str tID="t1106">Encoder-Überwachung</Str>
+	<Str tID="t1107">Latch-Eingangsmodus</Str>
+	<Str tID="t1108">Auswertung</Str>
+	<Str tID="t1109">Referenzmodus</Str>
+	<Str tID="t1110">Zähler des Übersetzungsfaktors</Str>
+	<Str tID="t1111">Nenner des Übersetzungsfaktors</Str>
+	<Str tID="t1112">Restwert für Rundachsen</Str>
+	<Str tID="t1113">Encoder-PPR-Zahl</Str>
+	<Str tID="t1114">Erster Grenzwert für Ausgang</Str>
+	<Str tID="t1115">Zweiter Grenzwert für Ausgang</Str>
+	<Str tID="t1116">Referenzwert</Str>
+	<Str tID="t1117">Offset für Referenz zu Z</Str>
+	<Str tID="t1118">Getriebe-Übersetzungsfaktor für Rundachsen</Str>
+	<Str tID="t1119">Eingangsfilter</Str>
+	<Str tID="t1120">Filterzeit</Str>
+	<Str tID="t1121">2-Draht</Str>
+	<Str tID="t1122">3-Draht</Str>
+	<Str tID="t1123">4-Draht</Str>
+	<Str tID="t1124">Kompensation aktiv</Str>
+	<Str tID="t1125">Kompensation inaktiv</Str>
+	<Str tID="t1126">aktiviert</Str>
+	<Str tID="t1127">gesperrt</Str>
+	<Str tID="t1128">Sensortyp</Str>
+	<Str tID="t1129">Auflösung</Str>
+	<Str tID="t1130">R0</Str>
+	<Str tID="t1131">Filter</Str>
+	<Str tID="t1132">Draht</Str>
+	<Str tID="t1133">Temperatur Störgrößenausgleich</Str>
+	<Str tID="t1134">Drahtbrucherkennung</Str>
+	<Str tID="t1135">Auf '0' setzen</Str>
+	<Str tID="t1136">letzten Wert halten</Str>
+	<Str tID="t1137">Meldung 'Aktorversorgung fehlt'</Str>
+	<Str tID="t1138">intern</Str>
+	<Str tID="t1139">ausgeschaltet</Str>
+	<Str tID="t1140">externer Pt 100 Stecker 1</Str>
+	<Str tID="t1141">externer Pt 100 Stecker 2</Str>
+	<Str tID="t1142">Prozessdaten</Str>
+	<Str tID="t1143">0,1°C (oder 1µV für Sensortyp lineare Spannung +-100mV)</Str>
+	<Str tID="t1144">1℃ (oder 10µV für Sensortyp lineare Spannung +-100mV)</Str>
+	<Str tID="t1145">Kaltstelle (Cold Junction, CJ)</Str>
+	<Str tID="t1146">lineare Spannung +-100mV</Str>
+	<Str tID="t1147">horizontal (bevorzugte Einbaulage)</Str>
+	<Str tID="t1148">vertikal, Buskoppler oben</Str>
+	<Str tID="t1149">vertikal, Buskoppler unten</Str>
+	<Str tID="t1150">liegend</Str>
+	<Str tID="t1151">Kaltstellentyp</Str>
+	<Str tID="t1152">Einbaulage</Str>
+	<Str tID="t1153">Einbauortreferenz des Installationspunkts</Str>
+	<Str tID="t1154">Funktionsreferenz</Str>
+	<Str tID="t1155">Keine Idee, wofür dieses Teil verwendet wird?!?</Str>
+	<Str tID="t1156">Zählart (periodisch oder einmalig)</Str>
+	<Str tID="t1157">Pro CNT- und INC-Kanal ist jeweils ein gemeinsamer Ausgang verfügbar. CNT1 und INC1 sowie CNT2 und
+INC2 teilen sich einen Ausgang. Die Art und Weise, wie der Ausgang gesteuert wird, gilt für beide 
+Grenzwerte. Es ist nicht möglich, eine gesonderte Antwort des Ausgangs für die einzelnen Grenzwerte
+zu parametrieren. Die Ausgänge werden abgeschaltet (auf LOW gesetzt), wenn die Logik ausfällt (z.B.
+keine Spannung) oder ein Anwendungsfehler auftritt (z.B. Fehler im überlagerten Bussystem).</Str>
+	<Str tID="t1158">Beim Erreichen des entsprechenden Grenzwerts wird der Ausgang gesetzt.</Str>
+	<Str tID="t1159">Pulsdauer (in ms) am Ausgang für den High- oder Low-Ausgangsmodus.</Str>
+	<Str tID="t1160">Um einen definierten Referenzwert für die Positionsrichtung zu erhalten, kann ein Referenzpunkt 
+gesetzt werden. Der parametrierte Referenzwert wird als Positionswert in die Eingangs-Prozessdaten
+für diesen Punkt eingegeben. Der Wertebereich für den Referenzpunkt ist 0000   0000hex bis
+FFFF   FFFFhex. Für jeden Kanal ist ein Eingang zum Anschluss eines Referenzschalters (Ref1, Ref2)
+verfügbar, um den Referenzpunkt zu bestimmen.</Str>
+	<Str tID="t1161">Für den ersten Grenzwert zum Schalten des Ausgangs
+für Rundachsen muss gelten: 1LimitValOut ≤ ModuloVal</Str>
+	<Str tID="t1162">Für den zweiten Grenzwert zum Schalten des Ausgangs für Rundachsen muss gelten:
+2LimitValOut ≤ ModuloVal</Str>
+	<Str tID="t1164">Protokoll</Str>
+	<Str tID="t1165">Transparent</Str>
+	<Str tID="t1166">Ende-Ende</Str>
+	<Str tID="t1167">XON/XOFF</Str>
+	<Str tID="t1168">Modbus RTU</Str>
+	<Str tID="t1169">Error Pattern</Str>
+	<Str tID="t1170">Das Error Pattern enthält das Zeichen, das in den FIFO-Speicher geschrieben wird, wenn ein Zeichen
+fehlerhaft empfangen wurde (z.B. Paritätsfehler).
+Wert		Bedeutung 
+36		$ 
+xx		jedes Zeichen
+0		wenn ein Zeichen fehlerhaft empfangen wurde, 
+		wird kein Error Pattern gespeichert
+255		das ungültige Zeichen wird anstelle des 
+		Error Pattern gespeichert</Str>
+	<Str tID="t1171">First Delimiter</Str>
+	<Str tID="t1172">Second Delimiter</Str>
+	<Str tID="t1173">Geben Sie dezimalen ASCII Code ein.</Str>
+	<Str tID="t1174">Schnittstellentyp</Str>
+	<Str tID="t1175">Wählen Sie eine RS-xxx-Schnittstelle aus. Mit der Voreinstellung &quot;Deaktiviert&quot; werden keine Daten
+übertragen oder empfangen. Wenn Sie die Voreinstellung verwenden, wird eine Fehlermeldung erzeugt
+und das Fehlerbit gesetzt.</Str>
+	<Str tID="t1176">RS-232</Str>
+	<Str tID="t1177">RS-485</Str>
+	<Str tID="t1178">RS-422</Str>
+	<Str tID="t1179">deaktiviert</Str>
+	<Str tID="t1180">Tv - Vorlaufzeit</Str>
+	<Str tID="t1181">Wenn die Vorlaufzeit ungleich 0 ist, startet die 
+Übertragung erst nach Ablauf dieser Zeit.</Str>
+	<Str tID="t1182">Tn - Nachlaufzeit</Str>
+	<Str tID="t1183">Nachdem alle Daten übertragen wurden und wenn Tn ungleich 0 ist, wird das RTS-Signal erst nach Ablauf
+dieser Zeit auf LOW gesetzt.</Str>
+	<Str tID="t1184">DTR-Steuerung</Str>
+	<Str tID="t1185">automatisch</Str>
+	<Str tID="t1186">über Prozessdaten gesteuert</Str>
+	<Str tID="t1187">Datenbreite</Str>
+	<Str tID="t1188">Die angegebenen Kombinationen aus Datenbreite, Parität und Stoppbits sind für die meisten Anwendungen
+ausreichend. Sie können aber auch Ihre eigenen Kombinationen durch direktes Programmieren wählen.
+Verwenden Sie dazu Code 'Direct' für die Datenbreite.</Str>
+	<Str tID="t1189">7 Datenbits, gerade Parität, 1 Stoppbit</Str>
+	<Str tID="t1190">7 Datenbits, ungerade Parität, 1 Stoppbit</Str>
+	<Str tID="t1191">8 Datenbits, gerade Parität, 1 Stoppbit</Str>
+	<Str tID="t1192">8 Datenbits, ungerade Parität, 1 Stoppbit</Str>
+	<Str tID="t1193">8 Datenbits, keine Parität, 1 Stoppbit</Str>
+	<Str tID="t1194">7 Datenbits, keine Parität, 1 Stoppbit</Str>
+	<Str tID="t1195">7 Datenbits, gerade Parität, 2 Stoppbits</Str>
+	<Str tID="t1196">7 Datenbits, ungerade Parität, 2 Stoppbits</Str>
+	<Str tID="t1197">8 Datenbits, gerade Parität, 2 Stoppbits</Str>
+	<Str tID="t1198">8 Datenbits, ungerade Parität, 2 Stoppbits</Str>
+	<Str tID="t1199">8 Datenbits, keine Parität, 2 Stoppbits</Str>
+	<Str tID="t1200">7 Datenbits, keine Parität, 2 Stoppbits</Str>
+	<Str tID="t1201">7 Datenbits, Parität auf 0 zwangsgesetzt, 1 Stoppbit</Str>
+	<Str tID="t1202">8 Datenbits, Parität auf 1 zwangsgesetzt, 1 Stoppbit</Str>
+	<Str tID="t1203">6 Datenbits, keine Parität, 1 Stoppbit</Str>
+	<Str tID="t1204">direct</Str>
+	<Str tID="t1205">Paritätsmodus 'direct'</Str>
+	<Str tID="t1206">ungerade</Str>
+	<Str tID="t1207">gerade</Str>
+	<Str tID="t1208">zwangsgesetzt auf 1</Str>
+	<Str tID="t1209">zwangsgesetzt auf 0</Str>
+	<Str tID="t1210">Direct Parität ein/aus</Str>
+	<Str tID="t1211">Direct Stoppbits</Str>
+	<Str tID="t1212">1 Stoppbit</Str>
+	<Str tID="t1213">2 Stoppbits</Str>
+	<Str tID="t1214">Direct Datenbits</Str>
+	<Str tID="t1215">5 Bits</Str>
+	<Str tID="t1216">6 Bits</Str>
+	<Str tID="t1217">7 Bits</Str>
+	<Str tID="t1218">8 Bits</Str>
+	<Str tID="t1219">Baudrate</Str>
+	<Str tID="t1220">Direct Baudrate</Str>
+	<Str tID="t1221">Datenaustausch</Str>
+	<Str tID="t1222">Hier können Sie festlegen, auf welche Art und Weise die Daten 
+mit der gewählten Schnittstelle ausgetauscht werden.</Str>
+	<Str tID="t1223">über Prozessdaten</Str>
+	<Str tID="t1224">über PDI</Str>
+	<Str tID="t1225">Taktfrequenz</Str>
+	<Str tID="t1226">Richtung</Str>
+	<Str tID="t1227">Invertiert oder Standard Encoder-Signalrichtung</Str>
+	<Str tID="t1228">standard</Str>
+	<Str tID="t1229">invertiert</Str>
+	<Str tID="t1230">Parität</Str>
+	<Str tID="t1231">kein</Str>
+	<Str tID="t1232">gerade</Str>
+	<Str tID="t1233">ungerade</Str>
+	<Str tID="t1234">Anzahl der erlaubten Fehler</Str>
+	<Str tID="t1235">Anzahl der erlaubten Paritätsfehler</Str>
+	<Str tID="t1236">Anzahl der Statusbits</Str>
+	<Str tID="t1237">Positionserfassung</Str>
+	<Str tID="t1238">standard</Str>
+	<Str tID="t1239">Tannenbaum</Str>
+	<Str tID="t1240">Encoder-Überwachung</Str>
+	<Str tID="t1241">Rahmen-Offset Tannenbaumformat</Str>
+	<Str tID="t1242">Rahmengröße Tannenbaumformat</Str>
+	<Str tID="t1243">Zähler des Getriebe-Übersetzungsfaktors</Str>
+	<Str tID="t1244">Nenner des Getriebe-Übersetzungsfaktors</Str>
+	<Str tID="t1245">Positionsoffset Word 3</Str>
+	<Str tID="t1246">Positionsoffset Word 2</Str>
+	<Str tID="t1247">Positionsoffset Word 1</Str>
+	<Str tID="t1248">Positionsoffset Word 0</Str>
+	<Str tID="t1249">Positions-Ersatzwertverhalten</Str>
+	<Str tID="t1250">Nullwert</Str>
+	<Str tID="t1251">Endwert</Str>
+	<Str tID="t1252">letzten Wert halten</Str>
+	<Str tID="t1253">Positionsersatzwert</Str>
+	<Str tID="t1254">Positionsersatzwert Word 3</Str>
+	<Str tID="t1255">Positionsersatzwert Word 2</Str>
+	<Str tID="t1256">Positionsersatzwert Word 1</Str>
+	<Str tID="t1257">Positionsersatzwert Word 0</Str>
+	<Str tID="t1258">Die Parametrierung der Widerstandstyps ist nur für Pt- und Ni-Sensoren (DIN und SAMA) sinnvoll.
+Andere Sensoren des Widerstandstyps müssen nicht parametriert werden.</Str>
+	<Str tID="t1259">Die Drahtbrucherkennung ist standardmäßig aktiviert. Bei sehr hohen EMV-Anforderungen,
+d.h., die Störeinflüsse liegen deutlich über dem Industriestandard, kann dieses Bit verwendet
+werden, um die Drahtbrucherkennung zu deaktivieren.</Str>
+	<Str tID="t1260">Intern: das Modul verfügt über mehrere interne Kaltstellensensoren. Mit der Einstellung 
+Kaltstellentyp=&quot;Intern&quot; für einen Kanal wird die entsprechende Kaltstelle automatisch 
+diesem Kanal zugewiesen.
+
+Extern: Sie können einen Pt 100-Sensor an jeden Anschluss anschließen und diesen als externen 
+Kaltstellensensor nutzen. So sind bis zu vier externe Kaltstellensensoren verfügbar. Einer dieser
+vier externen Sensoren kann jeweils einem der vier Kanäle zugeordnet werden.
+
+Prozessdaten: diese Parametrierung bietet folgende Möglichkeit: Ermitteln Sie die Temperatur der
+Kaltstelle mit einem zusätzlichen Gerät. Übertragen Sie diese Temperatur mit Hilfe des ersten
+Prozessdaten-Ausgangsworts zum Temperaturmodul. Verwenden Sie das IB IL-Format mit einer 
+Auflösung von 0,1°C.</Str>
+	<Str tID="t1262">externer Pt 100 Stecker 1</Str>
+	<Str tID="t1261">Intern: das Modul verfügt über mehrere interne Kaltstellensensoren. Mit der Einstellung
+Kaltstellentyp=&quot;Intern&quot; für einen Kanal wird die entsprechende Kaltstelle automatisch
+diesem Kanal zugewiesen.
+
+Extern: Sie können einen Pt 100-Sensor an jeden Anschluss anschließen und diesen als externen
+Kaltstellensensor nutzen. So sind bis zu vier externe Kaltstellensensoren verfügbar. Einer dieser
+vier externen Sensoren kann jeweils einem der acht Kanäle zugeordnet werden.
+
+Prozessdaten: diese Parametrierung bietet folgende Möglichkeit: Ermitteln Sie die Temperatur der
+Kaltstelle mit einem zusätzlichen Gerät. Übertragen Sie diese Temperatur mit Hilfe des ersten
+Prozessdaten-Ausgangsworts zum Temperaturmodul. Verwenden Sie das IB IL-Format mit einer 
+Auflösung von 0,1°C.</Str>
+	<Str tID="t1263">externer Pt 100 Stecker 2</Str>
+	<Str tID="t1264">Beschreiben Sie die Funktion des Geräts. Sie können bis zu 32 Zeichen eingeben.</Str>
+	<Str tID="t1265">Einbauort des Geräts. Sie können bis zu 22 Zeichen eingeben.</Str>
+	<Str tID="t1266">Normierte Darstellung</Str>
+	<Str tID="t1267">Standard Formattierung</Str>
+	<Str tID="t1268">Kanal deaktiviert</Str>
+	<Str tID="t1269">Kanal 9</Str>
+	<Str tID="t1270">Kanal 10</Str>
+	<Str tID="t1271">Kanal 11</Str>
+	<Str tID="t1272">Kanal 12</Str>
+	<Str tID="t1273">Kanal 13</Str>
+	<Str tID="t1274">Kanal 14</Str>
+	<Str tID="t1275">Kanal 15</Str>
+	<Str tID="t1276">Kanal 16</Str>
+
+
+	<Str tID="t2000">Kennung</Str>
+	<Str tID="t2001">Systemverhalten</Str>
+	<Str tID="t2002">Parameter</Str>
+	<Str tID="t2003">Alle</Str>
+	<Str tID="t2004">SSI-Kanal</Str>
+	<Str tID="t2005">Analoger Ausgangskanal</Str>
+	<Str tID="t2006">Anwendung</Str>
+</FDCMLTextResource>

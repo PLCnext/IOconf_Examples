@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Compiler.ProfinetImpl">
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetReductionRatioAfterEditTask">
+      <RequiresScope>
+        <ScopeRef id="AfterEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetMasterRealTimeClassUpdateTask">
+      <RequiresScope>
+        <ScopeRef id="AfterEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+      </Condition>
+    </Task>
+  </Assembly>
+</AssemblyList>

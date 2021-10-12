@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dependencies target="Compile">
+  <Dependencies phase="check">
+  </Dependencies>
+  <Dependencies phase="compile">
+  </Dependencies>
+  <Dependencies phase="error">
+  </Dependencies>
+</Dependencies>

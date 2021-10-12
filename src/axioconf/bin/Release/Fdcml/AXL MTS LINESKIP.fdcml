@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2017-03-28</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label>Infrastructure</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL MTS LINESKIP</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>xxxxxxx</Label>
+			</ArticleNumber>
+			<Version>
+				<Label/>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{AFFE85AF-0DAA-466F-A8DB-38959B5D1E06}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>ls</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFHalf.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trma1">
+						<Label>a1</Label>
+						<Help>24 V device supply</Help>
+					</Trm>
+					<Trm uID="trma2">
+						<Label>a2</Label>
+						<Help>24 V device supply</Help>
+					</Trm>
+					<Trm uID="trmb1">
+						<Label>b1</Label>
+						<Help>GND device supply</Help>
+					</Trm>
+					<Trm uID="trmb2">
+						<Label>b2</Label>
+						<Help>GND device supply</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 type="AXLF" uID="L12_1">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label>Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label>max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<DINT>-0</DINT>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label>Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7_1">
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="o1" type="AXLF:LowerDeviceType">
+							<Label>Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>00000004</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o2" type="AXLF:UpperDeviceType">
+							<Label>Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00000000</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label>Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>0</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>0</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+							<Provides xPath="//PD[@type='AXLF:PD']"/>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_1" fromCEP="lcep1" toLayer="L12_1" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m1">
+						<Label>Identification</Label>
+						<MIList>
+							<G uID="g00">
+								<Label>Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label>Location</Label>
+						<Help>This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label>Function</Label>
+						<Help>Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

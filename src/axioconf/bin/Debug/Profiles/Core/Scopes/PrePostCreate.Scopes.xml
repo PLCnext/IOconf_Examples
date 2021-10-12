@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScopeList>
+  	<Import uri="../Core/Scopes/Scopes.xml"></Import>
+    <Scope id="PrePostCreateScope">
+      <Provides>
+        <Property name="InstanceType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="CreateEventTypes" type="Ade.Network.Model.CreateEventTypes, Ade.Network"/>
+      </Provides>
+    </Scope>
+    <Scope id="PreCreateScope">
+      <Inherits>
+        <ScopeRef id="PrePostCreateScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="PermitCreateScope">
+      <Inherits>
+        <ScopeRef id="PreCreateScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="BeforeCreateScope">
+      <Inherits>
+        <ScopeRef id="PreCreateScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="PostCreateScope">
+      <Inherits>
+        <ScopeRef id="PrePostCreateScope"></ScopeRef>
+      </Inherits>
+      <Provides>
+        <Property name="Instance" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+      </Provides>
+    </Scope>
+    <Scope id="OnCreateScope">
+      <Inherits>
+        <ScopeRef id="PostCreateScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="AfterCreateScope">
+      <Inherits>
+        <ScopeRef id="PostCreateScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+  </ScopeList>

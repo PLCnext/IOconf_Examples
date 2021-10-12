@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventList>
+  <!-- clean / compile / background syntax check -->
+  <Event id="build-engine.execute">
+    <ProvidesScope>
+      <ScopeRef id="BuildEngineScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+</EventList>

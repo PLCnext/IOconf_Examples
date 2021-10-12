@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLTextResource xmlns="http://www.FDCML.org/3/1.0" xmlns:fdcml="http://www.FDCML.org/3/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Str tID="t0001">Laufende Nummer</Str>
+  <Str tID="t0002">Die laufende Nummer wird automatisch von links nach rechts zugewiesen.</Str>
+</FDCMLTextResource>

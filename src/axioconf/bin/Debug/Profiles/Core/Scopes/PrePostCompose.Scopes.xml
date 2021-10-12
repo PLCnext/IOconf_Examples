@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScopeList>
+	<Import uri="../Core/Scopes/Scopes.xml"></Import>
+   <Scope id="PrePostComposeScope">
+      <Provides>
+        <Property name="RelativeInstanceType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="RelativeEntityType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="ParentInstanceType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="ParentEntityType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="NewInstanceType" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+        <Property name="NewEntityType" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+        <Property name="InstanceType" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+        <Property name="EntityType" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+        <Property name="RelativePosition" type="Ade.Network.Model.RelativePositions, Ade.Network"/>
+      </Provides>
+    </Scope>
+</ScopeList>

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>kjr</dc:creator>
+			<dc:date>2019-09-30</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t101">Analog output</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL SE</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL SE AO4 I 4-20</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>1088123</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>00/1.00</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{da694e81-6778-4251-aa6a-47879b850a81}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>ao</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtvendor" access="R" CharLen="16">
+					<StringASCII>Phoenix Contact</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtprodname" access="R" CharLen="16">
+					<StringASCII>AXL SE AO4 I 4-20</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtserial" access="R" CharLen="16">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtorder" access="R" CharLen="16">
+					<StringASCII>1088123</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwdate" access="R" CharLen="11">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwversion" access="R" CharLen="3">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dthw" access="R">
+					<DTTRef rUID="dthwdate"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dthwversion"/>
+					<Offset byte="11"/>
+				</Struct>
+				<Enumerated uID="dttp0024" access="RW">
+					<DerivedFrom>
+						<Unsigned16>0</Unsigned16>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1418">Output of zero value (4 mA) at output</Label>
+						<Unsigned16>0</Unsigned16>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1419">Output of final value (20 mA) at output</Label>
+						<Unsigned16>1</Unsigned16>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1361">Hold last value</Label>
+						<Unsigned16>2</Unsigned16>
+					</EnumDefaultEntry>
+				</Enumerated>
+				<!-- object structures by datatypes -->
+				<Struct access="RW" uID="dt4xUint8">
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="1"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="3"/>
+				</Struct>
+				<Struct access="RW" uID="dt4xUint16">
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="4"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="6"/>
+				</Struct>
+				<Enumerated uID="dttp0221" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1067">Inactive</Label>
+						<Unsigned8>0</Unsigned8>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1068">Active</Label>
+						<Unsigned8>1</Unsigned8>
+					</EnumEntry>
+				</Enumerated>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineSEHalf.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trm0">
+						<Label>0</Label>
+						<Help>OUT01</Help>
+						<PDRef rUID="o0"/>
+					</Trm>
+					<Trm uID="trm1">
+						<Label>1</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm2">
+						<Label>2</Label>
+						<Help>OUT02</Help>
+						<PDRef rUID="o1"/>
+					</Trm>
+					<Trm uID="trm3">
+						<Label>3</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm4">
+						<Label>4</Label>
+						<Help>OUT03</Help>
+						<PDRef rUID="o2"/>
+					</Trm>
+					<Trm uID="trm5">
+						<Label>5</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm6">
+						<Label>6</Label>
+						<Help>OUT04</Help>
+						<PDRef rUID="o3"/>
+					</Trm>
+					<Trm uID="trm7">
+						<Label>7</Label>
+						<Help>GND</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 type="AXLF" uID="L12_1">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<DINT>-46</DINT>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7_1">
+					<PDList>
+						<PD uID="iodpdin" type="AXLF:PD">
+							<Label>~AI64</Label>
+							<Elementary access="R">
+								<LWORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="iodpdout" type="AXLF:PD">
+							<Label>~AO64</Label>
+							<Elementary access="W">
+								<LWORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="i0" type="AXLF:PD">
+							<Label>IN01</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="i1" type="AXLF:PD">
+							<Label>IN02</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+						</PD>
+						<PD uID="i2" type="AXLF:PD">
+							<Label>IN03</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+						</PD>
+						<PD uID="i3" type="AXLF:PD">
+							<Label>IN04</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+						</PD>
+						<PD uID="o0" type="AXLF:PD">
+							<Label>OUT01</Label>
+							<Elementary access="W">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="o1" type="AXLF:PD">
+							<Label>OUT02</Label>
+							<Elementary access="W">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>1</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="o2" type="AXLF:PD">
+							<Label>OUT03</Label>
+							<Elementary access="W">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>2</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="o3" type="AXLF:PD">
+							<Label>OUT04</Label>
+							<Elementary access="W">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>3</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp0029enblock" type="AXLF:Param">
+							<Elementary access="RW">
+								<BYTE>01</BYTE>
+							</Elementary>
+							<LocalPath>0x29#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p0024_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint16"/>
+							<LocalPath>0x0024#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0024_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#1</LocalPath>
+							</Para>
+							<Para uID="p0024_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#2</LocalPath>
+							</Para>
+							<Para uID="p0024_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#3</LocalPath>
+							</Para>
+							<Para uID="p0024_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="p0221_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint8"/>
+							<LocalPath>0x0221#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0221_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0221#1</LocalPath>
+							</Para>
+							<Para uID="p0221_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0221#2</LocalPath>
+							</Para>
+							<Para uID="p0221_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0221#3</LocalPath>
+							</Para>
+							<Para uID="p0221_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0221#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="bp0029disblock" type="AXLF:Param">
+							<Elementary access="RW">
+								<BYTE>00</BYTE>
+							</Elementary>
+							<LocalPath>0x29#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>00001A0F</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00100008</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>64</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>64</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_1" fromCEP="lcep1" toLayer="L12_1" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m10">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<G uID="g101">
+								<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+								<MI rUID="0024_1"/>
+								<MI rUID="0221_1"/>
+							</G>
+							<G uID="g102">
+								<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+								<MI rUID="0024_2"/>
+								<MI rUID="0221_2"/>
+							</G>
+							<G uID="g103">
+								<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+								<MI rUID="0024_3"/>
+								<MI rUID="0221_3"/>
+							</G>
+							<G uID="g104">
+								<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+								<MI rUID="0024_4"/>
+								<MI rUID="0221_4"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m11">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g200">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m12">
+						<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+						<MIList>
+							<G uID="g201">
+								<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+								<MI rUID="0024_1"/>
+								<MI rUID="0221_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m13">
+						<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+						<MIList>
+							<G uID="g202">
+								<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+								<MI rUID="0024_2"/>
+								<MI rUID="0221_2"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m14">
+						<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+						<MIList>
+							<G uID="g203">
+								<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+								<MI rUID="0024_3"/>
+								<MI rUID="0221_3"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m15">
+						<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+						<MIList>
+							<G uID="g204">
+								<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+								<MI rUID="0024_4"/>
+								<MI rUID="0221_4"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="0024_1">
+						<Label dIDRef="daxlf" tID="t1380">Substitute value behavior during bus reset (PDOUT)</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_1"/>
+					</P>
+					<P uID="0024_2">
+						<Label dIDRef="daxlf" tID="t1380">Substitute value behavior during bus reset (PDOUT)</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_2"/>
+					</P>
+					<P uID="0024_3">
+						<Label dIDRef="daxlf" tID="t1380">Substitute value behavior during bus reset (PDOUT)</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_3"/>
+					</P>
+					<P uID="0024_4">
+						<Label dIDRef="daxlf" tID="t1380">Substitute value behavior during bus reset (PDOUT)</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_4"/>
+					</P>
+					<P uID="0221_1">
+						<Label dIDRef="daxlf" tID="t1410">Open-circuit monitoring</Label>
+						<DTTRef rUID="dttp0221" access="RW"/>
+						<ParaRef rUID="p0221_1"/>
+					</P>
+					<P uID="0221_2">
+						<Label dIDRef="daxlf" tID="t1410">Open-circuit monitoring</Label>
+						<DTTRef rUID="dttp0221" access="RW"/>
+						<ParaRef rUID="p0221_2"/>
+					</P>
+					<P uID="0221_3">
+						<Label dIDRef="daxlf" tID="t1410">Open-circuit monitoring</Label>
+						<DTTRef rUID="dttp0221" access="RW"/>
+						<ParaRef rUID="p0221_3"/>
+					</P>
+					<P uID="0221_4">
+						<Label dIDRef="daxlf" tID="t1410">Open-circuit monitoring</Label>
+						<DTTRef rUID="dttp0221" access="RW"/>
+						<ParaRef rUID="p0221_4"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

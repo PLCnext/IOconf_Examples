@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Protocols.AgnosticImpl">
+    <Task id="AgnosticConfiguration" fullName="Ade.Network.Protocols.Agnostic.IndependentConfigurationGeneratorTask">
+      <RequiresScope>
+        <ScopeRef id="BuildEngineScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+              <Parameter id="ParentEntity" value="."></Parameter>
+              <Parameter id="Entity" value="."></Parameter>
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="Type">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+          <Match Property="Type">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+        </And>
+      </Condition>
+      <Parameter id="Protocol" value="AXLF"></Parameter>
+    </Task>
+    <Task id="MaxNumLocalDevices" fullName="Ade.Network.Protocols.Agnostic.AgnosticMaxNumLocalDevicesExaggerationCheckTask">
+      <RequiresScope>
+        <ScopeRef id="BuildEngineScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="Type">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+        </And>
+      </Condition>
+      <Parameter id="Protocol" value="AXLF"></Parameter>
+      <Parameter id="MaxDeviceNumber" value="/L7ObjList/Obj[@uID='axlo1' type='AXLF:MaxNumLocalDevices']"></Parameter>
+      <Parameter id="MessageId" value="AXIO0003"></Parameter>
+      <Parameter id="ResourceId" value="AXIO0003MaxNumLocalDevices"></Parameter>
+    </Task>
+    <Task id="MaxCurrentConsumption" fullName="Ade.Network.Protocols.Agnostic.AgnosticMaxCurrentConsumptionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="BuildEngineScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="Type">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+        </And>
+      </Condition>
+      <Parameter id="Protocol" value="AXLF"></Parameter>
+      <Parameter id="MaxValue" value="PCEP:LogicCurrent"></Parameter>
+      <Parameter id="ConsumedValue" value="AXLF:LogicCurrent"></Parameter>
+      <Parameter id="MessageId" value="AXIO0004"></Parameter>
+      <Parameter id="ResourceId" value="AXIO0004MaxCurrentConsumption"></Parameter>
+    </Task>
+  </Assembly>
+</AssemblyList>

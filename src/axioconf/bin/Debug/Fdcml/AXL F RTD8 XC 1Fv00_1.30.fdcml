@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2014-12-11</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t260">Temperature input</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F XC</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL F RTD8 XC 1F</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>2701235</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>05/1.30</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{B9D9650E-5082-4D89-92BA-4E1840DB52C4}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>temp</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtvendor" access="R" CharLen="16">
+					<StringASCII>Phoenix Contact</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtprodname" access="R" CharLen="16">
+					<StringASCII>AXL F RTD8 XC 1F</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtserial" access="R" CharLen="16">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtorder" access="R" CharLen="16">
+					<StringASCII>2701235</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwdate" access="R" CharLen="11">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwversion" access="R" CharLen="3">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dthw" access="R">
+					<DTTRef rUID="dthwdate"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dthwversion"/>
+					<Offset byte="11"/>
+				</Struct>
+				<Struct uID="dtdiag" access="R">
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="3"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="4"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtdiagtext"/>
+					<Offset byte="7"/>
+				</Struct>
+				<DerivedString uID="dtdiagtext" access="R" CharLen="11">
+					<StringISO8859-1 xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dtparat" access="RW">
+					<Label>Para Table</Label>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="2"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="4"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="8"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="10"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="12"/>
+					<DTTRef rUID="dtchpara"/>
+					<Offset byte="14"/>
+					<DTTRef rUID="dtchpara9"/>
+					<Offset byte="16"/>
+					<WORD xsi:nil="true"/>
+					<Offset byte="18"/>
+				</Struct>
+				<Struct uID="dtchpara" access="RW">
+					<Label>Channel Parameter</Label>
+					<DTTRef rUID="dtchparar0"/>
+					<Offset byte="0" bit="0"/>
+					<DTTRef rUID="dtchparafilter"/>
+					<Offset byte="0" bit="4"/>
+					<DTTRef rUID="dtchparawire"/>
+					<Offset byte="0" bit="6"/>
+					<BitstringX bits="4" xsi:nil="true"/>
+					<Offset byte="1" bit="0"/>
+					<DTTRef rUID="dtchpararesolution"/>
+					<Offset byte="1" bit="6"/>
+				</Struct>
+				<Struct uID="dtchpara9" access="RW">
+					<Label>System Bits</Label>
+					<DTTRef rUID="dtchparak"/>
+					<Offset byte="0" bit="0"/>
+					<DTTRef rUID="dtchparafmt"/>
+					<Offset byte="1" bit="0"/>
+					<DTTRef rUID="dtchparab"/>
+					<Offset byte="1" bit="2"/>
+				</Struct>
+				<Enumerated uID="dtchparawire" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2"/>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1121">2-wire</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1122">3-wire</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1123">4-wire</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchparafilter" access="RW" uom="ms">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label>120</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label>100</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>60</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>40</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchparar0" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label>10</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>20</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>30</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>50</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label>100</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label>120</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>150</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>200</Label>
+						<BitstringX bits="4">0111</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>240</Label>
+						<BitstringX bits="4">1000</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>300</Label>
+						<BitstringX bits="4">1001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>400</Label>
+						<BitstringX bits="4">1010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>500</Label>
+						<BitstringX bits="4">1011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>1000</Label>
+						<BitstringX bits="4">1100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>1500</Label>
+						<BitstringX bits="4">1101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>2000</Label>
+						<BitstringX bits="4">1110</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchpararesolution" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label>0.1°C/0.1Ω/1Ω</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label>0.01°C/0.01Ω/0.1Ω</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>0.1°F/na/na</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label>0.01°F/na/na</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchparafmt" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label>Inline</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1005">S7 compatible</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchparak" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1124">compensation active</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1125">compensation inactive</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtchparab" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1126">enabled</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1127">disabled</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFFull.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trma1">
+						<Label>a1</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trma2">
+						<Label>a2</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trmb1">
+						<Label>b1</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trmb2">
+						<Label>b2</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm00">
+						<Label>00</Label>
+						<Help>CJ1+</Help>
+					</Trm>
+					<Trm uID="trm01">
+						<Label>01</Label>
+						<Help>not used</Help>
+					</Trm>
+					<Trm uID="trm02">
+						<Label>02</Label>
+						<Help>CJ2+</Help>
+					</Trm>
+					<Trm uID="trm03">
+						<Label>03</Label>
+						<Help>not used</Help>
+					</Trm>
+					<Trm uID="trm04">
+						<Label>04</Label>
+						<Help>CJ3+</Help>
+					</Trm>
+					<Trm uID="trm05">
+						<Label>05</Label>
+						<Help>not used</Help>
+					</Trm>
+					<Trm uID="trm06">
+						<Label>06</Label>
+						<Help>CJ4+</Help>
+					</Trm>
+					<Trm uID="trm07">
+						<Label>07</Label>
+						<Help>U+</Help>
+					</Trm>
+					<Trm uID="trm10">
+						<Label>10</Label>
+						<Help>CJ1-</Help>
+					</Trm>
+					<Trm uID="trm11">
+						<Label>11</Label>
+						<Help>not used</Help>
+					</Trm>
+					<Trm uID="trm12">
+						<Label>12</Label>
+						<Help>CJ2-</Help>
+					</Trm>
+					<Trm uID="trm13">
+						<Label>13</Label>
+						<Help>U-</Help>
+					</Trm>
+					<Trm uID="trm14">
+						<Label>14</Label>
+						<Help>CJ3-</Help>
+					</Trm>
+					<Trm uID="trm15">
+						<Label>15</Label>
+						<Help>not used</Help>
+					</Trm>
+					<Trm uID="trm16">
+						<Label>16</Label>
+						<Help>CJ4-</Help>
+					</Trm>
+					<Trm uID="trm17">
+						<Label>17</Label>
+						<Help>U-</Help>
+					</Trm>
+					<Trm uID="trm20">
+						<Label>20</Label>
+						<Help>TC1+</Help>
+					</Trm>
+					<Trm uID="trm21">
+						<Label>21</Label>
+						<Help>TC2+</Help>
+					</Trm>
+					<Trm uID="trm22">
+						<Label>22</Label>
+						<Help>TC3+</Help>
+					</Trm>
+					<Trm uID="trm23">
+						<Label>23</Label>
+						<Help>TC4+</Help>
+					</Trm>
+					<Trm uID="trm24">
+						<Label>24</Label>
+						<Help>TC5+</Help>
+					</Trm>
+					<Trm uID="trm25">
+						<Label>25</Label>
+						<Help>TC6+</Help>
+					</Trm>
+					<Trm uID="trm26">
+						<Label>26</Label>
+						<Help>TC7+</Help>
+					</Trm>
+					<Trm uID="trm27">
+						<Label>27</Label>
+						<Help>TC8+</Help>
+					</Trm>
+					<Trm uID="trm30">
+						<Label>30</Label>
+						<Help>TC1-</Help>
+					</Trm>
+					<Trm uID="trm31">
+						<Label>31</Label>
+						<Help>TC2-</Help>
+					</Trm>
+					<Trm uID="trm32">
+						<Label>32</Label>
+						<Help>TC3-</Help>
+					</Trm>
+					<Trm uID="trm33">
+						<Label>33</Label>
+						<Help>TC4-</Help>
+					</Trm>
+					<Trm uID="trm34">
+						<Label>34</Label>
+						<Help>TC5-</Help>
+					</Trm>
+					<Trm uID="trm35">
+						<Label>35</Label>
+						<Help>TC6-</Help>
+					</Trm>
+					<Trm uID="trm36">
+						<Label>36</Label>
+						<Help>TC7-</Help>
+					</Trm>
+					<Trm uID="trm37">
+						<Label>37</Label>
+						<Help>TC8-</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 uID="L12" type="AXLF">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<Signed32>-130</Signed32>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7">
+					<PDList>
+						<PD uID="iodpdin" type="AXLF:PD">
+							<Label>~AI128</Label>
+							<Elementary access="R">
+								<OctetstringN octets="16" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="pd0" type="AXLF:PD">
+							<Label>IN01</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io1" type="AXLF:PD">
+							<Label>IN02</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>1</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io2" type="AXLF:PD">
+							<Label>IN03</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>2</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io3" type="AXLF:PD">
+							<Label>IN04</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>3</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io4" type="AXLF:PD">
+							<Label>IN05</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>8.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>4</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io5" type="AXLF:PD">
+							<Label>IN06</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>10.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>5</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io6" type="AXLF:PD">
+							<Label>IN07</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>12.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>6</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="io7" type="AXLF:PD">
+							<Label>IN08</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>14.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>7</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p1" type="AXLF:Param">
+							<DTTRef rUID="dtparat"/>
+							<LocalPath>0x0080#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p1_1" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#1</LocalPath>
+								<Para uID="p1_1_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_1_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+								<Para uID="p1_1_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_2" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#2</LocalPath>
+								<Para uID="p1_2_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_2_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_2_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_3" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#3</LocalPath>
+								<Para uID="p1_3_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_3_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_3_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_4" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#4</LocalPath>
+								<Para uID="p1_4_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_4_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_4_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_5" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#5</LocalPath>
+								<Para uID="p1_5_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_5_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_5_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_5_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_5_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_6" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#6</LocalPath>
+								<Para uID="p1_6_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_6_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_6_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_6_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_6_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_7" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#7</LocalPath>
+								<Para uID="p1_7_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_7_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_7_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_7_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_7_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_8" type="AXLF:Param">
+								<DTTRef rUID="dtchpara"/>
+								<LocalPath>0x0080#8</LocalPath>
+								<Para uID="p1_8_1" type="AXLF:Param">
+									<Elementary access="RW">
+										<BitstringX bits="4" xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_8_2" type="AXLF:Param">
+									<DTTRef rUID="dtchpararesolution"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_8_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparar0"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_8_4" type="AXLF:Param">
+									<DTTRef rUID="dtchparafilter"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_8_5" type="AXLF:Param">
+									<DTTRef rUID="dtchparawire"/>
+									<LocalPath>0.6</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_9" type="AXLF:Param">
+								<DTTRef rUID="dtchpara9"/>
+								<LocalPath>0x0080#9</LocalPath>
+								<Para uID="p1_9_1" type="AXLF:Param">
+									<DTTRef rUID="dtchparak"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_9_2" type="AXLF:Param">
+									<DTTRef rUID="dtchparafmt"/>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_9_3" type="AXLF:Param">
+									<DTTRef rUID="dtchparab"/>
+									<LocalPath>1.2</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_10" type="AXLF:Param">
+								<Elementary access="RW">
+									<WORD>0000</WORD>
+								</Elementary>
+								<LocalPath>0x0080#10</LocalPath>
+							</Para>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>000000A1</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00200010</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>128</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>128</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>Axioline F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7" fromCEP="lcep1" toLayer="L12" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m10">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<G uID="g101">
+								<Label dIDRef="daxlf" tID="t2001">System behavior</Label>
+								<MI rUID="p80_9_1"/>
+								<MI rUID="p80_9_2"/>
+								<MI rUID="p80_9_3"/>
+							</G>
+							<G uID="g102">
+								<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+								<MI rUID="p80_1_5"/>
+								<MI rUID="p80_1_4"/>
+								<MI rUID="p80_1_3"/>
+								<MI rUID="p80_1_2"/>
+								<MI rUID="p80_1_1"/>
+							</G>
+							<G uID="g103">
+								<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+								<MI rUID="p80_2_5"/>
+								<MI rUID="p80_2_4"/>
+								<MI rUID="p80_2_3"/>
+								<MI rUID="p80_2_2"/>
+								<MI rUID="p80_2_1"/>
+							</G>
+							<G uID="g104">
+								<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+								<MI rUID="p80_3_5"/>
+								<MI rUID="p80_3_4"/>
+								<MI rUID="p80_3_3"/>
+								<MI rUID="p80_3_2"/>
+								<MI rUID="p80_3_1"/>
+							</G>
+							<G uID="g105">
+								<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+								<MI rUID="p80_4_5"/>
+								<MI rUID="p80_4_4"/>
+								<MI rUID="p80_4_3"/>
+								<MI rUID="p80_4_2"/>
+								<MI rUID="p80_4_1"/>
+							</G>
+							<G uID="g106">
+								<Label dIDRef="daxlf" tID="t1011">Channel 5</Label>
+								<MI rUID="p80_5_5"/>
+								<MI rUID="p80_5_4"/>
+								<MI rUID="p80_5_3"/>
+								<MI rUID="p80_5_2"/>
+								<MI rUID="p80_5_1"/>
+							</G>
+							<G uID="g107">
+								<Label dIDRef="daxlf" tID="t1012">Channel 6</Label>
+								<MI rUID="p80_6_5"/>
+								<MI rUID="p80_6_4"/>
+								<MI rUID="p80_6_3"/>
+								<MI rUID="p80_6_2"/>
+								<MI rUID="p80_6_1"/>
+							</G>
+							<G uID="g108">
+								<Label dIDRef="daxlf" tID="t1013">Channel 7</Label>
+								<MI rUID="p80_7_5"/>
+								<MI rUID="p80_7_4"/>
+								<MI rUID="p80_7_3"/>
+								<MI rUID="p80_7_2"/>
+								<MI rUID="p80_7_1"/>
+							</G>
+							<G uID="g109">
+								<Label dIDRef="daxlf" tID="t1014">Channel 8</Label>
+								<MI rUID="p80_8_5"/>
+								<MI rUID="p80_8_4"/>
+								<MI rUID="p80_8_3"/>
+								<MI rUID="p80_8_2"/>
+								<MI rUID="p80_8_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m11">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m12">
+						<Label dIDRef="daxlf" tID="t2001">System behavior</Label>
+						<MIList>
+							<G uID="g101">
+								<Label dIDRef="daxlf" tID="t2001">System behavior</Label>
+								<MI rUID="p80_9_1"/>
+								<MI rUID="p80_9_2"/>
+								<MI rUID="p80_9_3"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m13">
+						<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+						<MIList>
+							<G uID="g102">
+								<Label dIDRef="daxlf" tID="t1007">Channel 1</Label>
+								<MI rUID="p80_1_5"/>
+								<MI rUID="p80_1_4"/>
+								<MI rUID="p80_1_3"/>
+								<MI rUID="p80_1_2"/>
+								<MI rUID="p80_1_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m14">
+						<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+						<MIList>
+							<G uID="g103">
+								<Label dIDRef="daxlf" tID="t1008">Channel 2</Label>
+								<MI rUID="p80_2_5"/>
+								<MI rUID="p80_2_4"/>
+								<MI rUID="p80_2_3"/>
+								<MI rUID="p80_2_2"/>
+								<MI rUID="p80_2_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m15">
+						<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+						<MIList>
+							<G uID="g104">
+								<Label dIDRef="daxlf" tID="t1009">Channel 3</Label>
+								<MI rUID="p80_3_5"/>
+								<MI rUID="p80_3_4"/>
+								<MI rUID="p80_3_3"/>
+								<MI rUID="p80_3_2"/>
+								<MI rUID="p80_3_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m16">
+						<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+						<MIList>
+							<G uID="g105">
+								<Label dIDRef="daxlf" tID="t1010">Channel 4</Label>
+								<MI rUID="p80_4_5"/>
+								<MI rUID="p80_4_4"/>
+								<MI rUID="p80_4_3"/>
+								<MI rUID="p80_4_2"/>
+								<MI rUID="p80_4_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m17">
+						<Label dIDRef="daxlf" tID="t1011">Channel 5</Label>
+						<MIList>
+							<G uID="g106">
+								<Label dIDRef="daxlf" tID="t1011">Channel 5</Label>
+								<MI rUID="p80_5_5"/>
+								<MI rUID="p80_5_4"/>
+								<MI rUID="p80_5_3"/>
+								<MI rUID="p80_5_2"/>
+								<MI rUID="p80_5_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m18">
+						<Label dIDRef="daxlf" tID="t1012">Channel 6</Label>
+						<MIList>
+							<G uID="g107">
+								<Label dIDRef="daxlf" tID="t1012">Channel 6</Label>
+								<MI rUID="p80_6_5"/>
+								<MI rUID="p80_6_4"/>
+								<MI rUID="p80_6_3"/>
+								<MI rUID="p80_6_2"/>
+								<MI rUID="p80_6_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m19">
+						<Label dIDRef="daxlf" tID="t1013">Channel 7</Label>
+						<MIList>
+							<G uID="g108">
+								<Label dIDRef="daxlf" tID="t1013">Channel 7</Label>
+								<MI rUID="p80_7_5"/>
+								<MI rUID="p80_7_4"/>
+								<MI rUID="p80_7_3"/>
+								<MI rUID="p80_7_2"/>
+								<MI rUID="p80_7_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m20">
+						<Label dIDRef="daxlf" tID="t1014">Channel 8</Label>
+						<MIList>
+							<G uID="g109">
+								<Label dIDRef="daxlf" tID="t1014">Channel 8</Label>
+								<MI rUID="p80_8_5"/>
+								<MI rUID="p80_8_4"/>
+								<MI rUID="p80_8_3"/>
+								<MI rUID="p80_8_2"/>
+								<MI rUID="p80_8_1"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="p80_1_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_1_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_1_1"/>
+					</P>
+					<P uID="p80_1_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_1_2"/>
+					</P>
+					<P uID="p80_1_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_1_3"/>
+					</P>
+					<P uID="p80_1_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_1_4"/>
+					</P>
+					<P uID="p80_1_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_1_5"/>
+					</P>
+					<P uID="p80_2_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_2_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_2_1"/>
+					</P>
+					<P uID="p80_2_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_2_2"/>
+					</P>
+					<P uID="p80_2_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_2_3"/>
+					</P>
+					<P uID="p80_2_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_2_4"/>
+					</P>
+					<P uID="p80_2_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_2_5"/>
+					</P>
+					<P uID="p80_3_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_3_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_3_1"/>
+					</P>
+					<P uID="p80_3_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_3_2"/>
+					</P>
+					<P uID="p80_3_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_3_3"/>
+					</P>
+					<P uID="p80_3_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_3_4"/>
+					</P>
+					<P uID="p80_3_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_3_5"/>
+					</P>
+					<P uID="p80_4_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_4_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_4_1"/>
+					</P>
+					<P uID="p80_4_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_4_2"/>
+					</P>
+					<P uID="p80_4_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_4_3"/>
+					</P>
+					<P uID="p80_4_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_4_4"/>
+					</P>
+					<P uID="p80_4_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_4_5"/>
+					</P>
+					<P uID="p80_5_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_5_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_5_1"/>
+					</P>
+					<P uID="p80_5_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_5_2"/>
+					</P>
+					<P uID="p80_5_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_5_3"/>
+					</P>
+					<P uID="p80_5_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_5_4"/>
+					</P>
+					<P uID="p80_5_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_5_5"/>
+					</P>
+					<P uID="p80_6_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_6_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_6_1"/>
+					</P>
+					<P uID="p80_6_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_6_2"/>
+					</P>
+					<P uID="p80_6_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_6_3"/>
+					</P>
+					<P uID="p80_6_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_6_4"/>
+					</P>
+					<P uID="p80_6_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_6_5"/>
+					</P>
+					<P uID="p80_7_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_7_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_7_1"/>
+					</P>
+					<P uID="p80_7_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_7_2"/>
+					</P>
+					<P uID="p80_7_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_7_3"/>
+					</P>
+					<P uID="p80_7_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_7_4"/>
+					</P>
+					<P uID="p80_7_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_7_5"/>
+					</P>
+					<P uID="p80_8_1">
+						<Label dIDRef="daxlf" tID="t1128">Sensor type</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>Pt DIN</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Pt SAMA</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni DIN</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni SAMA</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 10</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 50</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Cu 53</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 1000 (L&amp;G)</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Ni 500 (Viessmann)</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-110</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY84 (KTY84-130, KTY84-150)</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>KTY81-210</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...500Ω</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>Linear R0 0Ω...5kΩ</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1000">channel inactive</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="p80_8_3"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p1_8_1"/>
+					</P>
+					<P uID="p80_8_2">
+						<Label dIDRef="daxlf" tID="t1129">Resolution</Label>
+						<DTTRef rUID="dtchpararesolution"/>
+						<ParaRef rUID="p1_8_2"/>
+					</P>
+					<P uID="p80_8_3">
+						<Label dIDRef="daxlf" tID="t1130">R0</Label>
+						<Help dIDRef="daxlf" tID="t1258">Parameterization of the resistance type is only useful for Pt and Ni sensors (DIN and SAMA). For other
+sensors the resistance type does not have to be parameterized.</Help>
+						<DTTRef rUID="dtchparar0"/>
+						<ParaRef rUID="p1_8_3"/>
+					</P>
+					<P uID="p80_8_4">
+						<Label dIDRef="daxlf" tID="t1131">Filter</Label>
+						<DTTRef rUID="dtchparafilter"/>
+						<ParaRef rUID="p1_8_4"/>
+					</P>
+					<P uID="p80_8_5">
+						<Label dIDRef="daxlf" tID="t1132">Wire</Label>
+						<DTTRef rUID="dtchparawire"/>
+						<ParaRef rUID="p1_8_5"/>
+					</P>
+					<P uID="p80_9_1">
+						<Label dIDRef="daxlf" tID="t1133">Temperature drift compensation</Label>
+						<DTTRef rUID="dtchparak"/>
+						<ParaRef rUID="p1_9_1"/>
+					</P>
+					<P uID="p80_9_2">
+						<Label dIDRef="daxlf" tID="t1006">Data format</Label>
+						<DTTRef rUID="dtchparafmt"/>
+						<ParaRef rUID="p1_9_2"/>
+					</P>
+					<P uID="p80_9_3">
+						<Label dIDRef="daxlf" tID="t1134">Open circuit detection</Label>
+						<Help dIDRef="daxlf" tID="t1259">Open circuit detection is activated by default. In the event of extreme EMC requirements, i.e., 
+interference significantly above the industry standard, this bit can be used to disable open circuit
+detection.</Help>
+						<DTTRef rUID="dtchparab"/>
+						<ParaRef rUID="p1_9_3"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

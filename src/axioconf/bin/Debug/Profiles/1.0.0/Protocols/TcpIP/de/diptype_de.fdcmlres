@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLTextResource xmlns="http://www.FDCML.org/3/1.0" xmlns:fdcml="http://www.FDCML.org/3/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- ip network types-->
+  <Str tID="t0001">Automatische IP-Zuordnung</Str>
+  <Str tID="t0002">Wählen Sie &apos;Ja&apos;, wenn neuen Geräte eine IP-Adresse aus dem unten angegebenen Adressbereich zugeordnet werden soll.</Str>
+  <Str tID="t0003">Start-IP-Adresse</Str>
+  <Str tID="t0004">Den Ethernet-Geräten wird automatisch eine IP-Adresse aus dem hier angegebenen Adressbereich zugeordnet.</Str>
+  <Str tID="t0005">End-IP-Adresse</Str>
+  <Str tID="t0006"/>
+  <Str tID="t0007">Standard-Gateway</Str>
+  <Str tID="t0008">Wenn keine Gateway-Adresse angegeben ist, wird die IP-Adresse des Gerätes als Gateway-Adresse verwendet.</Str>
+  <Str tID="t0009">Subnetzmaske</Str>
+  <Str tID="t000a">Allen Geräten in diesem Subnetz wird automatisch diese Subnetzmaske zugeordnet.</Str>
+  <Str tID="t000b">Netzwerkname</Str>
+  <Str tID="t000c">Hier können Sie diesem Subnetz einen Namen geben.</Str>
+  <Str tID="t000d">Top Level Domain</Str>
+  <Str tID="t000e">Die TLD wird an den Hostnamen Ihrer Geräte angehängt (durch Punkt getrennt). </Str>
+  <Str tID="t0017">Aktualisierungstask</Str>
+  <Str tID="t0018">Aktualisierungstask</Str>
+
+  <!-- ip node types -->
+  <Str tID="t0100">IP-Adresse</Str>
+  <Str tID="t0100h">Um hier eine IP Addresse einzugeben, wählen sie unter &apos;IP-Adresszuordnungsmodus&apos; den Wert &apos;manuell&apos;.</Str>
+  <Str tID="t0101">DNS-Hostname</Str>
+  <Str tID="t0102">Gateway</Str>
+  <Str tID="t0104">Gerätename (Profinet: NameOfStation) gemäß RFC 3490.</Str>
+  <Str tID="t0105">
+    Gerätename gemäß Topologie und Engineering Guideline für Profinet. Dieser Eintrag wird automatisch in einen DNS-kompatiblen Hostnamen umgewandelt.
+  </Str>
+  <Str tID="t0107"/>
+  <Str tID="t010e">IP-Adresszuordnungsmodus</Str>
+  <Str tID="t010f">
+    Definiert, ob die IP Adresszuordnung automatisch oder manuell
+    pro Gerät erfolgen muss. Wenn automatsich ausgewählt ist,
+    erhält das Gerät die nächste freie IP Adresse aus dem
+    Adressbereich des Subnetzes.
+  </Str>
+  <Str tID="t0110">Stationsname</Str>
+  <Str tID="t0400">Alle</Str>
+  <Str tID="t0401">Identität</Str>
+  <Str tID="t0402">IP-Adressbereich</Str>
+  <Str tID="t0403">Ethernet</Str>
+  <Str tID="t0404">Profil</Str>
+  <Str tID="t0405">IT Sicherheit</Str>
+  <Str tID="t0406">Hardwareerweiterungen</Str>
+  <Str tID="t0407">AXIO Systemmodul</Str>
+  <Str tID="t0408">Erweiterungsmodul</Str>
+  <Str tID="t0409">Redundanz</Str>
+  <Str tID="t0410">Redundanzeinstellungen</Str>
+  <!-- values -->
+  <Str tID="t1000">gesperrt</Str>
+  <Str tID="t1001">aktiviert</Str>
+  <Str tID="t1002">nein</Str>
+  <Str tID="t1003">ja</Str>
+  <Str tID="t1004">automatisch</Str>
+  <Str tID="t1005">manuell</Str>
+  <!-- eip -->
+  <Str tID="t2000">EtherNet/IP</Str>
+</FDCMLTextResource>

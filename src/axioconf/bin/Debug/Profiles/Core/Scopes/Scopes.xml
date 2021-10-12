@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScopeList>
+    <Scope id="GlobalScope">
+      <Provides>
+        <Property name="Network" type="Ade.Network.Model.INetwork"/>
+        <Property name="ServiceProvider" type="System.IServiceProvider"/>
+      </Provides>
+    </Scope>
+  </ScopeList>

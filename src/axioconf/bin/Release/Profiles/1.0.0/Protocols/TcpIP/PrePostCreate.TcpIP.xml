@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <!-- explicit assembly entries, to reduce redundancy -->
+  <Assembly fullName="Ade.Network.Compiler.TcpIPImpl">
+  </Assembly>
+</AssemblyList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScopeList>
+     <Import uri="../Core/Scopes/Scopes.xml"></Import>
+    <Scope id="BuildEngineScope">
+      <Inherits>
+        <ScopeRef id="GlobalScope"></ScopeRef>
+      </Inherits>
+      <Provides>
+        <Property name="Target" type="System.String"/>
+        <Property name="Phase" type="System.String"/>
+        <Property name="IsBackgroundSyntaxCheck" type="System.Boolean"/>
+      </Provides>
+    </Scope>
+  </ScopeList>

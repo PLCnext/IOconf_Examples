@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="PN:Module" no="7"/>
+  <TextResourceList>
+    <TextResource dID="dpntype" xml:lang="de" xlink:type="simple" xlink:href=".\de\dpntype_de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="pnm00" type="SlotNumber">
+      <Label dIDRef="dpntype" tID="t0200">Slot number</Label>
+      <Elementary access="R">
+        <Unsigned16 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnm01" type="PN:NodeID">
+      <Label dIDRef="dpntype" tID="t0202">Node ID</Label>
+      <Help dIDRef="dpntype" tID="t0203">This is a unique ID to be used as address in Profinet communication function blocks.</Help>
+      <Elementary access="R">
+        <Unsigned32 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>

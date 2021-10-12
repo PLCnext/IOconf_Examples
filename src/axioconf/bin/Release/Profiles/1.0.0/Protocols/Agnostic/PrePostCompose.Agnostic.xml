@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Protocols.AgnosticImpl">
+    <Task id="NetworkCompositionCheck" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Entity[@type='{Topology}']</Match>
+          <Match Property="InstanceType">//Entity[@type='{Network}']</Match>
+        </And>
+      </Condition>
+      <Parameter id="OsiLayer" value="Application"></Parameter>
+    </Task>
+    <Task id="ControllerCompositionCheck" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Entity[@type='{Network}']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+        </And>
+      </Condition>
+      <Parameter id="OsiLayer" value="Application"></Parameter>
+    </Task>
+    <Task id="DeviceCompositionCheck" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Or>
+          <Or>
+            <And>
+              <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+            </And>
+            <And>
+              <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+              <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+            </And>
+          </Or>
+          <And>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+          </And>  
+        </Or>
+      </Condition>
+      <Parameter id="PhysicalTopologyType" value="Line"></Parameter>
+      <Parameter id="PhysicalParentLayerType" value="AXLF:Master"></Parameter>
+      <Parameter id="PhysicalLayerType" value="AXLF"></Parameter>
+      <Parameter id="PhysicalEndpointType" value="AXLF"></Parameter>
+      <Parameter id="LogicalProtocol" value="AXLF"></Parameter>
+      <Parameter id="LogicalTopologyType" value="MasterSlave"></Parameter>
+      <Parameter id="LogicalParentLayerType" value="AXLF:Master"></Parameter>
+      <Parameter id="LogicalChildLayerType" value="AXLF:Device"></Parameter>
+      <Parameter id="LogicalParentEndpointType" value="AXLF"></Parameter>
+      <Parameter id="LogicalChildEndpointType" value="AXLF"></Parameter>
+    </Task>
+    <Task id="NetworkComposition" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Entity[@type='{Topology}']</Match>
+          <Match Property="InstanceType">//Entity[@type='{Network}']</Match>
+        </And>
+      </Condition>
+      <Parameter id="OsiLayer" value="Application"></Parameter>
+    </Task>
+    <Task id="ControllerComposition" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+              <Parameter id="ParentEntity" value="."></Parameter>
+              <Parameter id="Entity" value="."></Parameter>
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Entity[@type='{Network}']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+        </And>
+      </Condition>
+      <Parameter id="OsiLayer" value="Application"></Parameter>
+    </Task>
+    <Task id="DeviceComposition" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Or>
+          <And>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+          </And>
+          <And>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+          </And>
+        </Or>
+      </Condition>
+      <Parameter id="PhysicalTopologyType" value="Line"></Parameter>
+      <Parameter id="PhysicalParentLayerType" value="AXLF:Master"></Parameter>
+      <Parameter id="PhysicalLayerType" value="AXLF"></Parameter>
+      <Parameter id="PhysicalEndpointType" value="AXLF"></Parameter>
+      <Parameter id="LogicalProtocol" value="AXLF"></Parameter>
+      <Parameter id="LogicalTopologyType" value="MasterSlave"></Parameter>
+      <Parameter id="LogicalParentLayerType" value="AXLF:Master"></Parameter>
+      <Parameter id="LogicalChildLayerType" value="AXLF:Device"></Parameter>
+      <Parameter id="LogicalParentEndpointType" value="AXLF"></Parameter>
+      <Parameter id="LogicalChildEndpointType" value="AXLF"></Parameter>
+      <Parameter id="MaxDeviceNumber" value="/L7ObjList/Obj[@uID='axlo1' type='AXLF:MaxNumLocalDevices']"></Parameter>
+    </Task>    
+    <Task id="DeviceIndex" fullName="Ade.Network.Protocols.Agnostic.GenerateInstanceIndexTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+      </Condition>
+      <Parameter id="ParentLayerSeven" value="AXLF:Master"></Parameter>
+      <Parameter id="ChildLayerSeven" value="AXLF:Device"></Parameter>
+      <Parameter id="ConsecutiveNumber" value="/InstanceObjList/Obj[@uID='axldd00' type='AXLF:ConsecutiveNumber']"></Parameter>
+    </Task>
+
+    <Task id="ControllerId" fullName="Ade.Network.Protocols.Agnostic.GenerateInstanceIdTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+      </Condition>
+      <Parameter id="ParentLayerSeven" value="AXLF:Master"></Parameter>
+    </Task>
+
+    <Task id="DeviceId" fullName="Ade.Network.Protocols.Agnostic.GenerateInstanceIdTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="Agnostic" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+      </Condition>
+      <Parameter id="ParentLayerSeven" value="AXLF:Master"></Parameter>
+      <Parameter id="ChildLayerSeven" value="AXLF:Device"></Parameter>
+    </Task>
+  </Assembly>
+</AssemblyList>

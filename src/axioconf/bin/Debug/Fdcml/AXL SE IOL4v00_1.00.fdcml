@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>kjr</dc:creator>
+			<dc:date>2019-10-18</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t328">Master</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL SE</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL SE IOL4</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>1088132</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>00/1.00</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{2d001e70-ade4-4171-8e0c-b8942df2b68f}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>iol</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtvendor" access="R" CharLen="16">
+					<StringASCII>Phoenix Contact</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtprodname" access="R" CharLen="16">
+					<StringASCII>AXL SE IOL4</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtserial" access="R" CharLen="16">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringISO8859-1 xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtorder" access="R" CharLen="16">
+					<StringASCII>1088132</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringISO8859-1 xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwdate" access="R" CharLen="11">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwversion" access="R" CharLen="3">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dthw" access="R">
+					<DTTRef rUID="dthwdate"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dthwversion"/>
+					<Offset byte="11"/>
+				</Struct>
+				<Enumerated uID="dt0041_1_pm" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t336">IO-Link</Label>
+						<Unsigned8>0</Unsigned8>
+						<RelaList>
+							<Rela tion="show">
+								<PRef rUID="0041_1_vId1"/>
+								<PRef rUID="0041_1_vId2"/>
+								<PRef rUID="0041_1_dId1"/>
+								<PRef rUID="0041_1_dId2"/>
+								<PRef rUID="0041_1_dId3"/>
+								<PRef rUID="0041_1_pdInL"/>
+								<PRef rUID="0041_1_pdOutL"/>
+								<PRef rUID="0700_1_portDiag"/>
+								<PRef rUID="0700_1_IolPortAlarm"/>
+								<PRef rUID="0702_1"/>
+								<PRef rUID="0705_1"/>
+								<PRef rUID="0716_1"/>
+								<PRef rUID="0717_1"/>
+							</Rela>
+							<Rela tion="hide">
+								<PRef rUID="0024_1"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t337">DI</Label>
+						<Unsigned8>1</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_1_vId1"/>
+								<PRef rUID="0041_1_vId2"/>
+								<PRef rUID="0041_1_dId1"/>
+								<PRef rUID="0041_1_dId2"/>
+								<PRef rUID="0041_1_dId3"/>
+								<PRef rUID="0041_1_pdInL"/>
+								<PRef rUID="0041_1_pdOutL"/>
+								<PRef rUID="0700_1_portDiag"/>
+								<PRef rUID="0702_1"/>
+								<PRef rUID="0705_1"/>
+								<PRef rUID="0716_1"/>
+								<PRef rUID="0717_1"/>
+								<PRef rUID="0024_1"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_1_IolPortAlarm"/>
+							</Rela>
+						</RelaList>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t338">DO</Label>
+						<Unsigned8>2</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_1_vId1"/>
+								<PRef rUID="0041_1_vId2"/>
+								<PRef rUID="0041_1_dId1"/>
+								<PRef rUID="0041_1_dId2"/>
+								<PRef rUID="0041_1_dId3"/>
+								<PRef rUID="0041_1_pdInL"/>
+								<PRef rUID="0041_1_pdOutL"/>
+								<PRef rUID="0700_1_portDiag"/>
+								<PRef rUID="0702_1"/>
+								<PRef rUID="0705_1"/>
+								<PRef rUID="0716_1"/>
+								<PRef rUID="0717_1"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_1_IolPortAlarm"/>
+								<PRef rUID="0024_1"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Unsigned8>13</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_1_vId1"/>
+								<PRef rUID="0041_1_vId2"/>
+								<PRef rUID="0041_1_dId1"/>
+								<PRef rUID="0041_1_dId2"/>
+								<PRef rUID="0041_1_dId3"/>
+								<PRef rUID="0041_1_pdInL"/>
+								<PRef rUID="0041_1_pdOutL"/>
+								<PRef rUID="0700_1_portDiag"/>
+								<PRef rUID="0700_1_IolPortAlarm"/>
+								<PRef rUID="0702_1"/>
+								<PRef rUID="0705_1"/>
+								<PRef rUID="0716_1"/>
+								<PRef rUID="0717_1"/>
+								<PRef rUID="0024_1"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dt0041_2_pm" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t336">IO-Link</Label>
+						<Unsigned8>0</Unsigned8>
+						<RelaList>
+							<Rela tion="show">
+								<PRef rUID="0041_2_vId1"/>
+								<PRef rUID="0041_2_vId2"/>
+								<PRef rUID="0041_2_dId1"/>
+								<PRef rUID="0041_2_dId2"/>
+								<PRef rUID="0041_2_dId3"/>
+								<PRef rUID="0041_2_pdInL"/>
+								<PRef rUID="0041_2_pdOutL"/>
+								<PRef rUID="0700_2_portDiag"/>
+								<PRef rUID="0700_2_IolPortAlarm"/>
+								<PRef rUID="0702_2"/>
+								<PRef rUID="0705_2"/>
+								<PRef rUID="0716_2"/>
+								<PRef rUID="0717_2"/>
+							</Rela>
+							<Rela tion="hide">
+								<PRef rUID="0024_2"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t337">DI</Label>
+						<Unsigned8>1</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_2_vId1"/>
+								<PRef rUID="0041_2_vId2"/>
+								<PRef rUID="0041_2_dId1"/>
+								<PRef rUID="0041_2_dId2"/>
+								<PRef rUID="0041_2_dId3"/>
+								<PRef rUID="0041_2_pdInL"/>
+								<PRef rUID="0041_2_pdOutL"/>
+								<PRef rUID="0700_2_portDiag"/>
+								<PRef rUID="0702_2"/>
+								<PRef rUID="0705_2"/>
+								<PRef rUID="0716_2"/>
+								<PRef rUID="0717_2"/>
+								<PRef rUID="0024_2"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_2_IolPortAlarm"/>
+							</Rela>
+						</RelaList>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t338">DO</Label>
+						<Unsigned8>2</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_2_vId1"/>
+								<PRef rUID="0041_2_vId2"/>
+								<PRef rUID="0041_2_dId1"/>
+								<PRef rUID="0041_2_dId2"/>
+								<PRef rUID="0041_2_dId3"/>
+								<PRef rUID="0041_2_pdInL"/>
+								<PRef rUID="0041_2_pdOutL"/>
+								<PRef rUID="0700_2_portDiag"/>
+								<PRef rUID="0702_2"/>
+								<PRef rUID="0705_2"/>
+								<PRef rUID="0716_2"/>
+								<PRef rUID="0717_2"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_2_IolPortAlarm"/>
+								<PRef rUID="0024_2"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Unsigned8>13</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_2_vId1"/>
+								<PRef rUID="0041_2_vId2"/>
+								<PRef rUID="0041_2_dId1"/>
+								<PRef rUID="0041_2_dId2"/>
+								<PRef rUID="0041_2_dId3"/>
+								<PRef rUID="0041_2_pdInL"/>
+								<PRef rUID="0041_2_pdOutL"/>
+								<PRef rUID="0700_2_portDiag"/>
+								<PRef rUID="0700_2_IolPortAlarm"/>
+								<PRef rUID="0702_2"/>
+								<PRef rUID="0705_2"/>
+								<PRef rUID="0716_2"/>
+								<PRef rUID="0717_2"/>
+								<PRef rUID="0024_2"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dt0041_3_pm" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t336">IO-Link</Label>
+						<Unsigned8>0</Unsigned8>
+						<RelaList>
+							<Rela tion="show">
+								<PRef rUID="0041_3_vId1"/>
+								<PRef rUID="0041_3_vId2"/>
+								<PRef rUID="0041_3_dId1"/>
+								<PRef rUID="0041_3_dId2"/>
+								<PRef rUID="0041_3_dId3"/>
+								<PRef rUID="0041_3_pdInL"/>
+								<PRef rUID="0041_3_pdOutL"/>
+								<PRef rUID="0700_3_portDiag"/>
+								<PRef rUID="0700_3_IolPortAlarm"/>
+								<PRef rUID="0702_3"/>
+								<PRef rUID="0705_3"/>
+								<PRef rUID="0716_3"/>
+								<PRef rUID="0717_3"/>
+							</Rela>
+							<Rela tion="hide">
+								<PRef rUID="0024_3"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t337">DI</Label>
+						<Unsigned8>1</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_3_vId1"/>
+								<PRef rUID="0041_3_vId2"/>
+								<PRef rUID="0041_3_dId1"/>
+								<PRef rUID="0041_3_dId2"/>
+								<PRef rUID="0041_3_dId3"/>
+								<PRef rUID="0041_3_pdInL"/>
+								<PRef rUID="0041_3_pdOutL"/>
+								<PRef rUID="0700_3_portDiag"/>
+								<PRef rUID="0702_3"/>
+								<PRef rUID="0705_3"/>
+								<PRef rUID="0716_3"/>
+								<PRef rUID="0717_3"/>
+								<PRef rUID="0024_3"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_3_IolPortAlarm"/>
+							</Rela>
+						</RelaList>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t338">DO</Label>
+						<Unsigned8>2</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_3_vId1"/>
+								<PRef rUID="0041_3_vId2"/>
+								<PRef rUID="0041_3_dId1"/>
+								<PRef rUID="0041_3_dId2"/>
+								<PRef rUID="0041_3_dId3"/>
+								<PRef rUID="0041_3_pdInL"/>
+								<PRef rUID="0041_3_pdOutL"/>
+								<PRef rUID="0700_3_portDiag"/>
+								<PRef rUID="0702_3"/>
+								<PRef rUID="0705_3"/>
+								<PRef rUID="0716_3"/>
+								<PRef rUID="0717_3"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_3_IolPortAlarm"/>
+								<PRef rUID="0024_3"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Unsigned8>13</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_3_vId1"/>
+								<PRef rUID="0041_3_vId2"/>
+								<PRef rUID="0041_3_dId1"/>
+								<PRef rUID="0041_3_dId2"/>
+								<PRef rUID="0041_3_dId3"/>
+								<PRef rUID="0041_3_pdInL"/>
+								<PRef rUID="0041_3_pdOutL"/>
+								<PRef rUID="0700_3_portDiag"/>
+								<PRef rUID="0700_3_IolPortAlarm"/>
+								<PRef rUID="0702_3"/>
+								<PRef rUID="0705_3"/>
+								<PRef rUID="0716_3"/>
+								<PRef rUID="0717_3"/>
+								<PRef rUID="0024_3"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dt0041_4_pm" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t336">IO-Link</Label>
+						<Unsigned8>0</Unsigned8>
+						<RelaList>
+							<Rela tion="show">
+								<PRef rUID="0041_4_vId1"/>
+								<PRef rUID="0041_4_vId2"/>
+								<PRef rUID="0041_4_dId1"/>
+								<PRef rUID="0041_4_dId2"/>
+								<PRef rUID="0041_4_dId3"/>
+								<PRef rUID="0041_4_pdInL"/>
+								<PRef rUID="0041_4_pdOutL"/>
+								<PRef rUID="0700_4_portDiag"/>
+								<PRef rUID="0700_4_IolPortAlarm"/>
+								<PRef rUID="0702_4"/>
+								<PRef rUID="0705_4"/>
+								<PRef rUID="0716_4"/>
+								<PRef rUID="0717_4"/>
+							</Rela>
+							<Rela tion="hide">
+								<PRef rUID="0024_4"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t337">DI</Label>
+						<Unsigned8>1</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_4_vId1"/>
+								<PRef rUID="0041_4_vId2"/>
+								<PRef rUID="0041_4_dId1"/>
+								<PRef rUID="0041_4_dId2"/>
+								<PRef rUID="0041_4_dId3"/>
+								<PRef rUID="0041_4_pdInL"/>
+								<PRef rUID="0041_4_pdOutL"/>
+								<PRef rUID="0700_4_portDiag"/>
+								<PRef rUID="0702_4"/>
+								<PRef rUID="0705_4"/>
+								<PRef rUID="0716_4"/>
+								<PRef rUID="0717_4"/>
+								<PRef rUID="0024_4"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_4_IolPortAlarm"/>
+							</Rela>
+						</RelaList>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t338">DO</Label>
+						<Unsigned8>2</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_4_vId1"/>
+								<PRef rUID="0041_4_vId2"/>
+								<PRef rUID="0041_4_dId1"/>
+								<PRef rUID="0041_4_dId2"/>
+								<PRef rUID="0041_4_dId3"/>
+								<PRef rUID="0041_4_pdInL"/>
+								<PRef rUID="0041_4_pdOutL"/>
+								<PRef rUID="0700_4_portDiag"/>
+								<PRef rUID="0702_4"/>
+								<PRef rUID="0705_4"/>
+								<PRef rUID="0716_4"/>
+								<PRef rUID="0717_4"/>
+							</Rela>
+							<Rela tion="show">
+								<PRef rUID="0700_4_IolPortAlarm"/>
+								<PRef rUID="0024_4"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Unsigned8>13</Unsigned8>
+						<RelaList>
+							<Rela tion="hide">
+								<PRef rUID="0041_4_vId1"/>
+								<PRef rUID="0041_4_vId2"/>
+								<PRef rUID="0041_4_dId1"/>
+								<PRef rUID="0041_4_dId2"/>
+								<PRef rUID="0041_4_dId3"/>
+								<PRef rUID="0041_4_pdInL"/>
+								<PRef rUID="0041_4_pdOutL"/>
+								<PRef rUID="0700_4_portDiag"/>
+								<PRef rUID="0700_4_IolPortAlarm"/>
+								<PRef rUID="0702_4"/>
+								<PRef rUID="0705_4"/>
+								<PRef rUID="0716_4"/>
+								<PRef rUID="0717_4"/>
+								<PRef rUID="0024_4"/>
+							</Rela>
+						</RelaList>
+					</EnumEntry>
+				</Enumerated>
+				<Subrange access="RW" uID="dt0041_vId">
+					<Min>
+						<Unsigned8>0</Unsigned8>
+					</Min>
+					<Max>
+						<Unsigned8>255</Unsigned8>
+					</Max>
+					<Default>
+						<Unsigned8>0</Unsigned8>
+					</Default>
+				</Subrange>
+				<Subrange access="RW" uID="dt0041_dId">
+					<Min>
+						<Unsigned8>0</Unsigned8>
+					</Min>
+					<Max>
+						<Unsigned8>255</Unsigned8>
+					</Max>
+					<Default>
+						<Unsigned8>0</Unsigned8>
+					</Default>
+				</Subrange>
+				<Subrange access="RW" uID="dt0041_pdL">
+					<Min>
+						<Unsigned16>0</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>65535</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>0</Unsigned16>
+					</Default>
+				</Subrange>
+				<!-- Enumerated uID="dttp0043_1" access="RW">
+					<DerivedFrom>
+						<BYTE>00</BYTE>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1352">OFF. With configuration comparison.</Label>
+						<BYTE>00</BYTE>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1353">ON. No configuration comparison.</Label>
+						<BYTE>01</BYTE>
+					</EnumEntry>
+				</Enumerated -->
+				<Enumerated uID="dttp0700_portDiag" access="RW">
+					<DerivedFrom>
+						<Boolean>true</Boolean>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1351">Enabled</Label>
+						<Boolean>true</Boolean>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Boolean>false</Boolean>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dttp0700_IolPortAlarm" access="RW">
+					<DerivedFrom>
+						<Boolean>true</Boolean>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1351">Enabled</Label>
+						<Boolean>true</Boolean>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1350">Disabled</Label>
+						<Boolean>false</Boolean>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dttp0702" access="RW">
+					<DerivedFrom>
+						<Unsigned8>0</Unsigned8>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1354">No device test</Label>
+						<Unsigned8>0</Unsigned8>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1355">Type compatible (V1.0)</Label>
+						<Unsigned8>1</Unsigned8>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1356">Type compatible (V1.1)</Label>
+						<Unsigned8>2</Unsigned8>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1357">Type compatible (V1.1) with backup and restore</Label>
+						<Unsigned8>3</Unsigned8>
+					</EnumEntry>
+					<EnumEntry>
+							<Label dIDRef="daxlf" tID="t1358">Type compatible (V1.1) with restore</Label>
+							<Unsigned8>4</Unsigned8>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dttp0717" access="RW">
+					<DerivedFrom>
+						<Unsigned16>0</Unsigned16>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1425">Set input value to zero value</Label>
+						<Unsigned16>0</Unsigned16>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1424">Set input value to upper final value</Label>
+						<Unsigned16>1</Unsigned16>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1136">Hold last value</Label>
+						<Unsigned16>2</Unsigned16>
+					</EnumEntry>
+				</Enumerated>
+				<Subrange uID="dttp0705" access="RW" uom="x 100 ms">
+					<Min>
+						<Unsigned8>50</Unsigned8>
+					</Min>
+					<Max>
+						<Unsigned8>255</Unsigned8>
+					</Max>
+					<Default>
+						<Unsigned8>50</Unsigned8>
+					</Default>
+					<Step>
+						<Unsigned8>1</Unsigned8>
+					</Step>
+				</Subrange>
+				<Enumerated uID="dttp0716" access="RW">
+					<DerivedFrom>
+						<Unsigned16>0</Unsigned16>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1359">Output of 0 on all outputs of the IO-Link device</Label>
+						<Unsigned16>0</Unsigned16>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1360">Output of 1 on all outputs of the IO-Link device</Label>
+						<Unsigned16>1</Unsigned16>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1361">Hold last value</Label>
+						<Unsigned16>2</Unsigned16>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1362">Accept the replacement value of the IO-Link device</Label>
+						<Unsigned16>16</Unsigned16>
+					</EnumDefaultEntry>
+				</Enumerated>
+				<Enumerated uID="dttp0024" access="RW">
+					<DerivedFrom>
+						<Unsigned16>0</Unsigned16>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1427">Output of 0</Label>
+						<Unsigned16>0</Unsigned16>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1428">Output of 1</Label>
+						<Unsigned16>1</Unsigned16>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1361">Hold last value</Label>
+						<Unsigned16>2</Unsigned16>
+					</EnumEntry>
+				</Enumerated>
+				<!-- object structures by datatypes -->
+				<Struct access="RW" uID="dt4xUint8">
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="1"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="3"/>
+				</Struct>
+				<Struct access="RW" uID="dt4xUint16">
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="4"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="6"/>
+				</Struct>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineSEFull.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trm0">
+						<Label>0</Label>
+						<Help>C/Q Port 1</Help>
+					</Trm>
+					<Trm uID="trm1">
+						<Label>1</Label>
+						<Help>24 V DC (L+)</Help>
+					</Trm>
+					<Trm uID="trm2">
+						<Label>2</Label>
+						<Help>GND (L-)</Help>
+					</Trm>
+					<Trm uID="trm3">
+						<Label>3</Label>
+						<Help/>
+					</Trm>
+					<Trm uID="trm4">
+						<Label>4</Label>
+						<Help>C/Q Port 2</Help>
+					</Trm>
+					<Trm uID="trm5">
+						<Label>5</Label>
+						<Help>24 V DC (L+)</Help>
+					</Trm>
+					<Trm uID="trm6">
+						<Label>6</Label>
+						<Help>GND (L-)</Help>
+					</Trm>
+					<Trm uID="trm7">
+						<Label>7</Label>
+						<Help/>
+					</Trm>
+					<Trm uID="trm8">
+						<Label>8</Label>
+						<Help>C/Q Port 3</Help>
+					</Trm>
+					<Trm uID="trm9">
+						<Label>9</Label>
+						<Help>24 V DC (L+)</Help>
+					</Trm>
+					<Trm uID="trm10">
+						<Label>10</Label>
+						<Help>GND (L-)</Help>
+					</Trm>
+					<Trm uID="trm11">
+						<Label>11</Label>
+						<Help/>
+					</Trm>
+					<Trm uID="trm12">
+						<Label>12</Label>
+						<Help>C/Q Port 4</Help>
+					</Trm>
+					<Trm uID="trm13">
+						<Label>13</Label>
+						<Help>24 V DC (L+)</Help>
+					</Trm>
+					<Trm uID="trm14">
+						<Label>14</Label>
+						<Help>GND (L-)</Help>
+					</Trm>
+					<Trm uID="trm15">
+						<Label>15</Label>
+						<Help/>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 uID="L12" type="AXLF">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<Signed32>-68</Signed32>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7">
+					<PDList>
+						<PD uID="iodpdin" type="AXLF:PD">
+							<Label>~IN512</Label>
+							<Elementary access="R">
+								<OctetstringN octets="64" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="iodpdout" type="AXLF:PD">
+							<Label>~OUT512</Label>
+							<Elementary access="W">
+								<OctetstringN octets="64" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>1</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="i_0_0" type="AXLF:PD">
+							<Label>Port status</Label> <!-- dIDRef="daxlf" tID="t1365"-->
+							<Elementary access="R">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>2</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="i_1_0" type="AXLF:PD">
+							<Label>PD_VALID status</Label><!-- dIDRef="daxlf" tID="t1366"-->
+							<Elementary access="R">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>3</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="i_2_0" type="AXLF:PD">
+							<Label>DI status at C/Q</Label><!-- dIDRef="daxlf" tID="t1367"-->
+							<Elementary access="R">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>4</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="i_6_0" type="AXLF:PD">
+							<Label>IN_58Bytes</Label><!-- dIDRef="daxlf" tID="t1368"-->
+							<Elementary access="R">
+								<OctetstringN octets="58" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>5</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="o_2_0" type="AXLF:PD">
+							<Label>DO status</Label><!-- dIDRef="daxlf" tID="t1369"-->
+							<Elementary access="W">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+						<PD uID="o_6_0" type="AXLF:PD">
+							<Label>OUT_58Bytes</Label><!-- dIDRef="daxlf" tID="t1370"-->
+							<Elementary access="W">
+								<OctetstringN octets="58" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+							<Prop type="APC:Channel">
+								<Elementary access="R">
+									<Unsigned16>1</Unsigned16>
+								</Elementary>
+							</Prop>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="enblock" type="AXLF:Param">
+							<Elementary access="RW">
+								<BYTE>01</BYTE>
+							</Elementary>
+							<LocalPath>0x29</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p0041" type="AXLF:Param">
+							<Elementary access="RW">
+								<OctetstringN octets="40"/>
+							</Elementary>
+							<LocalPath>0x0041#0</LocalPath>
+							<Para uID="p0041_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<OctetstringN octets="10"/>
+								</Elementary>
+								<LocalPath>0x0041#1</LocalPath>
+								<Prop type="AXL:isStartup">
+									<Elementary access="R">
+										<Boolean>true</Boolean>
+									</Elementary>
+								</Prop>
+								<Para uID="p0041_1_pm" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_vId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_vId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_dId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>3.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_dId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_dId3" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>5.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_pdInL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p0041_1_pdOutL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0041_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<OctetstringN octets="10"/>
+								</Elementary>
+								<LocalPath>0x0041#2</LocalPath>
+								<Prop type="AXL:isStartup">
+									<Elementary access="R">
+										<Boolean>true</Boolean>
+									</Elementary>
+								</Prop>
+								<Para uID="p0041_2_pm" type="AXLF:Param">
+									<DTTRef rUID="dt0041_2_pm"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_vId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_vId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_dId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>3.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_dId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_dId3" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>5.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_pdInL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p0041_2_pdOutL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0041_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<OctetstringN octets="10"/>
+								</Elementary>
+								<LocalPath>0x0041#3</LocalPath>
+								<Prop type="AXL:isStartup">
+									<Elementary access="R">
+										<Boolean>true</Boolean>
+									</Elementary>
+								</Prop>
+								<Para uID="p0041_3_pm" type="AXLF:Param">
+									<DTTRef rUID="dt0041_3_pm"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_vId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_vId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_dId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>3.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_dId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_dId3" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>5.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_pdInL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p0041_3_pdOutL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0041_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<OctetstringN octets="10"/>
+								</Elementary>
+								<LocalPath>0x0041#4</LocalPath>
+								<Prop type="AXL:isStartup">
+									<Elementary access="R">
+										<Boolean>true</Boolean>
+									</Elementary>
+								</Prop>
+								<Para uID="p0041_4_pm" type="AXLF:Param">
+									<DTTRef rUID="dt0041_4_pm"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_vId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_vId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_dId1" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>3.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_dId2" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_dId3" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned8>0</Unsigned8>
+									</Elementary>
+									<LocalPath>5.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_pdInL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p0041_4_pdOutL" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned16>0</Unsigned16>
+									</Elementary>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+							</Para>
+						</Para>
+						<Para uID="p0700_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint8"/>
+							<LocalPath>0x0700#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0700_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0700#1</LocalPath>
+								<Para uID="p0700_1_portDiag" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0700_1_IolPortAlarm" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.1</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0700_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0700#2</LocalPath>
+								<Para uID="p0700_2_portDiag" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0700_2_IolPortAlarm" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.1</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0700_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0700#3</LocalPath>
+								<Para uID="p0700_3_portDiag" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0700_3_IolPortAlarm" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.1</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p0700_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0700#4</LocalPath>
+								<Para uID="p0700_4_portDiag" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p0700_4_IolPortAlarm" type="AXLF:Param">
+									<Elementary access="RW">
+										<Boolean>true</Boolean>
+									</Elementary>
+									<LocalPath>0.1</LocalPath>
+								</Para>
+							</Para>
+						</Para>
+						<Para uID="p0702_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint8"/>
+							<LocalPath>0x0702#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0702_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0702#1</LocalPath>
+							</Para>
+							<Para uID="p0702_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0702#2</LocalPath>
+							</Para>
+							<Para uID="p0702_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0702#3</LocalPath>
+							</Para>
+							<Para uID="p0702_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0702#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="p0705_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint8"/>
+							<LocalPath>0x0705#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0705_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0705#1</LocalPath>
+							</Para>
+							<Para uID="p0705_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0705#2</LocalPath>
+							</Para>
+							<Para uID="p0705_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0705#3</LocalPath>
+							</Para>
+							<Para uID="p0705_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>0</Unsigned8>
+								</Elementary>
+								<LocalPath>0x0705#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="p0716_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint16"/>
+							<LocalPath>0x0716#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0716_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0716#1</LocalPath>
+							</Para>
+							<Para uID="p0716_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0716#2</LocalPath>
+							</Para>
+							<Para uID="p0716_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0716#3</LocalPath>
+							</Para>
+							<Para uID="p0716_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0716#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="p0717_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint16"/>
+							<LocalPath>0x0717#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0717_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0717#1</LocalPath>
+							</Para>
+							<Para uID="p0717_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0717#2</LocalPath>
+							</Para>
+							<Para uID="p0717_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0717#3</LocalPath>
+							</Para>
+							<Para uID="p0717_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0717#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="p0024_0" type="AXLF:Param">
+							<DTTRef rUID="dt4xUint16"/>
+							<LocalPath>0x0024#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p0024_1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#1</LocalPath>
+							</Para>
+							<Para uID="p0024_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#2</LocalPath>
+							</Para>
+							<Para uID="p0024_3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#3</LocalPath>
+							</Para>
+							<Para uID="p0024_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16>0</Unsigned16>
+								</Elementary>
+								<LocalPath>0x0024#4</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="disblock" type="AXLF:Param">
+							<Elementary access="RW">
+								<BYTE>00</BYTE>
+							</Elementary>
+							<LocalPath>0x29</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>00001B06</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00020040</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="RW">
+								<Unsigned32>512</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="RW">
+								<Unsigned32>512</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7" fromCEP="lcep1" toLayer="L12" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m1">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<!--G uID="g101">
+								<Label dIDRef="daxlf" tID="t1371">IO-Link master</Label>
+								<MI rUID="0043_1"/>
+							</G -->
+							<G uID="g102">
+								<Label dIDRef="daxlf" tID="t1372">Port 1</Label>
+								<MI rUID="0041_1_pm"/>
+								<MI rUID="0041_1_pdInL"/>
+								<MI rUID="0041_1_pdOutL"/>
+								<MI rUID="0041_1_vId1"/>
+								<MI rUID="0041_1_vId2"/>
+								<MI rUID="0041_1_dId1"/>
+								<MI rUID="0041_1_dId2"/>
+								<MI rUID="0041_1_dId3"/>
+								<MI rUID="0700_1_portDiag"/>
+								<MI rUID="0700_1_IolPortAlarm"/>
+								<MI rUID="0702_1"/>
+								<MI rUID="0705_1"/>
+								<MI rUID="0716_1"/>
+								<MI rUID="0717_1"/>
+								<MI rUID="0024_1"/>
+							</G>
+							<G uID="g103">
+								<Label dIDRef="daxlf" tID="t1373">Port 2</Label>
+								<MI rUID="0041_2_pm"/>
+								<MI rUID="0041_2_pdInL"/>
+								<MI rUID="0041_2_pdOutL"/>
+								<MI rUID="0041_2_vId1"/>
+								<MI rUID="0041_2_vId2"/>
+								<MI rUID="0041_2_dId1"/>
+								<MI rUID="0041_2_dId2"/>
+								<MI rUID="0041_2_dId3"/>
+								<MI rUID="0700_2_portDiag"/>
+								<MI rUID="0700_2_IolPortAlarm"/>
+								<MI rUID="0702_2"/>
+								<MI rUID="0705_2"/>
+								<MI rUID="0716_2"/>
+								<MI rUID="0717_2"/>
+								<MI rUID="0024_2"/>
+							</G>
+							<G uID="g104">
+								<Label dIDRef="daxlf" tID="t1374">Port 3</Label>
+								<MI rUID="0041_3_pm"/>
+								<MI rUID="0041_3_pdInL"/>
+								<MI rUID="0041_3_pdOutL"/>
+								<MI rUID="0041_3_vId1"/>
+								<MI rUID="0041_3_vId2"/>
+								<MI rUID="0041_3_dId1"/>
+								<MI rUID="0041_3_dId2"/>
+								<MI rUID="0041_3_dId3"/>
+								<MI rUID="0700_3_portDiag"/>
+								<MI rUID="0700_3_IolPortAlarm"/>
+								<MI rUID="0702_3"/>
+								<MI rUID="0705_3"/>
+								<MI rUID="0716_3"/>
+								<MI rUID="0717_3"/>
+								<MI rUID="0024_3"/>
+							</G>
+							<G uID="g105">
+								<Label dIDRef="daxlf" tID="t1375">Port 4</Label>
+								<MI rUID="0041_4_pm"/>
+								<MI rUID="0041_4_pdInL"/>
+								<MI rUID="0041_4_pdOutL"/>
+								<MI rUID="0041_4_vId1"/>
+								<MI rUID="0041_4_vId2"/>
+								<MI rUID="0041_4_dId1"/>
+								<MI rUID="0041_4_dId2"/>
+								<MI rUID="0041_4_dId3"/>
+								<MI rUID="0700_4_portDiag"/>
+								<MI rUID="0700_4_IolPortAlarm"/>
+								<MI rUID="0702_4"/>
+								<MI rUID="0705_4"/>
+								<MI rUID="0716_4"/>
+								<MI rUID="0717_4"/>
+								<MI rUID="0024_4"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m2">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<!-- M uID="m3">
+						<Label dIDRef="daxlf" tID="t1371">IO-Link master</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t1371">IO-Link master</Label>
+								<MI rUID="0043_1"/>
+							</G>
+						</MIList>
+					</M -->
+					<M uID="m4">
+						<Label dIDRef="daxlf" tID="t1372">Port 1</Label>
+						<MIList>
+							<G uID="m202">
+								<Label dIDRef="daxlf" tID="t1372">Port 1</Label>
+								<MI rUID="0041_1_pm"/>
+								<MI rUID="0041_1_pdInL"/>
+								<MI rUID="0041_1_pdOutL"/>
+								<MI rUID="0041_1_vId1"/>
+								<MI rUID="0041_1_vId2"/>
+								<MI rUID="0041_1_dId1"/>
+								<MI rUID="0041_1_dId2"/>
+								<MI rUID="0041_1_dId3"/>
+								<MI rUID="0700_1_portDiag"/>
+								<MI rUID="0700_1_IolPortAlarm"/>
+								<MI rUID="0702_1"/>
+								<MI rUID="0705_1"/>
+								<MI rUID="0716_1"/>
+								<MI rUID="0717_1"/>
+								<MI rUID="0024_1"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m5">
+						<Label dIDRef="daxlf" tID="t1373">Port 2</Label>
+						<MIList>
+							<G uID="m203">
+								<Label dIDRef="daxlf" tID="t1373">Port 2</Label>
+								<MI rUID="0041_2_pm"/>
+								<MI rUID="0041_2_pdInL"/>
+								<MI rUID="0041_2_pdOutL"/>
+								<MI rUID="0041_2_vId1"/>
+								<MI rUID="0041_2_vId2"/>
+								<MI rUID="0041_2_dId1"/>
+								<MI rUID="0041_2_dId2"/>
+								<MI rUID="0041_2_dId3"/>
+								<MI rUID="0700_2_portDiag"/>
+								<MI rUID="0700_2_IolPortAlarm"/>
+								<MI rUID="0702_2"/>
+								<MI rUID="0705_2"/>
+								<MI rUID="0716_2"/>
+								<MI rUID="0717_2"/>
+								<MI rUID="0024_2"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m6">
+						<Label dIDRef="daxlf" tID="t1374">Port 3</Label>
+						<MIList>
+							<G uID="m204">
+								<Label dIDRef="daxlf" tID="t1374">Port 3</Label>
+								<MI rUID="0041_3_pm"/>
+								<MI rUID="0041_3_pdInL"/>
+								<MI rUID="0041_3_pdOutL"/>
+								<MI rUID="0041_3_vId1"/>
+								<MI rUID="0041_3_vId2"/>
+								<MI rUID="0041_3_dId1"/>
+								<MI rUID="0041_3_dId2"/>
+								<MI rUID="0041_3_dId3"/>
+								<MI rUID="0700_3_portDiag"/>
+								<MI rUID="0700_3_IolPortAlarm"/>
+								<MI rUID="0702_3"/>
+								<MI rUID="0705_3"/>
+								<MI rUID="0716_3"/>
+								<MI rUID="0717_3"/>
+								<MI rUID="0024_3"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m7">
+						<Label dIDRef="daxlf" tID="t1375">Port 4</Label>
+						<MIList>
+							<G uID="m205">
+								<Label dIDRef="daxlf" tID="t1375">Port 4</Label>
+								<MI rUID="0041_4_pm"/>
+								<MI rUID="0041_4_pdInL"/>
+								<MI rUID="0041_4_pdOutL"/>
+								<MI rUID="0041_4_vId1"/>
+								<MI rUID="0041_4_vId2"/>
+								<MI rUID="0041_4_dId1"/>
+								<MI rUID="0041_4_dId2"/>
+								<MI rUID="0041_4_dId3"/>
+								<MI rUID="0700_4_portDiag"/>
+								<MI rUID="0700_4_IolPortAlarm"/>
+								<MI rUID="0702_4"/>
+								<MI rUID="0705_4"/>
+								<MI rUID="0716_4"/>
+								<MI rUID="0717_4"/>
+								<MI rUID="0024_4"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="0024_1">
+						<Label dIDRef="daxlf" tID="t1426">Output substitute value behavior (PDOUT) in DO operating mode</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_1"/>
+					</P>
+					<P uID="0024_2">
+						<Label dIDRef="daxlf" tID="t1426">Output substitute value behavior (PDOUT) in DO operating mode</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_2"/>
+					</P>
+					<P uID="0024_3">
+						<Label dIDRef="daxlf" tID="t1426">Output substitute value behavior (PDOUT) in DO operating mode</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_3"/>
+					</P>
+					<P uID="0024_4">
+						<Label dIDRef="daxlf" tID="t1426">Output substitute value behavior (PDOUT) in DO operating mode</Label>
+						<DTTRef rUID="dttp0024" access="RW"/>
+						<ParaRef rUID="p0024_4"/>
+					</P>
+					<P uID="0041_1_pm">
+						<Label dIDRef="daxlf" tID="t1381">Operating mode of the port</Label>
+						<DTTRef rUID="dt0041_1_pm" access="RW"/>
+						<ParaRef rUID="p0041_1_pm"/>
+					</P>
+					<P uID="0041_1_vId1">
+						<Label dIDRef="daxlf" tID="t1382">Vendor ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_1_vId1"/>
+					</P>
+					<P uID="0041_1_vId2">
+						<Label dIDRef="daxlf" tID="t1383">Vendor ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_1_vId2"/>
+					</P>
+					<P uID="0041_1_dId1">
+						<Label dIDRef="daxlf" tID="t1384">Device ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_1_dId1"/>
+					</P>
+					<P uID="0041_1_dId2">
+						<Label dIDRef="daxlf" tID="t1385">Device ID (...) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_1_dId2"/>
+					</P>
+					<P uID="0041_1_dId3">
+						<Label dIDRef="daxlf" tID="t1386">Device ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_1_dId3"/>
+					</P>
+					<P uID="0041_1_pdInL">
+						<Label dIDRef="daxlf" tID="t1387">PD IN length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_1_pdInL"/>
+					</P>
+					<P uID="0041_1_pdOutL">
+						<Label dIDRef="daxlf" tID="t1388">PD OUT length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_1_pdOutL"/>
+					</P>
+					<P uID="0041_2_pm">
+						<Label dIDRef="daxlf" tID="t1381">Operating mode of the port</Label>
+						<DTTRef rUID="dt0041_2_pm" access="RW"/>
+						<ParaRef rUID="p0041_2_pm"/>
+					</P>
+					<P uID="0041_2_vId1">
+						<Label dIDRef="daxlf" tID="t1382">Vendor ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_2_vId1"/>
+					</P>
+					<P uID="0041_2_vId2">
+						<Label dIDRef="daxlf" tID="t1383">Vendor ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_2_vId2"/>
+					</P>
+					<P uID="0041_2_dId1">
+						<Label dIDRef="daxlf" tID="t1384">Device ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_2_dId1"/>
+					</P>
+					<P uID="0041_2_dId2">
+						<Label dIDRef="daxlf" tID="t1385">Device ID (...) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_2_dId2"/>
+					</P>
+					<P uID="0041_2_dId3">
+						<Label dIDRef="daxlf" tID="t1386">Device ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_2_dId3"/>
+					</P>
+					<P uID="0041_2_pdInL">
+						<Label dIDRef="daxlf" tID="t1387">PD IN length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_2_pdInL"/>
+					</P>
+					<P uID="0041_2_pdOutL">
+						<Label dIDRef="daxlf" tID="t1388">PD OUT length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_2_pdOutL"/>
+					</P>
+					<P uID="0041_3_pm">
+						<Label dIDRef="daxlf" tID="t1381">Operating mode of the port</Label>
+						<DTTRef rUID="dt0041_3_pm" access="RW"/>
+						<ParaRef rUID="p0041_3_pm"/>
+					</P>
+					<P uID="0041_3_vId1">
+						<Label dIDRef="daxlf" tID="t1382">Vendor ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_3_vId1"/>
+					</P>
+					<P uID="0041_3_vId2">
+						<Label dIDRef="daxlf" tID="t1383">Vendor ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_3_vId2"/>
+					</P>
+					<P uID="0041_3_dId1">
+						<Label dIDRef="daxlf" tID="t1384">Device ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_3_dId1"/>
+					</P>
+					<P uID="0041_3_dId2">
+						<Label dIDRef="daxlf" tID="t1385">Device ID (...) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_3_dId2"/>
+					</P>
+					<P uID="0041_3_dId3">
+						<Label dIDRef="daxlf" tID="t1386">Device ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_3_dId3"/>
+					</P>
+					<P uID="0041_3_pdInL">
+						<Label dIDRef="daxlf" tID="t1387">PD IN length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_3_pdInL"/>
+					</P>
+					<P uID="0041_3_pdOutL">
+						<Label dIDRef="daxlf" tID="t1388">PD OUT length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_3_pdOutL"/>
+					</P>
+					<P uID="0041_4_pm">
+						<Label dIDRef="daxlf" tID="t1381">Operating mode of the port</Label>
+						<DTTRef rUID="dt0041_4_pm" access="RW"/>
+						<ParaRef rUID="p0041_4_pm"/>
+					</P>
+					<P uID="0041_4_vId1">
+						<Label dIDRef="daxlf" tID="t1382">Vendor ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_4_vId1"/>
+					</P>
+					<P uID="0041_4_vId2">
+						<Label dIDRef="daxlf" tID="t1383">Vendor ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_vId" access="RW"/>
+						<ParaRef rUID="p0041_4_vId2"/>
+					</P>
+					<P uID="0041_4_dId1">
+						<Label dIDRef="daxlf" tID="t1384">Device ID (MSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_4_dId1"/>
+					</P>
+					<P uID="0041_4_dId2">
+						<Label dIDRef="daxlf" tID="t1385">Device ID (...) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_4_dId2"/>
+					</P>
+					<P uID="0041_4_dId3">
+						<Label dIDRef="daxlf" tID="t1386">Device ID (LSB) (dec.)</Label>
+						<DTTRef rUID="dt0041_dId" access="RW"/>
+						<ParaRef rUID="p0041_4_dId3"/>
+					</P>
+					<P uID="0041_4_pdInL">
+						<Label dIDRef="daxlf" tID="t1387">PD IN length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_4_pdInL"/>
+					</P>
+					<P uID="0041_4_pdOutL">
+						<Label dIDRef="daxlf" tID="t1388">PD OUT length (bits)</Label>
+						<DTTRef rUID="dt0041_pdL" access="RW"/>
+						<ParaRef rUID="p0041_4_pdOutL"/>
+					</P>
+					<P uID="0700_1_portDiag">
+						<Label dIDRef="daxlf" tID="t1390">IO-Link port diagnostics</Label>
+						<DTTRef rUID="dttp0700_portDiag" access="RW"/>
+						<ParaRef rUID="p0700_1_portDiag"/>
+					</P>
+					<P uID="0700_1_IolPortAlarm">
+						<Label dIDRef="daxlf" tID="t1391">Port alarm</Label>
+						<DTTRef rUID="dttp0700_IolPortAlarm" access="RW"/>
+						<ParaRef rUID="p0700_1_IolPortAlarm"/>
+					</P>
+					<P uID="0700_2_portDiag">
+						<Label dIDRef="daxlf" tID="t1390">IO-Link port diagnostics</Label>
+						<DTTRef rUID="dttp0700_portDiag" access="RW"/>
+						<ParaRef rUID="p0700_2_portDiag"/>
+					</P>
+					<P uID="0700_2_IolPortAlarm">
+						<Label dIDRef="daxlf" tID="t1391">Port alarm</Label>
+						<DTTRef rUID="dttp0700_IolPortAlarm" access="RW"/>
+						<ParaRef rUID="p0700_2_IolPortAlarm"/>
+					</P>
+					<P uID="0700_3_portDiag">
+						<Label dIDRef="daxlf" tID="t1390">IO-Link port diagnostics</Label>
+						<DTTRef rUID="dttp0700_portDiag" access="RW"/>
+						<ParaRef rUID="p0700_3_portDiag"/>
+					</P>
+					<P uID="0700_3_IolPortAlarm">
+						<Label dIDRef="daxlf" tID="t1391">Port alarm</Label>
+						<DTTRef rUID="dttp0700_IolPortAlarm" access="RW"/>
+						<ParaRef rUID="p0700_3_IolPortAlarm"/>
+					</P>
+					<P uID="0700_4_portDiag">
+						<Label dIDRef="daxlf" tID="t1390">IO-Link port diagnostics</Label>
+						<DTTRef rUID="dttp0700_portDiag" access="RW"/>
+						<ParaRef rUID="p0700_4_portDiag"/>
+					</P>
+					<P uID="0700_4_IolPortAlarm">
+						<Label dIDRef="daxlf" tID="t1391">Port alarm</Label>
+						<DTTRef rUID="dttp0700_IolPortAlarm" access="RW"/>
+						<ParaRef rUID="p0700_4_IolPortAlarm"/>
+					</P>
+					<P uID="0702_1">
+						<Label dIDRef="daxlf" tID="t1392">Compatibility check and data storage behavior</Label>
+						<DTTRef rUID="dttp0702" access="RW"/>
+						<ParaRef rUID="p0702_1"/>
+					</P>
+					<P uID="0702_2">
+						<Label dIDRef="daxlf" tID="t1392">Compatibility check and data storage behavior</Label>
+						<DTTRef rUID="dttp0702" access="RW"/>
+						<ParaRef rUID="p0702_2"/>
+					</P>
+					<P uID="0702_3">
+						<Label dIDRef="daxlf" tID="t1392">Compatibility check and data storage behavior</Label>
+						<DTTRef rUID="dttp0702" access="RW"/>
+						<ParaRef rUID="p0702_3"/>
+					</P>
+					<P uID="0702_4">
+						<Label dIDRef="daxlf" tID="t1392">Compatibility check and data storage behavior</Label>
+						<DTTRef rUID="dttp0702" access="RW"/>
+						<ParaRef rUID="p0702_4"/>
+					</P>
+					<P uID="0705_1">
+						<Label dIDRef="daxlf" tID="t1430">ISDU Device-Response-Timeout</Label>
+						<DTTRef rUID="dttp0705" access="RW"/>
+						<ParaRef rUID="p0705_1"/>
+					</P>
+					<P uID="0705_2">
+						<Label dIDRef="daxlf" tID="t1430">ISDU Device-Response-Timeout</Label>
+						<DTTRef rUID="dttp0705" access="RW"/>
+						<ParaRef rUID="p0705_2"/>
+					</P>
+					<P uID="0705_3">
+						<Label dIDRef="daxlf" tID="t1430">ISDU Device-Response-Timeout</Label>
+						<DTTRef rUID="dttp0705" access="RW"/>
+						<ParaRef rUID="p0705_3"/>
+					</P>
+					<P uID="0705_4">
+						<Label dIDRef="daxlf" tID="t1430">ISDU Device-Response-Timeout</Label>
+						<DTTRef rUID="dttp0705" access="RW"/>
+						<ParaRef rUID="p0705_4"/>
+					</P>
+					<P uID="0716_1">
+						<Label dIDRef="daxlf" tID="t1393">IO-Link device substitute value behavior (PDOUT)</Label>
+						<DTTRef rUID="dttp0716" access="RW"/>
+						<ParaRef rUID="p0716_1"/>
+					</P>
+					<P uID="0716_2">
+						<Label dIDRef="daxlf" tID="t1393">IO-Link device substitute value behavior (PDOUT)</Label>
+						<DTTRef rUID="dttp0716" access="RW"/>
+						<ParaRef rUID="p0716_2"/>
+					</P>
+					<P uID="0716_3">
+						<Label dIDRef="daxlf" tID="t1393">IO-Link device substitute value behavior (PDOUT)</Label>
+						<DTTRef rUID="dttp0716" access="RW"/>
+						<ParaRef rUID="p0716_3"/>
+					</P>
+					<P uID="0716_4">
+						<Label dIDRef="daxlf" tID="t1393">IO-Link device substitute value behavior (PDOUT)</Label>
+						<DTTRef rUID="dttp0716" access="RW"/>
+						<ParaRef rUID="p0716_4"/>
+					</P>
+					<P uID="0717_1">
+						<Label dIDRef="daxlf" tID="t1429">Input substitute value behavior (PDIN) in case of invalid IO-Link data</Label>
+						<DTTRef rUID="dttp0717" access="RW"/>
+						<ParaRef rUID="p0717_1"/>
+					</P>
+					<P uID="0717_2">
+						<Label dIDRef="daxlf" tID="t1429">Input substitute value behavior (PDIN) in case of invalid IO-Link data</Label>
+						<DTTRef rUID="dttp0717" access="RW"/>
+						<ParaRef rUID="p0717_2"/>
+					</P>
+					<P uID="0717_3">
+						<Label dIDRef="daxlf" tID="t1429">Input substitute value behavior (PDIN) in case of invalid IO-Link data</Label>
+						<DTTRef rUID="dttp0717" access="RW"/>
+						<ParaRef rUID="p0717_3"/>
+					</P>
+					<P uID="0717_4">
+						<Label dIDRef="daxlf" tID="t1429">Input substitute value behavior (PDIN) in case of invalid IO-Link data</Label>
+						<DTTRef rUID="dttp0717" access="RW"/>
+						<ParaRef rUID="p0717_4"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

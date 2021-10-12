@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Compiler.ProfinetImpl">
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.PnTicBuild">
+      <RequiresScope>
+        <ScopeRef id="BuildEngineScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="Type">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+      </Condition>
+    </Task>
+  </Assembly>
+</AssemblyList>

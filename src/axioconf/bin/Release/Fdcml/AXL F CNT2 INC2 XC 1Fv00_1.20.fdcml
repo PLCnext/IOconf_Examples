@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2014-04-13</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t102">Function</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F XC</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL F CNT2 INC2 XC 1F</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>2701239</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>03/1.10</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{C134780B-151A-4878-A70A-9CE9E449E802}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>func</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtvendor" access="R" CharLen="16">
+					<StringASCII>Phoenix Contact</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtprodname" access="R" CharLen="16">
+					<StringASCII>AXL F CNT2 INC2 XC 1H</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtserial" access="R" CharLen="16">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtorder" access="R" CharLen="16">
+					<StringASCII>2701239</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwdate" access="R" CharLen="11">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwversion" access="R" CharLen="3">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dthw" access="R">
+					<DTTRef rUID="dthwdate"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dthwversion"/>
+					<Offset byte="11"/>
+				</Struct>
+				<Struct uID="dtdiag" access="R">
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="3"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="4"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtdiagtext"/>
+					<Offset byte="7"/>
+				</Struct>
+				<DerivedString uID="dtdiagtext" access="R" CharLen="11">
+					<StringISO8859-1 xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dtparat" access="RW">
+					<Label>Para Table</Label>
+					<DTTRef rUID="dtcntpara"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dtcntpara"/>
+					<Offset byte="44"/>
+					<DTTRef rUID="dtincpara"/>
+					<Offset byte="88"/>
+					<DTTRef rUID="dtincpara"/>
+					<Offset byte="132"/>
+				</Struct>
+				<Struct uID="dtcntpara" access="RW">
+					<Label>CNTx</Label>
+					<DTTRef rUID="dtcnttc"/>
+					<Offset byte="0" bit="0"/>
+					<DTTRef rUID="dtcntgatemode"/>
+					<Offset byte="0" bit="4"/>
+					<DTTRef rUID="dtcntdir"/>
+					<Offset byte="1" bit="0"/>
+					<WORD xsi:nil="true"/>
+					<Offset byte="2"/>
+					<DTTRef rUID="dtcntoutmode"/>
+					<Offset byte="4" bit="0"/>
+					<DTTRef rUID="dtcntoutbeha"/>
+					<Offset byte="4" bit="4"/>
+					<DTTRef rUID="dtcntpulse"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtzeromaxzero"/>
+					<Offset byte="8"/>
+					<DTTRef rUID="dtzeromaxzero"/>
+					<Offset byte="12"/>
+					<DTTRef rUID="dtzeromaxmax"/>
+					<Offset byte="16"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="20"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="24"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="28"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="32"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="36"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="40"/>
+				</Struct>
+				<Struct uID="dtincpara" access="RW">
+					<Label>INCx</Label>
+					<DTTRef rUID="dtincchact"/>
+					<Offset byte="0" bit="0"/>
+					<DTTRef rUID="dtincaxistype"/>
+					<Offset byte="0" bit="1"/>
+					<DTTRef rUID="dtincenctype"/>
+					<Offset byte="0" bit="2"/>
+					<DTTRef rUID="dtincz"/>
+					<Offset byte="0" bit="4"/>
+					<DTTRef rUID="dtincmoni"/>
+					<Offset byte="0" bit="5"/>
+					<DTTRef rUID="dtinclatch"/>
+					<Offset byte="0" bit="6"/>
+					<DTTRef rUID="dtinceval"/>
+					<Offset byte="1" bit="0"/>
+					<DTTRef rUID="dtincref"/>
+					<Offset byte="1" bit="4"/>
+					<WORD xsi:nil="true"/>
+					<Offset byte="2"/>
+					<DTTRef rUID="dtincoutmode"/>
+					<Offset byte="4" bit="0"/>
+					<DTTRef rUID="dtincoutbeha"/>
+					<Offset byte="4" bit="4"/>
+					<DTTRef rUID="dtincpulse"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtonemaxone16"/>
+					<Offset byte="8"/>
+					<DTTRef rUID="dtonemaxone16"/>
+					<Offset byte="10"/>
+					<DTTRef rUID="dtonemaxone"/>
+					<Offset byte="12"/>
+					<DTTRef rUID="dtone107one"/>
+					<Offset byte="16"/>
+					<DTTRef rUID="dtzeromaxzero"/>
+					<Offset byte="20"/>
+					<DTTRef rUID="dtzeromaxmax"/>
+					<Offset byte="24"/>
+					<DTTRef rUID="dtzeromaxzero"/>
+					<Offset byte="28"/>
+					<DTTRef rUID="dtzeromaxzero"/>
+					<Offset byte="32"/>
+					<DTTRef rUID="dtonemaxone"/>
+					<Offset byte="36"/>
+					<Unsigned32 xsi:nil="true"/>
+					<Offset byte="40"/>
+				</Struct>
+				<Enumerated uID="dtcnttc" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1038">periodic</Label>
+						<BOOL>true</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1039">one time</Label>
+						<BOOL>false</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtcntgatemode" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1040">gate off</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1041">counting at high level</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1042">counting at low level</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1043">start on rising edge</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1044">start on falling edge</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1045">counting at high level and resetting the counter value on a rising edge</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1046">counting at low level and resetting the counter value on a falling edge</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtcntdir" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1047">no function</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1048">changing the direction on a rising edge (starting direction is upwards)</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1049">changing the direction on a rising edge (starting direction is downwards)</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1051">changing the direction on a falling edge (starting direction is upwards)</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1052">changing the direction on a falling edge (starting direction is downwards)</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1032">counting up at high level</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1050">counting up at low level</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1053">stop on rising edge</Label>
+						<BitstringX bits="4">0111</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1054">stop on falling edge</Label>
+						<BitstringX bits="4">1000</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtcntoutmode" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1055">deactivated</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1056">high (start state is low)</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1057">low (start state is high)</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1058">toggle (start state is low)</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1059">toggle (start state is high)</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1060">high pulse</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1061">low pulse</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1062">set by PLC</Label>
+						<BitstringX bits="4">0111</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtcntoutbeha" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1063">output not used</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1064">set output on reaching lower limit</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1065">set output on reaching upper limit</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1066">set output on reaching either limit</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Subrange uID="dtcntpulse" access="RW" uom="ms">
+					<Min>
+						<Unsigned16>1</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>1000</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>1</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dtzeromaxzero" access="RW">
+					<Min>
+						<Unsigned32>0</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4294967295</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>0</Unsigned32>
+					</Default>
+				</Subrange>
+				<Subrange uID="dtzeromaxmax" access="RW">
+					<Min>
+						<Unsigned32>0</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4294967295</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>4294967295</Unsigned32>
+					</Default>
+				</Subrange>
+				<Enumerated uID="dtincchact" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1067">inactive</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1068">active</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincaxistype" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1069">linear</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1070">round</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincenctype" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1071">symmetrical</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1072">asymmetrical</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincz" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1073">without</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1074">with</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincmoni" access="RW">
+					<DerivedFrom>
+						<BOOL xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1075">off</Label>
+						<BOOL>false</BOOL>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1076">on</Label>
+						<BOOL>true</BOOL>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtinclatch" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1075">off</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1077">positive edge</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1078">negative edge</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1079">both edges</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtinceval" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1080">twofold</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1081">fourfold</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumDefaultEntry>
+				</Enumerated>
+				<Enumerated uID="dtincref" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1082">reference point set by PLC</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1083">trigger on the positive edge of the reference signal in positive direction</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1084">trigger on the positive edge of the reference signal in negative direction</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1085">trigger on the negative edge of the reference signal in positive direction</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1086">trigger on the negative edge of the reference signal in negative direction</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1087">trigger on the positive edge of the reference signal in positive direction with Z</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1088">trigger on the positive edge of the reference signal in negative direction with Z</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1089">trigger on the negative edge of the reference signal in positive direction with Z</Label>
+						<BitstringX bits="4">0111</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1090">trigger on the negative edge of the reference signal in negative direction with Z</Label>
+						<BitstringX bits="4">1000</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1091">trigger on Z</Label>
+						<BitstringX bits="4">1001</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincoutmode" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="4" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1092">deactivated</Label>
+						<BitstringX bits="4">0000</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1056">high (start state is low)</Label>
+						<BitstringX bits="4">0001</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1057">low (start state is high)</Label>
+						<BitstringX bits="4">0010</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1058">toggle (start state is low)</Label>
+						<BitstringX bits="4">0011</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1059">toggle (start state is high)</Label>
+						<BitstringX bits="4">0100</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1060">high pulse</Label>
+						<BitstringX bits="4">0101</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1061">low pulse</Label>
+						<BitstringX bits="4">0110</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1062">set by PLC</Label>
+						<BitstringX bits="4">0111</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Enumerated uID="dtincoutbeha" access="RW">
+					<DerivedFrom>
+						<BitstringX bits="2" xsi:nil="true"/>
+					</DerivedFrom>
+					<EnumDefaultEntry>
+						<Label dIDRef="daxlf" tID="t1063">output not used</Label>
+						<BitstringX bits="2">00</BitstringX>
+					</EnumDefaultEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1064">set output on reaching the lower limit</Label>
+						<BitstringX bits="2">01</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1065">set output on reaching the upper limit</Label>
+						<BitstringX bits="2">10</BitstringX>
+					</EnumEntry>
+					<EnumEntry>
+						<Label dIDRef="daxlf" tID="t1066">set output on reaching either limit</Label>
+						<BitstringX bits="2">11</BitstringX>
+					</EnumEntry>
+				</Enumerated>
+				<Subrange uID="dtincpulse" access="RW" uom="ms">
+					<Min>
+						<Unsigned16>1</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>1003</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>1</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dtonemaxone16" access="RW">
+					<Min>
+						<Unsigned16>1</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>65535</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>1</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dtonemaxone" access="RW">
+					<Min>
+						<Unsigned32>1</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4294967295</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>1</Unsigned32>
+					</Default>
+				</Subrange>
+				<Subrange uID="dtone107one" access="RW">
+					<Min>
+						<Unsigned32>1</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>1073741823</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>1</Unsigned32>
+					</Default>
+				</Subrange>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFFull.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trma1">
+						<Label>a1</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trma2">
+						<Label>a2</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trmb1">
+						<Label>b1</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trmb2">
+						<Label>b2</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm00">
+						<Label>00</Label>
+						<Help>S1</Help>
+					</Trm>
+					<Trm uID="trm01">
+						<Label>01</Label>
+						<Help>Ref1</Help>
+					</Trm>
+					<Trm uID="trm02">
+						<Label>02</Label>
+						<Help>A1</Help>
+					</Trm>
+					<Trm uID="trm03">
+						<Label>03</Label>
+						<Help>/A1</Help>
+					</Trm>
+					<Trm uID="trm04">
+						<Label>04</Label>
+						<Help>S2</Help>
+					</Trm>
+					<Trm uID="trm05">
+						<Label>05</Label>
+						<Help>Ref2</Help>
+					</Trm>
+					<Trm uID="trm06">
+						<Label>06</Label>
+						<Help>A2</Help>
+					</Trm>
+					<Trm uID="trm07">
+						<Label>/A2</Label>
+					</Trm>
+					<Trm uID="trm10">
+						<Label>10</Label>
+						<Help>G1</Help>
+					</Trm>
+					<Trm uID="trm11">
+						<Label>11</Label>
+						<Help>L1</Help>
+					</Trm>
+					<Trm uID="trm12">
+						<Label>12</Label>
+						<Help>B1</Help>
+					</Trm>
+					<Trm uID="trm13">
+						<Label>13</Label>
+						<Help>/B1</Help>
+					</Trm>
+					<Trm uID="trm14">
+						<Label>14</Label>
+						<Help>G2</Help>
+					</Trm>
+					<Trm uID="trm15">
+						<Label>15</Label>
+						<Help>L2</Help>
+					</Trm>
+					<Trm uID="trm16">
+						<Label>16</Label>
+						<Help>B2</Help>
+					</Trm>
+					<Trm uID="trm17">
+						<Label>17</Label>
+						<Help>/B2</Help>
+					</Trm>
+					<Trm uID="trm20">
+						<Label>20</Label>
+						<Help>Dir1</Help>
+					</Trm>
+					<Trm uID="trm21">
+						<Label>21</Label>
+						<Help>US1</Help>
+					</Trm>
+					<Trm uID="trm22">
+						<Label>22</Label>
+						<Help>Z1</Help>
+					</Trm>
+					<Trm uID="trm23">
+						<Label>23</Label>
+						<Help>/Z1</Help>
+					</Trm>
+					<Trm uID="trm24">
+						<Label>24</Label>
+						<Help>Dir2</Help>
+					</Trm>
+					<Trm uID="trm25">
+						<Label>US2</Label>
+					</Trm>
+					<Trm uID="trm26">
+						<Label>26</Label>
+						<Help>Z2</Help>
+					</Trm>
+					<Trm uID="trm27">
+						<Label>27</Label>
+						<Help>/Z2</Help>
+					</Trm>
+					<Trm uID="trm30">
+						<Label>30</Label>
+						<Help>Out1</Help>
+					</Trm>
+					<Trm uID="trm31">
+						<Label>31</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm32">
+						<Label>32</Label>
+						<Help>UE1</Help>
+					</Trm>
+					<Trm uID="trm33">
+						<Label>33</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm34">
+						<Label>34</Label>
+						<Help>Out2</Help>
+					</Trm>
+					<Trm uID="trm35">
+						<Label>35</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm36">
+						<Label>36</Label>
+						<Help>UE2</Help>
+					</Trm>
+					<Trm uID="trm37">
+						<Label>37</Label>
+						<Help>GND</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 uID="L12" type="AXLF">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<Signed32>-120</Signed32>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7">
+					<PDList>
+						<PD uID="iodpdin" type="AXLF:PD">
+							<Label>~AI224</Label>
+							<Elementary access="R">
+								<OctetstringN octets="28" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="iodpdout" type="AXLF:PD">
+							<Label>~AO224</Label>
+							<Elementary access="W">
+								<OctetstringN octets="28" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io0" type="AXLF:PD">
+							<Label>Run/Stop CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io2" type="AXLF:PD">
+							<Label>Dir CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.1</LocalPath>
+						</PD>
+						<PD uID="io3" type="AXLF:PD">
+							<Label>Gate Input CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.2</LocalPath>
+						</PD>
+						<PD uID="io4" type="AXLF:PD">
+							<Label>Dir/Stop Input CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.3</LocalPath>
+						</PD>
+						<PD uID="io5" type="AXLF:PD">
+							<Label>OUT01</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.4</LocalPath>
+						</PD>
+						<PD uID="io6" type="AXLF:PD">
+							<Label>Limit Conf CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.5</LocalPath>
+						</PD>
+						<PD uID="io7" type="AXLF:PD">
+							<Label>Error CNT1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.7</LocalPath>
+						</PD>
+						<PD uID="io8" type="AXLF:PD">
+							<Label>Run/Stop CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+						</PD>
+						<PD uID="io9" type="AXLF:PD">
+							<Label>Dir CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.1</LocalPath>
+						</PD>
+						<PD uID="io10" type="AXLF:PD">
+							<Label>Gate Input CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.2</LocalPath>
+						</PD>
+						<PD uID="io11" type="AXLF:PD">
+							<Label>Dir/Stop Input CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.3</LocalPath>
+						</PD>
+						<PD uID="io12" type="AXLF:PD">
+							<Label>OUT02</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.4</LocalPath>
+						</PD>
+						<PD uID="io13" type="AXLF:PD">
+							<Label>Limit Conf CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.5</LocalPath>
+						</PD>
+						<PD uID="io14" type="AXLF:PD">
+							<Label>Error CNT2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.7</LocalPath>
+						</PD>
+						<PD uID="io15" type="AXLF:PD">
+							<Label>Run/Stop INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+						</PD>
+						<PD uID="io16" type="AXLF:PD">
+							<Label>Dir INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.1</LocalPath>
+						</PD>
+						<PD uID="io17" type="AXLF:PD">
+							<Label>Enc Surv INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.2</LocalPath>
+						</PD>
+						<PD uID="io18" type="AXLF:PD">
+							<Label>Latch Input INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.3</LocalPath>
+						</PD>
+						<PD uID="io19" type="AXLF:PD">
+							<Label>Ref State INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.4</LocalPath>
+						</PD>
+						<PD uID="io20" type="AXLF:PD">
+							<Label>Ref Compl INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.5</LocalPath>
+						</PD>
+						<PD uID="io21" type="AXLF:PD">
+							<Label>Ref Input INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.6</LocalPath>
+						</PD>
+						<PD uID="io22" type="AXLF:PD">
+							<Label>Error INC1</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.7</LocalPath>
+						</PD>
+						<PD uID="io23" type="AXLF:PD">
+							<Label>Run/Stop INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.0</LocalPath>
+						</PD>
+						<PD uID="io24" type="AXLF:PD">
+							<Label>Dir INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.1</LocalPath>
+						</PD>
+						<PD uID="io25" type="AXLF:PD">
+							<Label>Enc Surv INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.2</LocalPath>
+						</PD>
+						<PD uID="io26" type="AXLF:PD">
+							<Label>Latch Input INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.3</LocalPath>
+						</PD>
+						<PD uID="io27" type="AXLF:PD">
+							<Label>Ref State INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.4</LocalPath>
+						</PD>
+						<PD uID="io28" type="AXLF:PD">
+							<Label>Ref Compl INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.5</LocalPath>
+						</PD>
+						<PD uID="io29" type="AXLF:PD">
+							<Label>Ref Input INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.6</LocalPath>
+						</PD>
+						<PD uID="io30" type="AXLF:PD">
+							<Label>Error INC2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.7</LocalPath>
+						</PD>
+						<PD uID="io31" type="AXLF:PD">
+							<Label>CNT1</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+						</PD>
+						<PD uID="io32" type="AXLF:PD">
+							<Label>CNT2</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>8.0</LocalPath>
+						</PD>
+						<PD uID="io33" type="AXLF:PD">
+							<Label>Position INC1</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>12.0</LocalPath>
+						</PD>
+						<PD uID="io34" type="AXLF:PD">
+							<Label>Latch INC1</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>16.0</LocalPath>
+						</PD>
+						<PD uID="io35" type="AXLF:PD">
+							<Label>Position INC2</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>20.0</LocalPath>
+						</PD>
+						<PD uID="io36" type="AXLF:PD">
+							<Label>Latch INC2</Label>
+							<Elementary access="R">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>24.0</LocalPath>
+						</PD>
+						<PD uID="io37" type="AXLF:PD">
+							<Label>Start CNT1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io38" type="AXLF:PD">
+							<Label>Stop CNT1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.1</LocalPath>
+						</PD>
+						<PD uID="io39" type="AXLF:PD">
+							<Label>Set Dir CNT1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.2</LocalPath>
+						</PD>
+						<PD uID="io40" type="AXLF:PD">
+							<Label>Reset CNT1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.3</LocalPath>
+						</PD>
+						<PD uID="io41" type="AXLF:PD">
+							<Label>Set OUT1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.4</LocalPath>
+						</PD>
+						<PD uID="io42" type="AXLF:PD">
+							<Label>Set New Limit INC1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.5</LocalPath>
+						</PD>
+						<PD uID="io45" type="AXLF:PD">
+							<Label>Start CNT2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+						</PD>
+						<PD uID="io46" type="AXLF:PD">
+							<Label>Stop CNT2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.1</LocalPath>
+						</PD>
+						<PD uID="io47" type="AXLF:PD">
+							<Label>Set Dir CNT2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.2</LocalPath>
+						</PD>
+						<PD uID="io48" type="AXLF:PD">
+							<Label>Reset CNT2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.3</LocalPath>
+						</PD>
+						<PD uID="io49" type="AXLF:PD">
+							<Label>Set OUT2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.4</LocalPath>
+						</PD>
+						<PD uID="io50" type="AXLF:PD">
+							<Label>Set New Limit INC2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.5</LocalPath>
+						</PD>
+						<PD uID="io53" type="AXLF:PD">
+							<Label>Set Ref INC1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+						</PD>
+						<PD uID="io54" type="AXLF:PD">
+							<Label>Enable Ref INC1</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.1</LocalPath>
+						</PD>
+						<PD uID="io61" type="AXLF:PD">
+							<Label>Set Ref INC2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.0</LocalPath>
+						</PD>
+						<PD uID="io62" type="AXLF:PD">
+							<Label>Enable Ref INC2</Label>
+							<Elementary access="W">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.1</LocalPath>
+						</PD>
+						<PD uID="io63" type="AXLF:PD">
+							<Label>Lower Limit CNT1</Label>
+							<Elementary access="W">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+						</PD>
+						<PD uID="io64" type="AXLF:PD">
+							<Label>Upper Limit CNT1</Label>
+							<Elementary access="W">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>8.0</LocalPath>
+						</PD>
+						<PD uID="io65" type="AXLF:PD">
+							<Label>Lower Limit CNT2</Label>
+							<Elementary access="W">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>12.0</LocalPath>
+						</PD>
+						<PD uID="io66" type="AXLF:PD">
+							<Label>Upper Limit CNT2</Label>
+							<Elementary access="W">
+								<UDINT xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>16.0</LocalPath>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p1" type="AXLF:Param">
+							<DTTRef rUID="dtparat"/>
+							<LocalPath>0x0080#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p1_1" type="AXLF:Param">
+								<DTTRef rUID="dtcntpara"/>
+								<LocalPath>0x0080#1</LocalPath>
+								<Para uID="p1_1_1" type="AXLF:Param">
+									<DTTRef rUID="dtcnttc"/>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_2" type="AXLF:Param">
+									<DTTRef rUID="dtcntgatemode"/>
+									<LocalPath>1.4</LocalPath>
+								</Para>
+								<Para uID="p1_1_3" type="AXLF:Param">
+									<DTTRef rUID="dtcntdir"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_4" type="AXLF:Param">
+									<Elementary access="RW">
+										<WORD xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_5" type="AXLF:Param">
+									<DTTRef rUID="dtcntoutmode"/>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_6" type="AXLF:Param">
+									<DTTRef rUID="dtcntoutbeha"/>
+									<LocalPath>4.4</LocalPath>
+								</Para>
+								<Para uID="p1_1_7" type="AXLF:Param">
+									<DTTRef rUID="dtcntpulse"/>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_8" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_9" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>12.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_10" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxmax"/>
+									<LocalPath>16.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_11" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>20.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_12" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>24.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_13" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>28.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_14" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>32.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_15" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>36.0</LocalPath>
+								</Para>
+								<Para uID="p1_1_16" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>40.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_2" type="AXLF:Param">
+								<DTTRef rUID="dtcntpara"/>
+								<LocalPath>0x0080#2</LocalPath>
+								<Para uID="p1_2_1" type="AXLF:Param">
+									<DTTRef rUID="dtcnttc"/>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_2" type="AXLF:Param">
+									<DTTRef rUID="dtcntgatemode"/>
+									<LocalPath>1.4</LocalPath>
+								</Para>
+								<Para uID="p1_2_3" type="AXLF:Param">
+									<DTTRef rUID="dtcntdir"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_4" type="AXLF:Param">
+									<Elementary access="RW">
+										<WORD xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_5" type="AXLF:Param">
+									<DTTRef rUID="dtcntoutmode"/>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_6" type="AXLF:Param">
+									<DTTRef rUID="dtcntoutbeha"/>
+									<LocalPath>4.4</LocalPath>
+								</Para>
+								<Para uID="p1_2_7" type="AXLF:Param">
+									<DTTRef rUID="dtcntpulse"/>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_8" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_9" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>12.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_10" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxmax"/>
+									<LocalPath>16.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_11" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>20.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_12" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>24.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_13" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>28.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_14" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>32.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_15" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>36.0</LocalPath>
+								</Para>
+								<Para uID="p1_2_16" type="AXLF:Param">
+									<Elementary access="RW">
+										<Unsigned32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>40.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_3" type="AXLF:Param">
+								<DTTRef rUID="dtincpara"/>
+								<LocalPath>0x0080#3</LocalPath>
+								<Para uID="p1_3_1" type="AXLF:Param">
+									<DTTRef rUID="dtincchact"/>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_2" type="AXLF:Param">
+									<DTTRef rUID="dtincaxistype"/>
+									<LocalPath>1.1</LocalPath>
+								</Para>
+								<Para uID="p1_3_3" type="AXLF:Param">
+									<DTTRef rUID="dtincenctype"/>
+									<LocalPath>1.2</LocalPath>
+								</Para>
+								<Para uID="p1_3_4" type="AXLF:Param">
+									<DTTRef rUID="dtincz"/>
+									<LocalPath>1.4</LocalPath>
+								</Para>
+								<Para uID="p1_3_5" type="AXLF:Param">
+									<DTTRef rUID="dtincmoni"/>
+									<LocalPath>1.5</LocalPath>
+								</Para>
+								<Para uID="p1_3_6" type="AXLF:Param">
+									<DTTRef rUID="dtinclatch"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_3_7" type="AXLF:Param">
+									<DTTRef rUID="dtinceval"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_8" type="AXLF:Param">
+									<DTTRef rUID="dtincref"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_3_9" type="AXLF:Param">
+									<Elementary access="RW">
+										<WORD xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_10" type="AXLF:Param">
+									<DTTRef rUID="dtincoutmode"/>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_11" type="AXLF:Param">
+									<DTTRef rUID="dtincoutbeha"/>
+									<LocalPath>4.4</LocalPath>
+								</Para>
+								<Para uID="p1_3_12" type="AXLF:Param">
+									<DTTRef rUID="dtincpulse"/>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_13" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone16"/>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_14" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone16"/>
+									<LocalPath>10.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_15" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone"/>
+									<LocalPath>12.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_16" type="AXLF:Param">
+									<DTTRef rUID="dtone107one"/>
+									<LocalPath>16.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_17" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>20.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_18" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxmax"/>
+									<LocalPath>24.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_19" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>28.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_20" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>32.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_21" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone"/>
+									<LocalPath>36.0</LocalPath>
+								</Para>
+								<Para uID="p1_3_22" type="AXLF:Param">
+									<Elementary access="RW">
+										<Bitstring32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>40.0</LocalPath>
+								</Para>
+							</Para>
+							<Para uID="p1_4" type="AXLF:Param">
+								<DTTRef rUID="dtincpara"/>
+								<LocalPath>0x0080#4</LocalPath>
+								<Para uID="p1_4_1" type="AXLF:Param">
+									<DTTRef rUID="dtincchact"/>
+									<LocalPath>1.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_2" type="AXLF:Param">
+									<DTTRef rUID="dtincaxistype"/>
+									<LocalPath>1.1</LocalPath>
+								</Para>
+								<Para uID="p1_4_3" type="AXLF:Param">
+									<DTTRef rUID="dtincenctype"/>
+									<LocalPath>1.2</LocalPath>
+								</Para>
+								<Para uID="p1_4_4" type="AXLF:Param">
+									<DTTRef rUID="dtincz"/>
+									<LocalPath>1.4</LocalPath>
+								</Para>
+								<Para uID="p1_4_5" type="AXLF:Param">
+									<DTTRef rUID="dtincmoni"/>
+									<LocalPath>1.5</LocalPath>
+								</Para>
+								<Para uID="p1_4_6" type="AXLF:Param">
+									<DTTRef rUID="dtinclatch"/>
+									<LocalPath>1.6</LocalPath>
+								</Para>
+								<Para uID="p1_4_7" type="AXLF:Param">
+									<DTTRef rUID="dtinceval"/>
+									<LocalPath>0.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_8" type="AXLF:Param">
+									<DTTRef rUID="dtincref"/>
+									<LocalPath>0.4</LocalPath>
+								</Para>
+								<Para uID="p1_4_9" type="AXLF:Param">
+									<Elementary access="RW">
+										<WORD xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>2.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_10" type="AXLF:Param">
+									<DTTRef rUID="dtincoutmode"/>
+									<LocalPath>4.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_11" type="AXLF:Param">
+									<DTTRef rUID="dtincoutbeha"/>
+									<LocalPath>4.4</LocalPath>
+								</Para>
+								<Para uID="p1_4_12" type="AXLF:Param">
+									<DTTRef rUID="dtincpulse"/>
+									<LocalPath>6.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_13" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone16"/>
+									<LocalPath>8.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_14" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone16"/>
+									<LocalPath>10.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_15" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone"/>
+									<LocalPath>12.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_16" type="AXLF:Param">
+									<DTTRef rUID="dtone107one"/>
+									<LocalPath>16.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_17" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>20.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_18" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxmax"/>
+									<LocalPath>24.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_19" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>28.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_20" type="AXLF:Param">
+									<DTTRef rUID="dtzeromaxzero"/>
+									<LocalPath>32.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_21" type="AXLF:Param">
+									<DTTRef rUID="dtonemaxone"/>
+									<LocalPath>36.0</LocalPath>
+								</Para>
+								<Para uID="p1_4_22" type="AXLF:Param">
+									<Elementary access="RW">
+										<Bitstring32 xsi:nil="true"/>
+									</Elementary>
+									<LocalPath>40.0</LocalPath>
+								</Para>
+							</Para>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>000000F1</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>0008001C</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>224</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>224</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>Axioline F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7" fromCEP="lcep1" toLayer="L12" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m0">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g00">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<G uID="g01">
+								<Label>CNT1</Label>
+								<MI rUID="p80_1_1"/>
+								<MI rUID="p80_1_2"/>
+								<MI rUID="p80_1_3"/>
+								<MI rUID="p80_1_5"/>
+								<MI rUID="p80_1_6"/>
+								<MI rUID="p80_1_7"/>
+								<MI rUID="p80_1_8"/>
+								<MI rUID="p80_1_9"/>
+								<MI rUID="p80_1_10"/>
+							</G>
+							<G uID="g02">
+								<Label>CNT2</Label>
+								<MI rUID="p80_2_1"/>
+								<MI rUID="p80_2_2"/>
+								<MI rUID="p80_2_3"/>
+								<MI rUID="p80_2_5"/>
+								<MI rUID="p80_2_6"/>
+								<MI rUID="p80_2_7"/>
+								<MI rUID="p80_2_8"/>
+								<MI rUID="p80_2_9"/>
+								<MI rUID="p80_2_10"/>
+							</G>
+							<G uID="g03">
+								<Label>INC1</Label>
+								<MI rUID="p80_3_1"/>
+								<MI rUID="p80_3_2"/>
+								<MI rUID="p80_3_3"/>
+								<MI rUID="p80_3_4"/>
+								<MI rUID="p80_3_5"/>
+								<MI rUID="p80_3_6"/>
+								<MI rUID="p80_3_7"/>
+								<MI rUID="p80_3_8"/>
+								<MI rUID="p80_3_10"/>
+								<MI rUID="p80_3_11"/>
+								<MI rUID="p80_3_12"/>
+								<MI rUID="p80_3_13"/>
+								<MI rUID="p80_3_14"/>
+								<MI rUID="p80_3_15"/>
+								<MI rUID="p80_3_16"/>
+								<MI rUID="p80_3_17"/>
+								<MI rUID="p80_3_18"/>
+								<MI rUID="p80_3_19"/>
+								<MI rUID="p80_3_20"/>
+								<MI rUID="p80_3_21"/>
+							</G>
+							<G uID="g04">
+								<Label>INC2</Label>
+								<MI rUID="p80_4_1"/>
+								<MI rUID="p80_4_2"/>
+								<MI rUID="p80_4_3"/>
+								<MI rUID="p80_4_4"/>
+								<MI rUID="p80_4_5"/>
+								<MI rUID="p80_4_6"/>
+								<MI rUID="p80_4_7"/>
+								<MI rUID="p80_4_8"/>
+								<MI rUID="p80_4_10"/>
+								<MI rUID="p80_4_11"/>
+								<MI rUID="p80_4_12"/>
+								<MI rUID="p80_4_13"/>
+								<MI rUID="p80_4_14"/>
+								<MI rUID="p80_4_15"/>
+								<MI rUID="p80_4_16"/>
+								<MI rUID="p80_4_17"/>
+								<MI rUID="p80_4_18"/>
+								<MI rUID="p80_4_19"/>
+								<MI rUID="p80_4_20"/>
+								<MI rUID="p80_4_21"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m1">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g00">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m2">
+						<Label>CNT1</Label>
+						<MIList>
+							<G uID="g01">
+								<Label>CNT1</Label>
+								<MI rUID="p80_1_1"/>
+								<MI rUID="p80_1_2"/>
+								<MI rUID="p80_1_3"/>
+								<MI rUID="p80_1_5"/>
+								<MI rUID="p80_1_6"/>
+								<MI rUID="p80_1_7"/>
+								<MI rUID="p80_1_8"/>
+								<MI rUID="p80_1_9"/>
+								<MI rUID="p80_1_10"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m3">
+						<Label>CNT2</Label>
+						<MIList>
+							<G uID="g02">
+								<Label>CNT2</Label>
+								<MI rUID="p80_2_1"/>
+								<MI rUID="p80_2_2"/>
+								<MI rUID="p80_2_3"/>
+								<MI rUID="p80_2_5"/>
+								<MI rUID="p80_2_6"/>
+								<MI rUID="p80_2_7"/>
+								<MI rUID="p80_2_8"/>
+								<MI rUID="p80_2_9"/>
+								<MI rUID="p80_2_10"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m4">
+						<Label>INC1</Label>
+						<MIList>
+							<G uID="g03">
+								<Label>INC1</Label>
+								<MI rUID="p80_3_1"/>
+								<MI rUID="p80_3_2"/>
+								<MI rUID="p80_3_3"/>
+								<MI rUID="p80_3_4"/>
+								<MI rUID="p80_3_5"/>
+								<MI rUID="p80_3_6"/>
+								<MI rUID="p80_3_7"/>
+								<MI rUID="p80_3_8"/>
+								<MI rUID="p80_3_10"/>
+								<MI rUID="p80_3_11"/>
+								<MI rUID="p80_3_12"/>
+								<MI rUID="p80_3_13"/>
+								<MI rUID="p80_3_14"/>
+								<MI rUID="p80_3_15"/>
+								<MI rUID="p80_3_16"/>
+								<MI rUID="p80_3_17"/>
+								<MI rUID="p80_3_18"/>
+								<MI rUID="p80_3_19"/>
+								<MI rUID="p80_3_20"/>
+								<MI rUID="p80_3_21"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m5">
+						<Label>INC2</Label>
+						<MIList>
+							<G uID="g04">
+								<Label>INC2</Label>
+								<MI rUID="p80_4_1"/>
+								<MI rUID="p80_4_2"/>
+								<MI rUID="p80_4_3"/>
+								<MI rUID="p80_4_4"/>
+								<MI rUID="p80_4_5"/>
+								<MI rUID="p80_4_6"/>
+								<MI rUID="p80_4_7"/>
+								<MI rUID="p80_4_8"/>
+								<MI rUID="p80_4_10"/>
+								<MI rUID="p80_4_11"/>
+								<MI rUID="p80_4_12"/>
+								<MI rUID="p80_4_13"/>
+								<MI rUID="p80_4_14"/>
+								<MI rUID="p80_4_15"/>
+								<MI rUID="p80_4_16"/>
+								<MI rUID="p80_4_17"/>
+								<MI rUID="p80_4_18"/>
+								<MI rUID="p80_4_19"/>
+								<MI rUID="p80_4_20"/>
+								<MI rUID="p80_4_21"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="p80_1_1">
+						<Label dIDRef="daxlf" tID="t1093">Counting mode</Label>
+						<Help dIDRef="daxlf" tID="t1156">Type of counting (periodic or one time)</Help>
+						<DTTRef rUID="dtcnttc"/>
+						<ParaRef rUID="p1_1_1"/>
+					</P>
+					<P uID="p80_1_2">
+						<Label dIDRef="daxlf" tID="t1094">Gate mode</Label>
+						<DTTRef rUID="dtcntgatemode"/>
+						<ParaRef rUID="p1_1_2"/>
+					</P>
+					<P uID="p80_1_3">
+						<Label dIDRef="daxlf" tID="t1095">Direction stop/input mode</Label>
+						<DTTRef rUID="dtcntdir"/>
+						<ParaRef rUID="p1_1_3"/>
+					</P>
+					<P uID="p80_1_5">
+						<Label dIDRef="daxlf" tID="t1096">Output mode</Label>
+						<Help dIDRef="daxlf" tID="t1157">A common output is available for one CNT channel and one INC channel each. CNT1 and INC1 as well as
+CNT2 and INC2 share one output. The type of how the output is controlled applies to both limits. It is
+not possible to parameterize a separate response of the output for each limit. The outputs are switched
+off (outputs set to low) when the logic fails (e.g., no voltage) or an application error occurs (e.g.,
+failure of the higher-level bus system).</Help>
+						<DTTRef rUID="dtcntoutmode"/>
+						<ParaRef rUID="p1_1_5"/>
+					</P>
+					<P uID="p80_1_6">
+						<Label dIDRef="daxlf" tID="t1097">Output behavior</Label>
+						<Help dIDRef="daxlf" tID="t1158">When reaching the corresponding limit, the output is set.</Help>
+						<DTTRef rUID="dtcntoutbeha"/>
+						<ParaRef rUID="p1_1_6"/>
+					</P>
+					<P uID="p80_1_7">
+						<Label dIDRef="daxlf" tID="t1098">Output pulse duration</Label>
+						<Help dIDRef="daxlf" tID="t1159">Pulse duration at the output for the high or low output mode in ms.</Help>
+						<DTTRef rUID="dtcntpulse"/>
+						<ParaRef rUID="p1_1_7"/>
+					</P>
+					<P uID="p80_1_8">
+						<Label dIDRef="daxlf" tID="t1099">Start value</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_1_8"/>
+					</P>
+					<P uID="p80_1_9">
+						<Label dIDRef="daxlf" tID="t1100">Lower limit</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_1_9"/>
+					</P>
+					<P uID="p80_1_10">
+						<Label dIDRef="daxlf" tID="t1101">Upper limit</Label>
+						<DTTRef rUID="dtzeromaxmax"/>
+						<ParaRef rUID="p1_1_10"/>
+					</P>
+					<P uID="p80_2_1">
+						<Label dIDRef="daxlf" tID="t1093">Counting mode</Label>
+						<Help dIDRef="daxlf" tID="t1156">Type of counting (periodic or one time)</Help>
+						<DTTRef rUID="dtcnttc"/>
+						<ParaRef rUID="p1_2_1"/>
+					</P>
+					<P uID="p80_2_2">
+						<Label dIDRef="daxlf" tID="t1094">Gate mode</Label>
+						<DTTRef rUID="dtcntgatemode"/>
+						<ParaRef rUID="p1_2_2"/>
+					</P>
+					<P uID="p80_2_3">
+						<Label dIDRef="daxlf" tID="t1095">Direction stop/input mode</Label>
+						<DTTRef rUID="dtcntdir"/>
+						<ParaRef rUID="p1_2_3"/>
+					</P>
+					<P uID="p80_2_5">
+						<Label dIDRef="daxlf" tID="t1096">Output mode</Label>
+						<Help dIDRef="daxlf" tID="t1157">A common output is available for one CNT channel and one INC channel each. CNT1 and INC1 as well as
+CNT2 and INC2 share one output. The type of how the output is controlled applies to both limits. It is
+not possible to parameterize a separate response of the output for each limit. The outputs are switched
+off (outputs set to low) when the logic fails (e.g., no voltage) or an application error occurs (e.g.,
+failure of the higher-level bus system).</Help>
+						<DTTRef rUID="dtcntoutmode"/>
+						<ParaRef rUID="p1_2_5"/>
+					</P>
+					<P uID="p80_2_6">
+						<Label dIDRef="daxlf" tID="t1097">Output behavior</Label>
+						<Help dIDRef="daxlf" tID="t1158">When reaching the corresponding limit, the output is set.</Help>
+						<DTTRef rUID="dtcntoutbeha"/>
+						<ParaRef rUID="p1_2_6"/>
+					</P>
+					<P uID="p80_2_7">
+						<Label dIDRef="daxlf" tID="t1098">Output pulse duration</Label>
+						<Help dIDRef="daxlf" tID="t1159">Pulse duration at the output for the high or low output mode in ms.</Help>
+						<DTTRef rUID="dtcntpulse"/>
+						<ParaRef rUID="p1_2_7"/>
+					</P>
+					<P uID="p80_2_8">
+						<Label dIDRef="daxlf" tID="t1099">Start value</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_2_8"/>
+					</P>
+					<P uID="p80_2_9">
+						<Label dIDRef="daxlf" tID="t1100">Lower limit</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_2_9"/>
+					</P>
+					<P uID="p80_2_10">
+						<Label dIDRef="daxlf" tID="t1101">Upper limit</Label>
+						<DTTRef rUID="dtzeromaxmax"/>
+						<ParaRef rUID="p1_2_10"/>
+					</P>
+					<P uID="p80_3_1">
+						<Label dIDRef="daxlf" tID="t1102">Channel activation</Label>
+						<DTTRef rUID="dtincchact"/>
+						<ParaRef rUID="p1_3_1"/>
+					</P>
+					<P uID="p80_3_2">
+						<Label dIDRef="daxlf" tID="t1103">Axis type</Label>
+						<DTTRef rUID="dtincaxistype"/>
+						<ParaRef rUID="p1_3_2"/>
+					</P>
+					<P uID="p80_3_3">
+						<Label dIDRef="daxlf" tID="t1104">Encoder type</Label>
+						<DTTRef rUID="dtincenctype"/>
+						<ParaRef rUID="p1_3_3"/>
+					</P>
+					<P uID="p80_3_4">
+						<Label dIDRef="daxlf" tID="t1105">Encoder with Z signal</Label>
+						<DTTRef rUID="dtincz"/>
+						<ParaRef rUID="p1_3_4"/>
+					</P>
+					<P uID="p80_3_5">
+						<Label dIDRef="daxlf" tID="t1106">Encoder monitoring</Label>
+						<DTTRef rUID="dtincmoni"/>
+						<ParaRef rUID="p1_3_5"/>
+					</P>
+					<P uID="p80_3_6">
+						<Label dIDRef="daxlf" tID="t1107">Latch input mode</Label>
+						<DTTRef rUID="dtinclatch"/>
+						<ParaRef rUID="p1_3_6"/>
+					</P>
+					<P uID="p80_3_7">
+						<Label dIDRef="daxlf" tID="t1108">Evaluation</Label>
+						<DTTRef rUID="dtinceval"/>
+						<ParaRef rUID="p1_3_7"/>
+					</P>
+					<P uID="p80_3_8">
+						<Label dIDRef="daxlf" tID="t1109">Reference mode</Label>
+						<Help dIDRef="daxlf" tID="t1160">In order to have a defined reference value for position detection, it is possible to set a reference
+point. The parameterized reference value is entered as a position value in the IN process data at this
+point. The value range for the reference point is 0000   0000hex to FFFF   FFFFhex. For each channel
+there is one input for connecting a reference switch (Ref1, Ref2) available in order to determine the
+reference point.</Help>
+						<DTTRef rUID="dtincref"/>
+						<ParaRef rUID="p1_3_8"/>
+					</P>
+					<P uID="p80_3_10">
+						<Label dIDRef="daxlf" tID="t1096">Output mode</Label>
+						<Help dIDRef="daxlf" tID="t1157">A common output is available for one CNT channel and one INC channel each. CNT1 and INC1 as well as
+CNT2 and INC2 share one output. The type of how the output is controlled applies to both limits. It is
+not possible to parameterize a separate response of the output for each limit. The outputs are switched
+off (outputs set to low) when the logic fails (e.g., no voltage) or an application error occurs (e.g.,
+failure of the higher-level bus system).</Help>
+						<DTTRef rUID="dtincoutmode"/>
+						<ParaRef rUID="p1_3_10"/>
+					</P>
+					<P uID="p80_3_11">
+						<Label dIDRef="daxlf" tID="t1097">Output behavior</Label>
+						<Help dIDRef="daxlf" tID="t1158">When reaching the corresponding limit, the output is set.</Help>
+						<DTTRef rUID="dtincoutbeha"/>
+						<ParaRef rUID="p1_3_11"/>
+					</P>
+					<P uID="p80_3_12">
+						<Label dIDRef="daxlf" tID="t1098">Output pulse duration</Label>
+						<Help dIDRef="daxlf" tID="t1159">Pulse duration at the output for the high or low output mode in ms.</Help>
+						<DTTRef rUID="dtincpulse"/>
+						<ParaRef rUID="p1_3_12"/>
+					</P>
+					<P uID="p80_3_13">
+						<Label dIDRef="daxlf" tID="t1110">Numerator of ratio factor</Label>
+						<DTTRef rUID="dtonemaxone16"/>
+						<ParaRef rUID="p1_3_13"/>
+					</P>
+					<P uID="p80_3_14">
+						<Label dIDRef="daxlf" tID="t1111">Denominator of ratio factor</Label>
+						<DTTRef rUID="dtonemaxone16"/>
+						<ParaRef rUID="p1_3_14"/>
+					</P>
+					<P uID="p80_3_15">
+						<Label dIDRef="daxlf" tID="1112">Modulo value for rotary axes</Label>
+						<DTTRef rUID="dtonemaxone"/>
+						<ParaRef rUID="p1_3_15"/>
+					</P>
+					<P uID="p80_3_16">
+						<Label dIDRef="daxlf" tID="1113">Encoder PPR count</Label>
+						<DTTRef rUID="dtone107one"/>
+						<ParaRef rUID="p1_3_16"/>
+					</P>
+					<P uID="p80_3_17">
+						<Label dIDRef="daxlf" tID="t1114">1st Limit value for output</Label>
+						<Help dIDRef="daxlf" tID="t1161">1st limit value for switching the output For rotary axes make sure: 1LimitValOut ≤ ModuloVal</Help>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_3_17"/>
+					</P>
+					<P uID="p80_3_18">
+						<Label dIDRef="daxlf" tID="t1115">2nd Limit value for output</Label>
+						<Help dIDRef="daxlf" tID="t1162">2nd limit value for switching the output For rotary axes make sure: 2LimitValOut ≤ ModuloVal</Help>
+						<DTTRef rUID="dtzeromaxmax"/>
+						<ParaRef rUID="p1_3_18"/>
+					</P>
+					<P uID="p80_3_19">
+						<Label dIDRef="daxlf" tID="t1116">Reference value</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_3_19"/>
+					</P>
+					<P uID="p80_3_20">
+						<Label dIDRef="daxlf" tID="t1117">Offset for referencing to Z</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_3_20"/>
+					</P>
+					<P uID="p80_3_21">
+						<Label dIDRef="daxlf" tID="t1118">Gear ratio for rotary axes</Label>
+						<DTTRef rUID="dtonemaxone"/>
+						<ParaRef rUID="p1_3_21"/>
+					</P>
+					<P uID="p80_4_1">
+						<Label dIDRef="daxlf" tID="t1102">Channel activation</Label>
+						<DTTRef rUID="dtincchact"/>
+						<ParaRef rUID="p1_4_1"/>
+					</P>
+					<P uID="p80_4_2">
+						<Label dIDRef="daxlf" tID="t1103">Axis type</Label>
+						<DTTRef rUID="dtincaxistype"/>
+						<ParaRef rUID="p1_4_2"/>
+					</P>
+					<P uID="p80_4_3">
+						<Label dIDRef="daxlf" tID="t1104">Encoder type</Label>
+						<DTTRef rUID="dtincenctype"/>
+						<ParaRef rUID="p1_4_3"/>
+					</P>
+					<P uID="p80_4_4">
+						<Label dIDRef="daxlf" tID="t1105">Encoder with Z signal</Label>
+						<DTTRef rUID="dtincz"/>
+						<ParaRef rUID="p1_4_4"/>
+					</P>
+					<P uID="p80_4_5">
+						<Label dIDRef="daxlf" tID="t1106">Encoder monitoring</Label>
+						<DTTRef rUID="dtincmoni"/>
+						<ParaRef rUID="p1_4_5"/>
+					</P>
+					<P uID="p80_4_6">
+						<Label dIDRef="daxlf" tID="t1107">Latch input mode</Label>
+						<DTTRef rUID="dtinclatch"/>
+						<ParaRef rUID="p1_4_6"/>
+					</P>
+					<P uID="p80_4_7">
+						<Label dIDRef="daxlf" tID="t1108">Evaluation</Label>
+						<DTTRef rUID="dtinceval"/>
+						<ParaRef rUID="p1_4_7"/>
+					</P>
+					<P uID="p80_4_8">
+						<Label dIDRef="daxlf" tID="t1109">Reference mode</Label>
+						<Help dIDRef="daxlf" tID="t1160">In order to have a defined reference value for position detection, it is possible to set a reference
+point. The parameterized reference value is entered as a position value in the IN process data at this
+point. The value range for the reference point is 0000   0000hex to FFFF   FFFFhex. For each channel
+there is one input for connecting a reference switch (Ref1, Ref2) available in order to determine the
+reference point.</Help>
+						<DTTRef rUID="dtincref"/>
+						<ParaRef rUID="p1_4_8"/>
+					</P>
+					<P uID="p80_4_10">
+						<Label dIDRef="daxlf" tID="t1096">Output mode</Label>
+						<Help dIDRef="daxlf" tID="t1157">A common output is available for one CNT channel and one INC channel each. CNT1 and INC1 as well as
+CNT2 and INC2 share one output. The type of how the output is controlled applies to both limits. It is
+not possible to parameterize a separate response of the output for each limit. The outputs are switched
+off (outputs set to low) when the logic fails (e.g., no voltage) or an application error occurs (e.g.,
+failure of the higher-level bus system).</Help>
+						<DTTRef rUID="dtincoutmode"/>
+						<ParaRef rUID="p1_4_10"/>
+					</P>
+					<P uID="p80_4_11">
+						<Label dIDRef="daxlf" tID="t1097">Output behavior</Label>
+						<Help dIDRef="daxlf" tID="t1158">When reaching the corresponding limit, the output is set.</Help>
+						<DTTRef rUID="dtincoutbeha"/>
+						<ParaRef rUID="p1_4_11"/>
+					</P>
+					<P uID="p80_4_12">
+						<Label dIDRef="daxlf" tID="t1098">Output pulse duration</Label>
+						<Help dIDRef="daxlf" tID="t1159">Pulse duration at the output for the high or low output mode in ms.</Help>
+						<DTTRef rUID="dtincpulse"/>
+						<ParaRef rUID="p1_4_12"/>
+					</P>
+					<P uID="p80_4_13">
+						<Label dIDRef="daxlf" tID="t1110">Numerator of ratio factor</Label>
+						<DTTRef rUID="dtonemaxone16"/>
+						<ParaRef rUID="p1_4_13"/>
+					</P>
+					<P uID="p80_4_14">
+						<Label dIDRef="daxlf" tID="t1111">Denominator of ratio factor</Label>
+						<DTTRef rUID="dtonemaxone16"/>
+						<ParaRef rUID="p1_4_14"/>
+					</P>
+					<P uID="p80_4_15">
+						<Label dIDRef="daxlf" tID="1112">Modulo value for rotary axes</Label>
+						<DTTRef rUID="dtonemaxone"/>
+						<ParaRef rUID="p1_4_15"/>
+					</P>
+					<P uID="p80_4_16">
+						<Label dIDRef="daxlf" tID="1113">Encoder PPR count</Label>
+						<DTTRef rUID="dtone107one"/>
+						<ParaRef rUID="p1_4_16"/>
+					</P>
+					<P uID="p80_4_17">
+						<Label dIDRef="daxlf" tID="t1114">1st limit value for output</Label>
+						<Help dIDRef="daxlf" tID="t1161">1st limit value for switching the output For rotary axes make sure: 1LimitValOut ≤ ModuloVal</Help>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_4_17"/>
+					</P>
+					<P uID="p80_4_18">
+						<Label dIDRef="daxlf" tID="t1115">2nd limit value for output</Label>
+						<Help dIDRef="daxlf" tID="t1162">2nd limit value for switching the output For rotary axes make sure: 2LimitValOut ≤ ModuloVal</Help>
+						<DTTRef rUID="dtzeromaxmax"/>
+						<ParaRef rUID="p1_4_18"/>
+					</P>
+					<P uID="p80_4_19">
+						<Label dIDRef="daxlf" tID="t1116">Reference value</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_4_19"/>
+					</P>
+					<P uID="p80_4_20">
+						<Label dIDRef="daxlf" tID="t1117">Offset for referencing to Z</Label>
+						<DTTRef rUID="dtzeromaxzero"/>
+						<ParaRef rUID="p1_4_20"/>
+					</P>
+					<P uID="p80_4_21">
+						<Label dIDRef="daxlf" tID="t1118">Gear ratio for rotary axes</Label>
+						<DTTRef rUID="dtonemaxone"/>
+						<ParaRef rUID="p1_4_21"/>
+					</P>
+				</PList>
+				<DepList>
+					<Dep uID="d001" opA="p80_1_9" opB="p80_1_10" optor="lt"/>
+					<Dep uID="d002" opA="p80_2_9" opB="p80_2_10" optor="lt"/>
+				</DepList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

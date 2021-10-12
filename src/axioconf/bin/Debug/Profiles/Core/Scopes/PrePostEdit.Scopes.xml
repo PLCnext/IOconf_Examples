@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScopeList>
+   <Import uri="../Core/Scopes/Scopes.xml"></Import>
+    <Scope id="PrePostEditScope">
+      <Provides>
+        <Property name="InstanceType" type="Ade.Network.Model.Types.IEntityTypeDefinition, Ade.Network"/>
+        <Property name="PropertyName" type="System.String"/>
+      </Provides>
+    </Scope>
+    <Scope id="PreEditScope">
+      <Inherits>
+        <ScopeRef id="PrePostEditScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="BeforeEditScope">
+      <Inherits>
+        <ScopeRef id="PreEditScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="OnEditScope">
+      <Inherits>
+        <ScopeRef id="PreEditScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+    <Scope id="PostEditScope">
+      <Inherits>
+        <ScopeRef id="PrePostEditScope"></ScopeRef>
+      </Inherits>
+      <Provides>
+        <Property name="Instance" type="Ade.Network.Model.ITopologyEntity, Ade.Network"/>
+      </Provides>
+    </Scope>
+    <Scope id="AfterEditScope">
+      <Inherits>
+        <ScopeRef id="PostEditScope"></ScopeRef>
+      </Inherits>
+    </Scope>
+  </ScopeList>

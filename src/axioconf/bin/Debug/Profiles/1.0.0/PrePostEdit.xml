@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!-- Scopes -->
+  <ScopeList>
+    <Import uri="../Core/Scopes/PrePostEdit.Scopes.xml"></Import>
+  </ScopeList>
+  <ImportList>
+    <EventList>
+      <Import uri="../Core/Events/PrePostEdit.Events.xml"></Import>
+    </EventList>
+    <!-- compiler assembly imports -->
+    <AssemblyList>
+      <Import uri="./Protocols/Agnostic/PrePostEdit.Agnostic.xml"></Import>
+      <Import uri="./Protocols/Profinet/PrePostEdit.Profinet.xml"></Import>
+    </AssemblyList>
+  </ImportList>
+  <!-- compiler target definitions -->
+  <TargetList>
+    <!-- creation of Instances -->
+    <Target id="PrePostEdit">
+      <ProvidesScope>
+        <ScopeRef id="GlobalScope"></ScopeRef>
+      </ProvidesScope>
+      <Phase id="before">
+        <ProvidesScope>
+          <ScopeRef id="BeforeEditScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="edit.before">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostEdit.Dependencies.xml" xpath="/Dependencies[@target='PrePostEdit']/Dependencies[@phase='before']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+        </Executes>
+      </Phase>
+      <Phase id="on">
+        <ProvidesScope>
+          <ScopeRef id="OnEditScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="edit.on">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostEdit.Dependencies.xml" xpath="/Dependencies[@target='PrePostEdit']/Dependencies[@phase='on']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+        </Executes>
+      </Phase>
+      <Phase id="after">
+        <ProvidesScope>
+          <ScopeRef id="AfterEditScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="edit.after">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostEdit.Dependencies.xml" xpath="/Dependencies[@target='PrePostEdit']/Dependencies[@phase='after']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <Group id="PN_1.0.0">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="7.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="ProfinetReductionRatioAfterEditTask"></TaskRef>
+              <TaskRef name="ProfinetMasterRealTimeClassUpdateTask"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+    </Target>
+  </TargetList>
+</Configuration>
