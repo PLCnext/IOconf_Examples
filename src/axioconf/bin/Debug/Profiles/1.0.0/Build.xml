@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!-- Scopes -->
+  <ScopeList>
+    <Import uri="../Core/Scopes/Build.Scopes.xml"></Import>
+  </ScopeList>
+  <ImportList>
+    <EventList>
+      <Import uri="../Core/Events/Build.Events.xml"></Import>
+    </EventList>
+    <!-- compiler assembly imports -->
+    <AssemblyList>
+      <Import uri="./Protocols/Agnostic/Build.Agnostic.xml"></Import>
+      <Import uri="./Protocols/Profinet/Build.Profinet.xml"></Import>
+    </AssemblyList>
+  </ImportList>
+  <!-- compiler target definitions -->
+  <TargetList>
+    <!-- creation of Instances -->
+    <Target id="Compile">
+      <Phase id="check">
+        <ProvidesScope>
+          <ScopeRef id="BuildEngineScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="build-engine.execute">
+            <Condition>
+              <And>
+                <Compare Property="target">compile</Compare>
+                <Compare Property="phase">check</Compare>
+              </And>
+            </Condition>
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../Build.Dependencies.xml" xpath="/Dependencies[@target='Compile']/Dependencies[@phase='check']/Dependency"></Import>
+        </Dependencies>
+        <!-- AGNOSTIC -->
+        <Executes ExecutionMode="Parallel">
+          <Group id="Agnostic">
+            <Condition>
+              <IsProfileVersion protocol="Agnostic" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes ExecutionMode="Parallel">
+              <TaskRef name="MaxNumLocalDevices"></TaskRef>
+              <TaskRef name="MaxCurrentConsumption"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="compile">
+        <ProvidesScope>
+          <ScopeRef id="BuildEngineScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="build-engine.execute">
+            <Condition>
+              <And>
+                <Compare Property="target">compile</Compare>
+                <Compare Property="phase">compile</Compare>
+              </And>
+            </Condition>
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../Build.Dependencies.xml" xpath="/Dependencies[@target='Compile']/Dependencies[@phase='compile']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Sequential">
+          <Group id="Agnostic">
+            <Condition>
+              <IsProfileVersion protocol="Agnostic" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="AgnosticConfiguration"></TaskRef>
+            </Executes>
+          </Group>
+          <Group id="PN">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="PnTicBuild"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="error">
+        <ProvidesScope>
+          <ScopeRef id="BuildEngineScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="build-engine.execute">
+            <Condition>
+              <And>
+                <Compare Property="target">compile</Compare>
+                <Compare Property="phase">error</Compare>
+              </And>
+            </Condition>
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../Build.Dependencies.xml" xpath="/Dependencies[@target='Compile']/Dependencies[@phase='error']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+        </Executes>
+      </Phase>
+    </Target>
+  </TargetList>
+</Configuration>

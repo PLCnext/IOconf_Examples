@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Protocols.AgnosticImpl">
+
+    <Task fullName="Ade.Network.Protocols.Agnostic.GenerateApplicationDataTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Compare Property="IsProjectModification">true</Compare>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+
+    <Task fullName="Ade.Network.Protocols.Agnostic.GenerateTransportDataTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Or>
+          <Match Property="InstanceType">//Entity[@type='{Network}']</Match>
+          <And>
+            <Compare Property="IsProjectModification">true</Compare>
+            <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+          </And>
+        </Or>
+      </Condition>
+    </Task>
+
+    <Task fullName="Ade.Network.Protocols.Agnostic.GeneratePhysicalDataTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer1-2"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Compare Property="IsProjectModification">true</Compare>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='Eth'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='IB'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='AXLF'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+
+    <Task fullName="Ade.Network.Protocols.Agnostic.GenerateParametersTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Compare Property="IsProjectModification">true</Compare>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+
+    <Task fullName="Ade.Network.Protocols.Agnostic.GenerateProcessDataTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Compare Property="IsProjectModification">true</Compare>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+   
+	<Task id="InitializeControllerID" fullName="Ade.Network.Protocols.Agnostic.GenerateInstanceIdTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Master'])]</Match>
+      </Condition>
+      <Parameter id="ParentLayerSeven" value="AXLF:Master"></Parameter>
+      <Parameter id="InitialValue" value="-1"></Parameter>
+    </Task>
+
+	<Task id="InitializeDeviceID" fullName="Ade.Network.Protocols.Agnostic.GenerateInstanceIdTask">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="*" layer="Layer7">
+            </ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='AXLF:Device'])]</Match>
+      </Condition>
+      <Parameter id="ParentLayerSeven" value="AXLF:Master"></Parameter>
+      <Parameter id="ChildLayerSeven" value="AXLF:Device"></Parameter>
+      <Parameter id="InitialValue" value="-1"></Parameter>
+    </Task>
+  </Assembly>
+</AssemblyList>

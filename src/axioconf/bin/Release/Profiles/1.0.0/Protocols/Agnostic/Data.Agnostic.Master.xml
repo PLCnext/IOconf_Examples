@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="AXLF:Master" no="7"/>
+  <TextResourceList>
+    <TextResource dID="daxltype" xml:lang="de" xlink:type="simple" xlink:href=".\de\de.fdcmlres"/>
+  </TextResourceList>
+  <!--<TypeObjList>
+  </TypeObjList>-->
+</FDCMLLayerTypes>

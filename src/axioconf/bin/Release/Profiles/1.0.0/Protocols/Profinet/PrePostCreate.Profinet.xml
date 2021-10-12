@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <!-- explicit assembly entries, to reduce redundancy -->
+  <Assembly fullName="Ade.Network.Compiler.ProfinetImpl">
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetCreateMaster">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+          <Compare Property="IsProjectModification">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetCreateSubmodule">
+      <RequiresScope>
+        <ScopeRef id="PostCreateScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+          <Compare Property="IsProjectModification">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+  </Assembly>
+</AssemblyList>

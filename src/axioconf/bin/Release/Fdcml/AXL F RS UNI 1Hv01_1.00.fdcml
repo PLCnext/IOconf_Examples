@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2014-06-26</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t244">Serial communication</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL F RS UNI 1H</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>2688666</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>01/1.00</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{AD711754-31AB-4965-9554-A2A48CFA15CE}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>serial</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtvendor" access="R" CharLen="16">
+					<StringASCII>Phoenix Contact</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtprodname" access="R" CharLen="16">
+					<StringASCII>AXL F RS UNI 1H</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtserial" access="R" CharLen="16">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtorder" access="R" CharLen="16">
+					<StringASCII>2688666</StringASCII>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwdate" access="R" CharLen="11">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dthwversion" access="R" CharLen="3">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Struct uID="dthw" access="R">
+					<DTTRef rUID="dthwdate"/>
+					<Offset byte="0"/>
+					<DTTRef rUID="dthwversion"/>
+					<Offset byte="11"/>
+				</Struct>
+				<Struct uID="dtdiag" access="R">
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="0"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="2"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="3"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="4"/>
+					<Unsigned8 xsi:nil="true"/>
+					<Offset byte="6"/>
+					<DTTRef rUID="dtdiagtext"/>
+					<Offset byte="7"/>
+				</Struct>
+				<Derived uID="dtparat" access="RW">
+					<OctetstringN octets="16"/>
+				</Derived>
+				<!--
+				<Array uID="dtparat" access="RW" lBound="0" uBound="15">
+					<BYTE xsi:nil="true"/>
+				</Array>
+				-->
+				<!--
+				<Struct uID="dtparat" access="RW">
+					<BitstringX bits="4"/>
+					<Offset byte="0" bit="0"/>
+					<BitstringX bits="2"/>
+					<Offset byte="0" bit="4"/>
+					<BOOL xsi:nil="true"/>
+					<Offset byte="0" bit="6"/>
+					<BOOL xsi:nil="true"/>
+					<Offset byte="0" bit="7"/>
+					<BitstringX bits="4"/>
+					<Offset byte="1" bit="0"/>
+					<BitstringX bits="4"/>
+					<Offset byte="1" bit="4"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="2"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="3"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="4"/>
+					<BitstringX bits="2"/>
+					<Offset byte="5" bit="0"/>
+					<BitstringX bits="6"/>
+					<Offset byte="5" bit="2"/>
+					<Unsigned16 xsi:nil="true"/>
+					<Offset byte="6"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="8"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="9"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="10"/>
+					<BYTE xsi:nil="true"/>
+					<Offset byte="11"/>
+					<DWORD xsi:nil="true"/>
+					<Offset byte="12"/>
+				</Struct>
+				-->
+				<DerivedString uID="dtdiagtext" access="R" CharLen="11">
+					<StringISO8859-1 xsi:nil="true"/>
+				</DerivedString>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFHalf.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trma1">
+						<Label>a1</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trma2">
+						<Label>a2</Label>
+						<Help>24 V DC UA</Help>
+					</Trm>
+					<Trm uID="trmb1">
+						<Label>b1</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trmb2">
+						<Label>b2</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm0">
+						<Label>00</Label>
+						<Help>TxD+</Help>
+					</Trm>
+					<Trm uID="trm1">
+						<Label>10</Label>
+						<Help>RxD+</Help>
+					</Trm>
+					<Trm uID="trm2">
+						<Label>20</Label>
+						<Help>RxD+</Help>
+					</Trm>
+					<Trm uID="trm3">
+						<Label>30</Label>
+						<Help>R+</Help>
+					</Trm>
+					<Trm uID="trm4">
+						<Label>01</Label>
+						<Help>TxD-</Help>
+					</Trm>
+					<Trm uID="trm5">
+						<Label>11</Label>
+						<Help>RxD-</Help>
+					</Trm>
+					<Trm uID="trm6">
+						<Label>21</Label>
+						<Help>RxD-</Help>
+					</Trm>
+					<Trm uID="trm7">
+						<Label>31</Label>
+						<Help>R-</Help>
+					</Trm>
+					<Trm uID="trm8">
+						<Label>02</Label>
+						<Help>RxD</Help>
+					</Trm>
+					<Trm uID="trm9">
+						<Label>12</Label>
+						<Help>RTS</Help>
+					</Trm>
+					<Trm uID="trm10">
+						<Label>22</Label>
+						<Help>DTR</Help>
+					</Trm>
+					<Trm uID="trm11">
+						<Label>32</Label>
+						<Help>DCD</Help>
+					</Trm>
+					<Trm uID="trm12">
+						<Label>03</Label>
+						<Help>TxD</Help>
+					</Trm>
+					<Trm uID="trm13">
+						<Label>13</Label>
+						<Help>CTS</Help>
+					</Trm>
+					<Trm uID="trm14">
+						<Label>23</Label>
+						<Help>DSR</Help>
+					</Trm>
+					<Trm uID="trm15">
+						<Label>33</Label>
+						<Help>GND</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 type="AXLF" uID="L12_1">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<DINT>-240</DINT>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7_1">
+					<PDList>
+						<PD uID="iodpdin" type="AXLF:PD">
+							<Label>~DI160</Label>
+							<Elementary access="R">
+								<OctetstringN octets="20" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="iodpdout" type="AXLF:PD">
+							<Label>~DO160</Label>
+							<Elementary access="W">
+								<OctetstringN octets="20" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io0" type="AXLF:PD">
+							<Label>Status Word</Label>
+							<Elementary access="R">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io1" type="AXLF:PD">
+							<Label>Status Word High Byte</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io2" type="AXLF:PD">
+							<Label>Status Word Low Byte</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+						</PD>
+						<PD uID="io3" type="AXLF:PD">
+							<Label>RxCHAR01</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+						</PD>
+						<PD uID="io4" type="AXLF:PD">
+							<Label>RxCHAR02</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.0</LocalPath>
+						</PD>
+						<PD uID="io5" type="AXLF:PD">
+							<Label>RxCHAR03</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+						</PD>
+						<PD uID="io6" type="AXLF:PD">
+							<Label>RxCHAR04</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>5.0</LocalPath>
+						</PD>
+						<PD uID="io7" type="AXLF:PD">
+							<Label>RxCHAR05</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+						</PD>
+						<PD uID="io8" type="AXLF:PD">
+							<Label>RxCHAR06</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>7.0</LocalPath>
+						</PD>
+						<PD uID="io9" type="AXLF:PD">
+							<Label>RxCHAR07</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>8.0</LocalPath>
+						</PD>
+						<PD uID="io10" type="AXLF:PD">
+							<Label>RxCHAR08</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>9.0</LocalPath>
+						</PD>
+						<PD uID="io11" type="AXLF:PD">
+							<Label>RxCHAR09</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>10.0</LocalPath>
+						</PD>
+						<PD uID="io12" type="AXLF:PD">
+							<Label>RxCHAR10</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>11.0</LocalPath>
+						</PD>
+						<PD uID="io13" type="AXLF:PD">
+							<Label>RxCHAR11</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>12.0</LocalPath>
+						</PD>
+						<PD uID="io14" type="AXLF:PD">
+							<Label>RxCHAR12</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>13.0</LocalPath>
+						</PD>
+						<PD uID="io15" type="AXLF:PD">
+							<Label>RxCHAR13</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>14.0</LocalPath>
+						</PD>
+						<PD uID="io16" type="AXLF:PD">
+							<Label>RxCHAR14</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>15.0</LocalPath>
+						</PD>
+						<PD uID="io17" type="AXLF:PD">
+							<Label>RxCHAR15</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>16.0</LocalPath>
+						</PD>
+						<PD uID="io18" type="AXLF:PD">
+							<Label>RxCHAR16</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>17.0</LocalPath>
+						</PD>
+						<PD uID="io19" type="AXLF:PD">
+							<Label>RxCHAR17</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>18.0</LocalPath>
+						</PD>
+						<PD uID="io20" type="AXLF:PD">
+							<Label>RxCHAR18</Label>
+							<Elementary access="R">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>19.0</LocalPath>
+						</PD>
+						<PD uID="io21" type="AXLF:PD">
+							<Label>Control Word</Label>
+							<Elementary access="W">
+								<WORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io22" type="AXLF:PD">
+							<Label>Control Word High Byte</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="io23" type="AXLF:PD">
+							<Label>Control Word Low Byte</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+						</PD>
+						<PD uID="io24" type="AXLF:PD">
+							<Label>TxCHAR01</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>2.0</LocalPath>
+						</PD>
+						<PD uID="io25" type="AXLF:PD">
+							<Label>TxCHAR02</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>3.0</LocalPath>
+						</PD>
+						<PD uID="io26" type="AXLF:PD">
+							<Label>TxCHAR03</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>4.0</LocalPath>
+						</PD>
+						<PD uID="io27" type="AXLF:PD">
+							<Label>TxCHAR04</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>5.0</LocalPath>
+						</PD>
+						<PD uID="io28" type="AXLF:PD">
+							<Label>TxCHAR05</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>6.0</LocalPath>
+						</PD>
+						<PD uID="io29" type="AXLF:PD">
+							<Label>TxCHAR06</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>7.0</LocalPath>
+						</PD>
+						<PD uID="io30" type="AXLF:PD">
+							<Label>TxCHAR07</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>8.0</LocalPath>
+						</PD>
+						<PD uID="io31" type="AXLF:PD">
+							<Label>TxCHAR08</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>9.0</LocalPath>
+						</PD>
+						<PD uID="io32" type="AXLF:PD">
+							<Label>TxCHAR09</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>10.0</LocalPath>
+						</PD>
+						<PD uID="io33" type="AXLF:PD">
+							<Label>TxCHAR10</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>11.0</LocalPath>
+						</PD>
+						<PD uID="io34" type="AXLF:PD">
+							<Label>TxCHAR11</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>12.0</LocalPath>
+						</PD>
+						<PD uID="io35" type="AXLF:PD">
+							<Label>TxCHAR12</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>13.0</LocalPath>
+						</PD>
+						<PD uID="io36" type="AXLF:PD">
+							<Label>TxCHAR13</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>14.0</LocalPath>
+						</PD>
+						<PD uID="io37" type="AXLF:PD">
+							<Label>TxCHAR14</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>15.0</LocalPath>
+						</PD>
+						<PD uID="io38" type="AXLF:PD">
+							<Label>TxCHAR15</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>16.0</LocalPath>
+						</PD>
+						<PD uID="io39" type="AXLF:PD">
+							<Label>TxCHAR16</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>17.0</LocalPath>
+						</PD>
+						<PD uID="io40" type="AXLF:PD">
+							<Label>TxCHAR17</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>18.0</LocalPath>
+						</PD>
+						<PD uID="io41" type="AXLF:PD">
+							<Label>TxCHAR18</Label>
+							<Elementary access="W">
+								<BYTE xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>19.0</LocalPath>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p80" type="AXLF:Param">
+							<DTTRef rUID="dtparat"/>
+							<LocalPath>0x80</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="p80_0_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="4">0000</BitstringX>
+								</Elementary>
+								<LocalPath>0.0</LocalPath>
+							</Para>
+							<Para uID="p80_0_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="2">11</BitstringX>
+								</Elementary>
+								<LocalPath>0.4</LocalPath>
+							</Para>
+							<Para uID="p80_0_6" type="AXLF:Param">
+								<Elementary access="RW">
+									<BOOL>false</BOOL>
+								</Elementary>
+								<LocalPath>0.6</LocalPath>
+							</Para>
+							<Para uID="p80_1_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="4">0010</BitstringX>
+								</Elementary>
+								<LocalPath>1.0</LocalPath>
+							</Para>
+							<Para uID="p80_1_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="4">0111</BitstringX>
+								</Elementary>
+								<LocalPath>1.4</LocalPath>
+							</Para>
+							<Para uID="p80_2_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>13</Unsigned8>
+								</Elementary>
+								<LocalPath>2.0</LocalPath>
+							</Para>
+							<Para uID="p80_3_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8>10</Unsigned8>
+								</Elementary>
+								<LocalPath>3.0</LocalPath>
+							</Para>
+							<Para uID="p80_4_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<BYTE>24</BYTE>
+								</Elementary>
+								<LocalPath>4.0</LocalPath>
+							</Para>
+							<Para uID="p80_5_2" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="2" xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.2</LocalPath>
+							</Para>
+							<Para uID="p80_5_4" type="AXLF:Param">
+								<Elementary access="RW">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.4</LocalPath>
+							</Para>
+							<Para uID="p80_5_5" type="AXLF:Param">
+								<Elementary access="RW">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.5</LocalPath>
+							</Para>
+							<Para uID="p80_5_6" type="AXLF:Param">
+								<Elementary access="RW">
+									<BitstringX bits="2" xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.6</LocalPath>
+							</Para>
+							<Para uID="p80_6_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>6.0</LocalPath>
+							</Para>
+							<Para uID="p80_9_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<BYTE xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>9.0</LocalPath>
+							</Para>
+							<Para uID="p80_10_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>10.0</LocalPath>
+							</Para>
+							<Para uID="p80_11_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned8 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>11.0</LocalPath>
+							</Para>
+							<Para uID="p80_12_0" type="AXLF:Param">
+								<Elementary access="RW">
+									<Octetstring4>00000000</Octetstring4>
+								</Elementary>
+								<LocalPath>12.0</LocalPath>
+							</Para>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>000000C0</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00000814</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>160</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>160</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_1" fromCEP="lcep1" toLayer="L12_1" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m10">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<G uID="g101">
+								<Label dIDRef="daxlf" tID="t2006">Application</Label>
+								<MI rUID="paratift"/>
+								<MI rUID="parattv"/>
+								<MI rUID="parattn"/>
+								<MI rUID="paratdtr"/>
+								<MI rUID="paratprot"/>
+								<MI rUID="paratbaud"/>
+								<MI rUID="paratuni1baudrate"/>
+								<MI rUID="paratdatawidth"/>
+								<MI rUID="paratuni1enpar"/>
+								<MI rUID="paratuni1par"/>
+								<MI rUID="paratuni1databits"/>
+								<MI rUID="paratuni1stopbits"/>
+								<MI rUID="parat1stdel"/>
+								<MI rUID="parat2nddel"/>
+								<MI rUID="paraterrpatt"/>
+								<MI rUID="paratdataway"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m11">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m12">
+						<Label dIDRef="daxlf" tID="t2006">Application</Label>
+						<MIList>
+							<G uID="g101">
+								<Label dIDRef="daxlf" tID="t2006">Application</Label>
+								<MI rUID="paratift"/>
+								<MI rUID="parattv"/>
+								<MI rUID="parattn"/>
+								<MI rUID="paratdtr"/>
+								<MI rUID="paratprot"/>
+								<MI rUID="paratbaud"/>
+								<MI rUID="paratuni1baudrate"/>
+								<MI rUID="paratdatawidth"/>
+								<MI rUID="paratuni1enpar"/>
+								<MI rUID="paratuni1par"/>
+								<MI rUID="paratuni1databits"/>
+								<MI rUID="paratuni1stopbits"/>
+								<MI rUID="parat1stdel"/>
+								<MI rUID="parat2nddel"/>
+								<MI rUID="paraterrpatt"/>
+								<MI rUID="paratdataway"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="paratprot">
+						<Label dIDRef="daxlf" tID="t1164">Protocol</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1165">transparent</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paraterrpatt"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="parat1stdel"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="parat2nddel"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1166">end-to-end</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="paraterrpatt"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="parat1stdel"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="parat2nddel"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1167">XON/XOFF</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="paraterrpatt"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parat1stdel"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parat2nddel"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1168">Modbus RTU</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paraterrpatt"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parat1stdel"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parat2nddel"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_0_0"/>
+					</P>
+					<P uID="paratift">
+						<Label dIDRef="daxlf" tID="t1174">Interface type</Label>
+						<Help dIDRef="daxlf" tID="t1175">Select an RS-xxx interface. With the "Deactivated" default setting, no data is  transmitted or received.
+When using the default setting, an error message is generated and the error bit set.</Help>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="2" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1176">RS-232</Label>
+								<BitstringX bits="2">00</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="parattv"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="parattn"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="paratdtr"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1177">RS-485</Label>
+								<BitstringX bits="2">01</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="parattv"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parattn"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratdtr"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1178">RS-422</Label>
+								<BitstringX bits="2">10</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="parattv"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parattn"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratdtr"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1179">deactivated</Label>
+								<BitstringX bits="2">11</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="parattv"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="parattn"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratdtr"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_0_4"/>
+					</P>
+					<P uID="paratdtr">
+						<Label dIDRef="daxlf" tID="t1184">DTR control</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BOOL xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1185">automatic</Label>
+								<BOOL>false</BOOL>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1186">controlled by process data</Label>
+								<BOOL>true</BOOL>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_0_6"/>
+					</P>
+					<P uID="paratdatawidth">
+						<Label dIDRef="daxlf" tID="t1187">Data width</Label>
+						<Help dIDRef="daxlf" tID="t1188">The specified combinations of data width, parity and stop bits are adequate for most applications.
+However, you can freely choose the combination by direct programming. For this, use the 'Direct' data
+width code.</Help>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="1189">7 Dbits, even parity, 1 stop</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1190">7 Dbits, odd parity, 1 stop</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1191">8 Dbits, even parity, 1 stop</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1192">8 Dbits, odd parity, 1 stop</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1193">8 Dbits, no parity, 1 stop</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1194">7 Dbits, no parity, 1 stop</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1195">7 Dbits, even parity, 2 stops</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1196">7 Dbits, odd parity, 2 stops</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1197">8 Dbits, even parity, 2 stops</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1198">8 Dbits, odd parity, 2 stops</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1199">8 Dbits, no parity, 2 stops</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1200">7 Dbits, no parity, 2 stops</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1201">8 Dbits, parity forced to 0, 1 stop</Label>
+								<BitstringX bits="4">1100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1202">8 Dbits, parity forced to 1, 1 stop</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1203">6 Dbits, no parity, 1 stop</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1204">direct</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="paratuni1par"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="paratuni1enpar"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="paratuni1stopbits"/>
+									</Rela>
+									<Rela tion="show">
+										<PRef rUID="paratuni1databits"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_1_0"/>
+					</P>
+					<P uID="paratbaud">
+						<Label dIDRef="daxlf" tID="t1219">Baud rate</Label>
+						<Enumerated access="RW" uom="baud">
+							<DerivedFrom>
+								<BitstringX bits="4" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label>110</Label>
+								<BitstringX bits="4">0000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>300</Label>
+								<BitstringX bits="4">0001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>600</Label>
+								<BitstringX bits="4">0010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>1200</Label>
+								<BitstringX bits="4">0011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>1800</Label>
+								<BitstringX bits="4">0100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>2400</Label>
+								<BitstringX bits="4">0101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>4800</Label>
+								<BitstringX bits="4">0110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label>9600</Label>
+								<BitstringX bits="4">0111</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label>15625</Label>
+								<BitstringX bits="4">1000</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>19200</Label>
+								<BitstringX bits="4">1001</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>38400</Label>
+								<BitstringX bits="4">1010</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>57600</Label>
+								<BitstringX bits="4">1011</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>115200</Label>
+								<BitstringX bits="4">1100</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>230400</Label>
+								<BitstringX bits="4">1101</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>250000</Label>
+								<BitstringX bits="4">1110</BitstringX>
+								<RelaList>
+									<Rela tion="hide">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1204">direct</Label>
+								<BitstringX bits="4">1111</BitstringX>
+								<RelaList>
+									<Rela tion="show">
+										<PRef rUID="paratuni1baudrate"/>
+									</Rela>
+								</RelaList>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_1_4"/>
+					</P>
+					<P uID="parat1stdel">
+						<Label dIDRef="daxlf" tID="t1171">1st delimiter</Label>
+						<Help dIDRef="daxlf" tID="t1173">Enter decimal ASCII code.</Help>
+						<Subrange access="RW">
+							<Min>
+								<Unsigned8>0</Unsigned8>
+							</Min>
+							<Max>
+								<Unsigned8>255</Unsigned8>
+							</Max>
+							<Default>
+								<Unsigned8>13</Unsigned8>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_2_0"/>
+					</P>
+					<P uID="parat2nddel">
+						<Label dIDRef="daxlf" tID="t1172">2nd delimiter</Label>
+						<Help dIDRef="daxlf" tID="t1173">Enter decimal ASCII code.</Help>
+						<Subrange access="RW">
+							<Min>
+								<Unsigned8>0</Unsigned8>
+							</Min>
+							<Max>
+								<Unsigned8>255</Unsigned8>
+							</Max>
+							<Default>
+								<Unsigned8>10</Unsigned8>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_3_0"/>
+					</P>
+					<P uID="paraterrpatt">
+						<Label dIDRef="daxlf" tID="t1169">Error pattern</Label>
+						<Help dIDRef="daxlf" tID="t1170">The error pattern contains the character that is written to the FIFO if a character was received with
+errors (e.g. parity error).
+Value		Meaning
+36		$
+xx		any character
+0		if a character is received with an error,
+		no error pattern is stored
+255		the invalid character is stored instead
+		of the error pattern</Help>
+						<Subrange access="RW">
+							<Min>
+								<Unsigned8>0</Unsigned8>
+							</Min>
+							<Max>
+								<Unsigned8>255</Unsigned8>
+							</Max>
+							<Default>
+								<Unsigned8>36</Unsigned8>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_4_0"/>
+					</P>
+					<P uID="paratuni1databits">
+						<Label dIDRef="daxlf" tID="t1214">Direct data bits</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="2" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1215">5 bits</Label>
+								<BitstringX bits="2">00</BitstringX>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1216">6 bits</Label>
+								<BitstringX bits="2">01</BitstringX>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1217">7 bits</Label>
+								<BitstringX bits="2">10</BitstringX>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1218">8 bits</Label>
+								<BitstringX bits="2">11</BitstringX>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_5_2"/>
+					</P>
+					<P uID="paratuni1stopbits">
+						<Label dIDRef="daxlf" tID="t1211">Direct stop bits</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BOOL xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1212">1 stop bit</Label>
+								<BOOL>false</BOOL>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1213">2 stop bits</Label>
+								<BOOL>true</BOOL>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_5_4"/>
+					</P>
+					<P uID="paratuni1enpar">
+						<Label dIDRef="daxlf" tID="t1210">Direct parity on/off</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BOOL xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1075">off</Label>
+								<BOOL>false</BOOL>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1076">on</Label>
+								<BOOL>true</BOOL>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_5_5"/>
+					</P>
+					<P uID="paratuni1par">
+						<Label dIDRef="daxlf" tID="t1205">Direct parity mode</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BitstringX bits="2" xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1206">odd</Label>
+								<BitstringX bits="2">00</BitstringX>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1207">even</Label>
+								<BitstringX bits="2">01</BitstringX>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1208">forced to 1</Label>
+								<BitstringX bits="2">10</BitstringX>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1209">forced to 0</Label>
+								<BitstringX bits="2">11</BitstringX>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_5_6"/>
+					</P>
+					<P uID="paratuni1baudrate">
+						<Label dIDRef="daxlf" tID="t1220">Direct baud rate</Label>
+						<Subrange access="RW" uom="baud">
+							<Min>
+								<Unsigned16>0</Unsigned16>
+							</Min>
+							<Max>
+								<Unsigned16>65535</Unsigned16>
+							</Max>
+							<Default>
+								<Unsigned16>0</Unsigned16>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_6_0"/>
+					</P>
+					<P uID="paratdataway">
+						<Label dIDRef="daxlf" tID="t1221">Data exchange</Label>
+						<Help dIDRef="daxlf" tID="t1222">Here you can control the way used to exchange data with the selected interface.</Help>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<BYTE xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1223">via process data</Label>
+								<BYTE>00</BYTE>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1224">via PDI</Label>
+								<BYTE>01</BYTE>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="p80_9_0"/>
+					</P>
+					<P uID="parattv">
+						<Label dIDRef="daxlf" tID="t1180">Tv - lead time</Label>
+						<Help dIDRef="daxlf" tID="t1181">If Tv does not equal 0, transmission only starts after this time has elapsed.</Help>
+						<Subrange access="RW" uom="ms">
+							<Min>
+								<Unsigned8>0</Unsigned8>
+							</Min>
+							<Max>
+								<Unsigned8>255</Unsigned8>
+							</Max>
+							<Default>
+								<Unsigned8>0</Unsigned8>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_10_0"/>
+					</P>
+					<P uID="parattn">
+						<Label dIDRef="daxlf" tID="t1182">Tn - lag time</Label>
+						<Help dIDRef="daxlf" tID="t1183">After all the data is sent and Tn does not equal 0, the RTS signal is only set to LOW after this time
+has elapsed.</Help>
+						<Subrange access="RW" uom="ms">
+							<Min>
+								<Unsigned8>0</Unsigned8>
+							</Min>
+							<Max>
+								<Unsigned8>255</Unsigned8>
+							</Max>
+							<Default>
+								<Unsigned8>0</Unsigned8>
+							</Default>
+						</Subrange>
+						<ParaRef rUID="p80_11_0"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

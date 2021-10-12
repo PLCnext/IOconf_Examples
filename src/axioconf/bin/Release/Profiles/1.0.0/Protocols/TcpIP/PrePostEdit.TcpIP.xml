@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Compiler.TcpIPImpl">
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.TcpIPConvertExtendedDomainName">
+      <RequiresScope>
+        <ScopeRef id="OnEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.SynchronizeTcpIPPropertiesTask">
+      <RequiresScope>
+        <ScopeRef id="OnEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.SynchronizeAllDevicesTask">
+      <RequiresScope>
+        <ScopeRef id="OnEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <!--<Condition>
+            <Match Property="InstanceType">//Entity[@type='{Network}']</Match>
+          </Condition>-->
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.SynchronizeOpcNodeName">
+      <RequiresScope>
+        <ScopeRef id="OnEditScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='OPCUA'])]</Match>
+        </And>
+      </Condition>
+    </Task>
+  </Assembly>
+</AssemblyList>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Axioline F device instance data -->
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="AXLF:Device" no="7"/>
+  <TextResourceList>
+    <TextResource dID="de" xml:lang="de" xlink:type="simple" xlink:href=".\de\de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="axldd00" type="AXLF:ConsecutiveNumber">
+      <Label dIDRef="daxltype" tID="t0001">Consecutive number</Label>
+      <Help dIDRef="daxltype" tID="t0002">The consecutive number is automatically assigned from left to right.</Help>
+      <Elementary access="RW">
+        <Signed32>1</Signed32>
+      </Elementary>
+    </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>

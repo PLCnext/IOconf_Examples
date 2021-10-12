@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2015-10-26</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label>PLC</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>none</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>SW IOC</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>none</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>0.0/6.4.0</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{D450FB9A-FA3D-4418-8E00-38C8F2C61026}</Label>
+			</IdObj>
+			<IdObj access="R" uID="idobj2" type="PN:VendorID">
+				<Label>176</Label>
+			</IdObj>
+			<IdObj access="R" uID="idobj3" type="PN:DeviceID">
+				<Label>149</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<ImgList>
+				<RImage type="16.png" xlink:type="simple" xlink:href="SWIOC.16.png"/>
+			</ImgList>
+			<Layer1-2 type="Eth" uID="L12_3">
+				<Label>Ethernet</Label>
+				<ImgList>
+					<RImage type="16.png" xlink:type="simple" xlink:href="Ethernet.16.png"/>
+				</ImgList>
+				<PCEPList>
+					<PCEP uID="pcep3" pL="Eth" pLT="RJ45" pLDC="false" dLLFlow="inout">
+						<Label>ETH</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer3-4 uID="L34_3" type="IP">
+					<Label>IP</Label>
+					<ImgList>
+						<RImage type="16.png" xlink:type="simple" xlink:href="IP.16.png"/>
+					</ImgList>
+					<L3-4ObjList>
+						<Obj uID="obj30" type="IP:DomainPrefix">
+							<Elementary access="RW">
+								<StringASCII>sw-ioc</StringASCII>
+							</Elementary>
+						</Obj>
+						<Obj uID="obj31" type="IP:DHCPSupported">
+							<Label dIDRef="daxc" tID="t101">DHCP supported</Label>
+							<Elementary access="R">
+								<Boolean>true</Boolean>
+							</Elementary>
+						</Obj>
+						<Obj uID="obj32" type="IP:ProfileVersion">
+							<Enumerated access="RW">
+								<DerivedFrom>
+									<StringASCII xsi:nil="true"/>
+								</DerivedFrom>
+								<EnumDefaultEntry>
+									<Label>1.0.0</Label>
+									<StringASCII>1.0.0</StringASCII>
+								</EnumDefaultEntry>
+							</Enumerated>
+						</Obj>
+					</L3-4ObjList>
+					<Layer7 uID="L7_2" type="eCLR">
+						<Label>PLC</Label>
+						<ImgList>
+							<RImage type="16.png" xlink:type="simple" xlink:href="eCLR.16.png"/>
+						</ImgList>
+						<L7ObjList>
+							<Obj uID="eo2" type="eCLR:ResType">
+								<Elementary access="R">
+									<StringASCII>AXCF2152</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe1" type="eCLR:UpdateType">
+								<Elementary access="R">
+									<StringASCII>Never</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe20" type="eCLR:DCSupp">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe21" type="eCLR:SimSupp">
+								<Elementary access="R">
+									<Boolean>false</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe3" type="eCLR:ProfileVersion">
+								<Label>Profile version</Label>
+								<Elementary access="R">
+									<StringASCII>2019.6.0</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe7" type="eCLR:LibraryNamespace">
+								<Elementary access="R">
+									<StringASCII>Arp.Plc.Eclr</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe8" type="eCLR:LibraryName">
+								<Elementary access="R">
+									<StringASCII>Arp.Plc.Eclr</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe9" type="eCLR:ComponentType">
+								<Elementary access="R">
+									<StringASCII>EclrComponent</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="oe10" type="eCLR:ComponentName">
+								<Elementary access="R">
+									<StringASCII>Arp.Plc.Eclr</StringASCII>
+								</Elementary>
+							</Obj>
+						</L7ObjList>
+						<LCEPList>
+							<LCEP uID="lcep5" type="eCLR:Remoting" role="peer">
+								<Label>eCLR Remoting Endpoint</Label>
+							</LCEP>
+							<LCEP uID="lcep6" type="PxC:internal" role="slave">
+								<Label>internal communication</Label>
+							</LCEP>
+						</LCEPList>
+					</Layer7>
+					<Layer7 uID="L7_4" type="PN:Master">
+						<Label>Profinet Controller</Label>
+						<ImgList>
+							<RImage type="16.png" xlink:type="simple" xlink:href="Profinet.16.png"/>
+						</ImgList>
+						<L7ObjList>
+							<Obj uID="pno1" type="PN:VendorID">
+								<Label>Vendor ID</Label>
+								<Elementary access="R">
+									<Bitstring16>00B0</Bitstring16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco2" type="PN:DeviceID">
+								<Label>Device ID</Label>
+								<Elementary access="R">
+									<Bitstring16>0095</Bitstring16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco3" type="PN:ObjectUUID_LocalIndex">
+								<Elementary access="R">
+									<Bitstring16>ABCD</Bitstring16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco4" type="PN:CPULoadPerAROffsetOut">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>12.49</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco5" type="PN:GradPerReductRatioFacOut">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>0.6</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco6" type="PN:GradPerReductRatioExpOut">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>-1.98</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco7" type="PN:CPULoadPerAROffsetIn">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>12.49</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco8" type="PN:GradPerReductRatioFacIn">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>0.6</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco9" type="PN:GradPerReductRatioExpIn">
+								<Elementary access="R" fmt="%0.10f">
+									<Float32>-1.98</Float32>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco10" type="PN:MaxNumOfAlarmBytes">
+								<Elementary access="R">
+									<Bitstring16>FFFF</Bitstring16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco11" type="PN:SuppSendClock">
+								<Label>Controller send clock</Label>
+								<Help>Fastest possible communication cycle.
+Can be decreased per device (interface) by selecting a reduction ratio &gt; 1.</Help>
+								<Enumerated access="RW">
+									<DerivedFrom>
+										<Unsigned32 xsi:nil="true"/>
+									</DerivedFrom>
+									<EnumDefaultEntry>
+										<Label>1 ms</Label>
+										<Unsigned32>32</Unsigned32>
+									</EnumDefaultEntry>
+								</Enumerated>
+							</Obj>
+							<Obj uID="pco12" type="PN:MaxARMemory">
+								<Elementary access="R">
+									<Bitstring16>000D</Bitstring16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco13" type="PN:MaxARs">
+								<Elementary access="R">
+									<Unsigned16>256</Unsigned16>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco14" type="PN:ConfigurePDev">
+								<Label>Configure PDevs</Label>
+								<Enumerated access="RW">
+									<DerivedFrom>
+										<Boolean xsi:nil="true"/>
+									</DerivedFrom>
+									<EnumDefaultEntry>
+										<Label>Yes</Label>
+										<Boolean>true</Boolean>
+									</EnumDefaultEntry>
+									<EnumEntry>
+										<Label>No</Label>
+										<Boolean>false</Boolean>
+									</EnumEntry>
+								</Enumerated>
+							</Obj>
+							<Obj uID="pco20" type="PN:UniqueLocalAlarmRefs">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco21" type="PN:PRLSupported">
+								<Label>PRL Supported</Label>
+								<Elementary access="R">
+									<Boolean>false</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco22" type="PN:ARUUIDGenSupported">
+								<Label>ARUUID Generation Supported byPLC</Label>
+								<Elementary access="R">
+									<Boolean>false</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco15" type="PN:ZipIPPNIOXML">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco101" type="PN:RTClass">
+								<Label>RT class</Label>
+								<Help>Realtime Class:
+RT : unsynchronized realtime communication - sufficient for most applications
+IRT: isochronous realtime communication - needs topology planning</Help>
+								<Enumerated access="RW">
+									<DerivedFrom>
+										<Unsigned16 xsi:nil="true"/>
+									</DerivedFrom>
+									<EnumDefaultEntry>
+										<Label>RT</Label>
+										<Unsigned16>1</Unsigned16>
+									</EnumDefaultEntry>
+								</Enumerated>
+							</Obj>
+							<Obj uID="pco200" type="PN:ProfileVersion">
+								<Enumerated access="RW">
+									<DerivedFrom>
+										<StringASCII xsi:nil="true"/>
+									</DerivedFrom>
+									<EnumDefaultEntry>
+										<Label>7.0.0</Label>
+										<StringASCII>7.0.0</StringASCII>
+									</EnumDefaultEntry>
+								</Enumerated>
+							</Obj>
+							<Obj uID="pco201" type="PN:LibraryNamespace">
+								<Elementary access="R">
+									<StringASCII>Arp.Io.Pn</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco202" type="PN:LibraryName">
+								<Elementary access="R">
+									<StringASCII>Arp.Io.Pn</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco203" type="PN:ComponentType">
+								<Elementary access="R">
+									<StringASCII>ControllerComponent</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco204" type="PN:ComponentName">
+								<Elementary access="R">
+									<StringASCII>Arp.Io.PnC</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco206" type="PN:FBIOComponentName">
+								<Elementary access="R">
+									<StringASCII>Arp.Io.PnC</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco207" type="PN:DeviceComponentName">
+								<Elementary access="R">
+									<StringASCII>Arp.Io.PnD</StringASCII>
+								</Elementary>
+							</Obj>
+							<Obj uID="pco205" type="PN:Endianness">
+								<Elementary access="R">
+									<StringASCII>BE</StringASCII>
+								</Elementary>
+							</Obj>
+                            <Obj uID="pco206" type="PN:LLDPNoDSupp">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Obj>
+						</L7ObjList>
+						<LCEPList>
+							<LCEP uID="lcep10" type="PN:IOC" role="producer-consumer">
+								<Label>PN Process Data communication</Label>
+							</LCEP>
+							<LCEP uID="lcep12" type="PxC:internal" role="slave">
+								<Label>internal communication</Label>
+							</LCEP>
+						</LCEPList>
+					</Layer7>
+					<LCEPList>
+						<LCEP uID="lcep34_3" type="IP" role="peer">
+							<Label>TCP/IP (X3)</Label>
+							<Prop type="EngCommDefault">
+								<Elementary access="R">
+									<BOOL>true</BOOL>
+								</Elementary>
+							</Prop>
+						</LCEP>
+					</LCEPList>
+				</Layer3-4>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_4" fromCEP="lcep10" toLayer="L34_3" toCEP="lcep34_3"/>
+				<CEPCon fromLayer="L34_3" fromCEP="lcep34_3" toLayer="L12_3" toCEP="pcep3"/>
+			</CEPConList>
+		</DeviceManager>
+	</ProfileBody>
+</FDCML>

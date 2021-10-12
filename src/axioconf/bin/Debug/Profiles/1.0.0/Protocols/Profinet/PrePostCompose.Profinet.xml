@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Compiler.ProfinetImpl">
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetDeviceCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Master']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetModuleCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Device']</Match>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetSubmoduleCompositionCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+          </Or>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.Srl.ProfinetSrlDeviceInsertCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Master']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+          <Compare Property="IsInsert">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetMultipleInterfaceModeCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+          </Or>
+          <Or>
+            <Compare Property="IsInsert">true</Compare>
+            <Compare Property="IsReplace">true</Compare>
+            <Compare Property="IsRemove">true</Compare>
+          </Or>
+          <Compare Property="IsGlobalAreaNetwork">false</Compare>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetDeviceCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Master']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetDeviceIdAssignmentTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Master']</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetModuleCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Device']</Match>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetSubmoduleCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="ParentInstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+          </Or>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetDeviceAdjustVirtualSlotNumberTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetReplaceCheckTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+          <Compare Property="IsReplace">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.Profinet.Tasks.ProfinetReplaceTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Or>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Master'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+            <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+          </Or>
+          <Compare Property="IsReplace">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+  </Assembly>
+ <Assembly fullName="Ade.Network.Protocols.AgnosticImpl">
+   <Task id="AgnosticCompositionSubmoduleCheckTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+       </Or>
+     </Condition>
+     <Parameter id="LogicalProtocol" value="PN"></Parameter>
+     <Parameter id="LogicalTopologyType" value="SlotList"></Parameter>
+     <Parameter id="LogicalParentLayerType" value="PN:Module"></Parameter>
+     <Parameter id="LogicalChildLayerType" value="PN:Submodule"></Parameter>
+     <Parameter id="LogicalParentEndpointType" value="PN:Module"></Parameter>
+     <Parameter id="LogicalChildEndpointType" value="PN:Submodule"></Parameter>
+   </Task>
+   <Task id="AgnosticLogicalCompositionModuleCheckTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+       </Or>
+     </Condition>
+     <Parameter id="LogicalProtocol" value="PN"></Parameter>
+     <Parameter id="LogicalTopologyType" value="SlotList"></Parameter>
+     <Parameter id="LogicalParentLayerType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalChildLayerType" value="PN:Module"></Parameter>
+     <Parameter id="LogicalParentEndpointType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalChildEndpointType" value="PN:Module"></Parameter>
+   </Task>
+   <Task id="AgnosticPhysicalCompositionModuleCheckTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer1-2"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <And>
+        <Or>
+         <Match Property="ParentInstanceType">//Device[exists(./Layer1-2[@type='PN:Module'])]</Match>
+         <Match Property="ParentInstanceType">//Device[exists(./Layer1-2[@type='PN:Module:DAP'])]</Match>
+       </Or>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='PN:Module'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='PN:Module:DAP'])]</Match>
+       </Or>
+      </And>
+     </Condition>
+     <Parameter id="PhysicalProtocol" value="PN"></Parameter>
+     <Parameter id="PhysicalTopologyType" value="SlotList"></Parameter>
+     <Parameter id="PhysicalParentLayerType" value="PN:Device"></Parameter>
+     <Parameter id="PhysicalChildLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalParentEndPointLayerType" value="PN:Device"></Parameter>
+     <Parameter id="PhysicalChildEndPointLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalModuleLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalSubmoduleLayerType" value="PN:Submodule"></Parameter>
+   </Task>
+   <Task id="AgnosticCompositionDeviceCheckTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionCheckTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+       </Or>
+     </Condition>
+     <Parameter id="LogicalProtocol" value="PN"></Parameter>
+     <Parameter id="LogicalTopologyType" value="MasterSlave"></Parameter>
+     <Parameter id="LogicalParentLayerType" value="PN:Master"></Parameter>
+     <Parameter id="LogicalChildLayerType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalParentEndpointType" value="PN:IOC"></Parameter>
+     <Parameter id="LogicalChildEndpointType" value="PN:Device"></Parameter>
+     <Parameter id="MaxDeviceNumber" value="/L7ObjList/Obj[@uID='pco13' type='PN:MaxARs']"></Parameter>
+   </Task>
+   <Task id="AgnosticCompositionSubmoduleTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Or>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule'])]</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:DAP'])]</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Interface'])]</Match>
+          <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Submodule:Port'])]</Match>
+        </Or>
+      </Condition>
+      <Parameter id="LogicalProtocol" value="PN"></Parameter>
+      <Parameter id="LogicalTopologyType" value="SlotList"></Parameter>
+      <Parameter id="LogicalParentLayerType" value="PN:Module"></Parameter>
+      <Parameter id="LogicalChildLayerType" value="PN:Submodule"></Parameter>
+      <Parameter id="LogicalParentEndpointType" value="PN:Module"></Parameter>
+      <Parameter id="LogicalChildEndpointType" value="PN:Submodule"></Parameter>
+    </Task>
+   <Task id="AgnosticLogicalCompositionModuleTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Module:DAP'])]</Match>
+       </Or>
+     </Condition>
+     <Parameter id="LogicalProtocol" value="PN"></Parameter>
+     <Parameter id="LogicalTopologyType" value="SlotList"></Parameter>
+     <Parameter id="LogicalParentLayerType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalChildLayerType" value="PN:Module"></Parameter>
+     <Parameter id="LogicalParentEndpointType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalChildEndpointType" value="PN:Module"></Parameter>
+   </Task>
+   <Task id="AgnosticPhysicalCompositionModuleTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer1-2"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <And>
+        <Or>
+         <Match Property="ParentInstanceType">//Device[exists(./Layer1-2[@type='PN:Module'])]</Match>
+         <Match Property="ParentInstanceType">//Device[exists(./Layer1-2[@type='PN:Module:DAP'])]</Match>
+       </Or>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='PN:Module'])]</Match>
+         <Match Property="InstanceType">//Device[exists(./Layer1-2[@type='PN:Module:DAP'])]</Match>
+       </Or>
+      </And>
+     </Condition>
+     <Parameter id="PhysicalProtocol" value="PN"></Parameter>
+     <Parameter id="PhysicalTopologyType" value="SlotList"></Parameter>
+     <Parameter id="PhysicalParentLayerType" value="PN:Device"></Parameter>
+     <Parameter id="PhysicalChildLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalParentEndPointLayerType" value="PN:Device"></Parameter>
+     <Parameter id="PhysicalChildEndPointLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalModuleLayerType" value="PN:Module"></Parameter>
+     <Parameter id="PhysicalSubmoduleLayerType" value="PN:Submodule"></Parameter>
+   </Task>
+   <Task id="AgnosticCompositionDeviceTaskPN" fullName="Ade.Network.Protocols.Agnostic.AgnosticCompositionTask">
+     <RequiresScope>
+       <ScopeRef id="PrePostComposeScope">
+         <BindTo>
+           <ProtocolBinding protocol="PN" layer="Layer7"></ProtocolBinding>
+         </BindTo>
+       </ScopeRef>
+     </RequiresScope>
+     <Condition>
+       <Or>
+         <Match Property="InstanceType">//Device[exists(./Layer7[@type='PN:Device'])]</Match>
+       </Or>
+     </Condition>
+     <Parameter id="LogicalProtocol" value="PN"></Parameter>
+     <Parameter id="LogicalTopologyType" value="MasterSlave"></Parameter>
+     <Parameter id="LogicalParentLayerType" value="PN:Master"></Parameter>
+     <Parameter id="LogicalChildLayerType" value="PN:Device"></Parameter>
+     <Parameter id="LogicalParentEndpointType" value="PN:IOC"></Parameter>
+     <Parameter id="LogicalChildEndpointType" value="PN:Device"></Parameter>
+     <Parameter id="MaxDeviceNumber" value="/L7ObjList/Obj[@uID='pco13' type='PN:MaxARs']"></Parameter>
+   </Task>
+  </Assembly>
+</AssemblyList>

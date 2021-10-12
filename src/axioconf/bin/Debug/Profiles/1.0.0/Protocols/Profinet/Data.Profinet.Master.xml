@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="PN:Master" no="7"/>
+  <TextResourceList>
+    <TextResource dID="dpntype" xml:lang="de" xlink:type="simple" xlink:href=".\de\dpntype_de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="pnm00" type="PN:CpuLoad">
+      <Label dIDRef="dpntype" tID="t0001">Load of allotted CPU share</Label>
+      <Help dIDRef="dpntype" tID="t0002">Used percentage of permissible CPU bandwith reserved for Profinet communication.</Help>
+      <Elementary access="R" uom="%">
+        <Float64 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnm01" type="PN:ARMemory">
+      <Label dIDRef="dpntype" tID="t0003">AR memory</Label>
+      <Help dIDRef="dpntype" tID="t0004">Memory utilization</Help>
+      <Elementary access="R" uom="bytes">
+        <Signed64 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnm03" type="PN:LLDPNoDEnabled">
+      <Label dIDRef="dpntype" tID="t0007">Multiple interface mode</Label>
+      <Help dIDRef="dpntype" tID="t0008">Enables the multiple interface mode</Help>
+      <Elementary access="RW">
+        <Boolean xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnm04" type="PN:LLDPNoDUIEnabled">
+      <Label dIDRef="dpntype" tID="t0007">Multiple interface mode</Label>
+      <Help dIDRef="dpntype" tID="t0008">Enables the multiple interface mode</Help>
+      <Elementary access="RW">
+        <Boolean xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnm05" type="PN:LLDPNoDEnabledLastValue">
+      <Label dIDRef="dpntype" tID="t0007">Multiple interface mode</Label>
+      <Help dIDRef="dpntype" tID="t0008">Enables the multiple interface mode</Help>
+      <Elementary access="RW">
+        <Boolean xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <!-- 2015-11-26 BHe: from now on this is a type datum
+    <Obj uID="pnm02" type="PN:RTC3PtcpSubdomainName">
+      <Label dIDRef="dpntype" tID="t0005">PTCP subdomain name</Label>
+      <Help dIDRef="dpntype" tID="t0006">PTCP subdomain name for IRT</Help>
+      <Elementary access="RW">
+        <String enc="UTF-8"/>
+      </Elementary>
+    </Obj>
+    -->
+  </TypeObjList>
+</FDCMLLayerTypes>

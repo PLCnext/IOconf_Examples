@@ -1,0 +1,3039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2017-07-20</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t262">Gateway</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL F IF CAN 1H</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>2702668</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>00/1.00</Label>
+			</Version>
+			<IdObj access="R" uID="guid" type="guid">
+				<Label>{C90CA063-A62D-461D-BC3B-AEA0E24F0741}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>can-master</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Subrange uID="dt11bitzero" access="RW">
+					<Min>
+						<Unsigned16>0</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>61166</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>0</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dt21bitzero" access="RW">
+					<Min>
+						<Unsigned32>0</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4008636142</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>0</Unsigned32>
+					</Default>
+				</Subrange>
+				<Subrange uID="dt11bit2047" access="RW">
+					<Min>
+						<Unsigned16>0</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>61166</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>2047</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dt21bit536870911" access="RW">
+					<Min>
+						<Unsigned32>0</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4008636142</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>536870911</Unsigned32>
+					</Default>
+				</Subrange>
+				<Subrange uID="dt11bit61166" access="RW">
+					<Min>
+						<Unsigned16>0</Unsigned16>
+					</Min>
+					<Max>
+						<Unsigned16>61166</Unsigned16>
+					</Max>
+					<Default>
+						<Unsigned16>61166</Unsigned16>
+					</Default>
+				</Subrange>
+				<Subrange uID="dt21bit4008636142" access="RW">
+					<Min>
+						<Unsigned32>0</Unsigned32>
+					</Min>
+					<Max>
+						<Unsigned32>4008636142</Unsigned32>
+					</Max>
+					<Default>
+						<Unsigned32>4008636142</Unsigned32>
+					</Default>
+				</Subrange>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFHalf.16.png"/>
+			</ImgList>
+			<Layer1-2 type="AXLF" uID="L12_1">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<DINT>-150</DINT>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7_1">
+					<PDList>
+						<PD uID="pd0" type="AXLF:PD">
+							<Label>IN64byte</Label>
+							<Elementary access="R">
+								<OctetstringN octets="64" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="pd1" type="AXLF:PD">
+							<Label>OUT64byte</Label>
+							<Elementary access="W">
+								<OctetstringN octets="64" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para560" type="AXLF:Param">
+							<Elementary access="RW">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0x0560#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para561" type="AXLF:Param">
+							<Elementary access="RW">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0x0561#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para562" type="AXLF:Param">
+							<Elementary access="RW">
+								<Unsigned32 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0x0562#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para56a" type="AXLF:Param">
+							<Elementary access="RW">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0x056A#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para56b" type="AXLF:Param">
+							<Elementary access="RW">
+								<OctetstringN octets="240"/>
+							</Elementary>
+							<LocalPath>0x056B#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="para56b1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>0.0</LocalPath>
+							</Para>
+							<Para uID="para56b2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>2.0</LocalPath>
+							</Para>
+							<Para uID="para56b3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>4.0</LocalPath>
+							</Para>
+							<Para uID="para56b4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>6.0</LocalPath>
+							</Para>
+							<Para uID="para56b5" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>8.0</LocalPath>
+							</Para>
+							<Para uID="para56b6" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>10.0</LocalPath>
+							</Para>
+							<Para uID="para56b7" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>12.0</LocalPath>
+							</Para>
+							<Para uID="para56b8" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>14.0</LocalPath>
+							</Para>
+							<Para uID="para56b9" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>16.0</LocalPath>
+							</Para>
+							<Para uID="para56b10" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>18.0</LocalPath>
+							</Para>
+							<Para uID="para56b11" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>20.0</LocalPath>
+							</Para>
+							<Para uID="para56b12" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>22.0</LocalPath>
+							</Para>
+							<Para uID="para56b13" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>24.0</LocalPath>
+							</Para>
+							<Para uID="para56b14" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>26.0</LocalPath>
+							</Para>
+							<Para uID="para56b15" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>28.0</LocalPath>
+							</Para>
+							<Para uID="para56b16" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>30.0</LocalPath>
+							</Para>
+							<Para uID="para56b17" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>32.0</LocalPath>
+							</Para>
+							<Para uID="para56b18" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>34.0</LocalPath>
+							</Para>
+							<Para uID="para56b19" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>36.0</LocalPath>
+							</Para>
+							<Para uID="para56b20" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>38.0</LocalPath>
+							</Para>
+							<Para uID="para56b21" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>40.0</LocalPath>
+							</Para>
+							<Para uID="para56b22" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>42.0</LocalPath>
+							</Para>
+							<Para uID="para56b23" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>44.0</LocalPath>
+							</Para>
+							<Para uID="para56b24" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>46.0</LocalPath>
+							</Para>
+							<Para uID="para56b25" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>48.0</LocalPath>
+							</Para>
+							<Para uID="para56b26" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>50.0</LocalPath>
+							</Para>
+							<Para uID="para56b27" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>52.0</LocalPath>
+							</Para>
+							<Para uID="para56b28" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>54.0</LocalPath>
+							</Para>
+							<Para uID="para56b29" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>56.0</LocalPath>
+							</Para>
+							<Para uID="para56b30" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>58.0</LocalPath>
+							</Para>
+							<Para uID="para56b31" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>60.0</LocalPath>
+							</Para>
+							<Para uID="para56b32" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>62.0</LocalPath>
+							</Para>
+							<Para uID="para56b33" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>64.0</LocalPath>
+							</Para>
+							<Para uID="para56b34" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>66.0</LocalPath>
+							</Para>
+							<Para uID="para56b35" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>68.0</LocalPath>
+							</Para>
+							<Para uID="para56b36" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>70.0</LocalPath>
+							</Para>
+							<Para uID="para56b37" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>72.0</LocalPath>
+							</Para>
+							<Para uID="para56b38" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>74.0</LocalPath>
+							</Para>
+							<Para uID="para56b39" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>76.0</LocalPath>
+							</Para>
+							<Para uID="para56b40" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>78.0</LocalPath>
+							</Para>
+							<Para uID="para56b41" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>80.0</LocalPath>
+							</Para>
+							<Para uID="para56b42" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>82.0</LocalPath>
+							</Para>
+							<Para uID="para56b43" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>84.0</LocalPath>
+							</Para>
+							<Para uID="para56b44" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>86.0</LocalPath>
+							</Para>
+							<Para uID="para56b45" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>88.0</LocalPath>
+							</Para>
+							<Para uID="para56b46" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>90.0</LocalPath>
+							</Para>
+							<Para uID="para56b47" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>92.0</LocalPath>
+							</Para>
+							<Para uID="para56b48" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>94.0</LocalPath>
+							</Para>
+							<Para uID="para56b49" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>96.0</LocalPath>
+							</Para>
+							<Para uID="para56b50" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>98.0</LocalPath>
+							</Para>
+							<Para uID="para56b51" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>100.0</LocalPath>
+							</Para>
+							<Para uID="para56b52" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>102.0</LocalPath>
+							</Para>
+							<Para uID="para56b53" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>104.0</LocalPath>
+							</Para>
+							<Para uID="para56b54" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>106.0</LocalPath>
+							</Para>
+							<Para uID="para56b55" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>108.0</LocalPath>
+							</Para>
+							<Para uID="para56b56" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>110.0</LocalPath>
+							</Para>
+							<Para uID="para56b57" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>112.0</LocalPath>
+							</Para>
+							<Para uID="para56b58" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>114.0</LocalPath>
+							</Para>
+							<Para uID="para56b59" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>116.0</LocalPath>
+							</Para>
+							<Para uID="para56b60" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>118.0</LocalPath>
+							</Para>
+							<Para uID="para56b61" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>120.0</LocalPath>
+							</Para>
+							<Para uID="para56b62" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>122.0</LocalPath>
+							</Para>
+							<Para uID="para56b63" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>124.0</LocalPath>
+							</Para>
+							<Para uID="para56b64" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>126.0</LocalPath>
+							</Para>
+							<Para uID="para56b65" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>128.0</LocalPath>
+							</Para>
+							<Para uID="para56b66" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>130.0</LocalPath>
+							</Para>
+							<Para uID="para56b67" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>132.0</LocalPath>
+							</Para>
+							<Para uID="para56b68" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>134.0</LocalPath>
+							</Para>
+							<Para uID="para56b69" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>136.0</LocalPath>
+							</Para>
+							<Para uID="para56b70" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>138.0</LocalPath>
+							</Para>
+							<Para uID="para56b71" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>140.0</LocalPath>
+							</Para>
+							<Para uID="para56b72" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>142.0</LocalPath>
+							</Para>
+							<Para uID="para56b73" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>144.0</LocalPath>
+							</Para>
+							<Para uID="para56b74" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>146.0</LocalPath>
+							</Para>
+							<Para uID="para56b75" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>148.0</LocalPath>
+							</Para>
+							<Para uID="para56b76" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>150.0</LocalPath>
+							</Para>
+							<Para uID="para56b77" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>152.0</LocalPath>
+							</Para>
+							<Para uID="para56b78" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>154.0</LocalPath>
+							</Para>
+							<Para uID="para56b79" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>156.0</LocalPath>
+							</Para>
+							<Para uID="para56b80" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>158.0</LocalPath>
+							</Para>
+							<Para uID="para56b81" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>160.0</LocalPath>
+							</Para>
+							<Para uID="para56b82" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>162.0</LocalPath>
+							</Para>
+							<Para uID="para56b83" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>164.0</LocalPath>
+							</Para>
+							<Para uID="para56b84" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>166.0</LocalPath>
+							</Para>
+							<Para uID="para56b85" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>168.0</LocalPath>
+							</Para>
+							<Para uID="para56b86" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>170.0</LocalPath>
+							</Para>
+							<Para uID="para56b87" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>172.0</LocalPath>
+							</Para>
+							<Para uID="para56b88" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>174.0</LocalPath>
+							</Para>
+							<Para uID="para56b89" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>176.0</LocalPath>
+							</Para>
+							<Para uID="para56b90" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>178.0</LocalPath>
+							</Para>
+							<Para uID="para56b91" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>180.0</LocalPath>
+							</Para>
+							<Para uID="para56b92" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>182.0</LocalPath>
+							</Para>
+							<Para uID="para56b93" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>184.0</LocalPath>
+							</Para>
+							<Para uID="para56b94" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>186.0</LocalPath>
+							</Para>
+							<Para uID="para56b95" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>188.0</LocalPath>
+							</Para>
+							<Para uID="para56b96" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>190.0</LocalPath>
+							</Para>
+							<Para uID="para56b97" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>192.0</LocalPath>
+							</Para>
+							<Para uID="para56b98" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>194.0</LocalPath>
+							</Para>
+							<Para uID="para56b99" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>196.0</LocalPath>
+							</Para>
+							<Para uID="para56b100" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>198.0</LocalPath>
+							</Para>
+							<Para uID="para56b101" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>200.0</LocalPath>
+							</Para>
+							<Para uID="para56b102" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>202.0</LocalPath>
+							</Para>
+							<Para uID="para56b103" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>204.0</LocalPath>
+							</Para>
+							<Para uID="para56b104" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>206.0</LocalPath>
+							</Para>
+							<Para uID="para56b105" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>208.0</LocalPath>
+							</Para>
+							<Para uID="para56b106" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>210.0</LocalPath>
+							</Para>
+							<Para uID="para56b107" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>212.0</LocalPath>
+							</Para>
+							<Para uID="para56b108" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>214.0</LocalPath>
+							</Para>
+							<Para uID="para56b109" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>216.0</LocalPath>
+							</Para>
+							<Para uID="para56b110" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>218.0</LocalPath>
+							</Para>
+							<Para uID="para56b111" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>220.0</LocalPath>
+							</Para>
+							<Para uID="para56b112" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>222.0</LocalPath>
+							</Para>
+							<Para uID="para56b113" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>224.0</LocalPath>
+							</Para>
+							<Para uID="para56b114" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>226.0</LocalPath>
+							</Para>
+							<Para uID="para56b115" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>228.0</LocalPath>
+							</Para>
+							<Para uID="para56b116" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>230.0</LocalPath>
+							</Para>
+							<Para uID="para56b117" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>232.0</LocalPath>
+							</Para>
+							<Para uID="para56b118" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>234.0</LocalPath>
+							</Para>
+							<Para uID="para56b119" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>236.0</LocalPath>
+							</Para>
+							<Para uID="para56b120" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>238.0</LocalPath>
+							</Para>
+						</Para>
+						<Para uID="para56c" type="AXLF:Param">
+							<Elementary access="RW">
+								<Unsigned8 xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0x056C#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="para56d" type="AXLF:Param">
+							<Elementary access="RW">
+								<OctetstringN octets="240"/>
+							</Elementary>
+							<LocalPath>0x056D#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+							<Para uID="para56d1" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>0.0</LocalPath>
+							</Para>
+							<Para uID="para56d2" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>4.0</LocalPath>
+							</Para>
+							<Para uID="para56d3" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>8.0</LocalPath>
+							</Para>
+							<Para uID="para56d4" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>12.0</LocalPath>
+							</Para>
+							<Para uID="para56d5" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>16.0</LocalPath>
+							</Para>
+							<Para uID="para56d6" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>20.0</LocalPath>
+							</Para>
+							<Para uID="para56d7" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>24.0</LocalPath>
+							</Para>
+							<Para uID="para56d8" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>28.0</LocalPath>
+							</Para>
+							<Para uID="para56d9" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>32.0</LocalPath>
+							</Para>
+							<Para uID="para56d10" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>36.0</LocalPath>
+							</Para>
+							<Para uID="para56d11" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>40.0</LocalPath>
+							</Para>
+							<Para uID="para56d12" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>44.0</LocalPath>
+							</Para>
+							<Para uID="para56d13" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>48.0</LocalPath>
+							</Para>
+							<Para uID="para56d14" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>52.0</LocalPath>
+							</Para>
+							<Para uID="para56d15" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>56.0</LocalPath>
+							</Para>
+							<Para uID="para56d16" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>60.0</LocalPath>
+							</Para>
+							<Para uID="para56d17" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>64.0</LocalPath>
+							</Para>
+							<Para uID="para56d18" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>68.0</LocalPath>
+							</Para>
+							<Para uID="para56d19" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>72.0</LocalPath>
+							</Para>
+							<Para uID="para56d20" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>76.0</LocalPath>
+							</Para>
+							<Para uID="para56d21" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>80.0</LocalPath>
+							</Para>
+							<Para uID="para56d22" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>84.0</LocalPath>
+							</Para>
+							<Para uID="para56d23" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>88.0</LocalPath>
+							</Para>
+							<Para uID="para56d24" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>92.0</LocalPath>
+							</Para>
+							<Para uID="para56d25" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>96.0</LocalPath>
+							</Para>
+							<Para uID="para56d26" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>100.0</LocalPath>
+							</Para>
+							<Para uID="para56d27" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>104.0</LocalPath>
+							</Para>
+							<Para uID="para56d28" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>108.0</LocalPath>
+							</Para>
+							<Para uID="para56d29" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>112.0</LocalPath>
+							</Para>
+							<Para uID="para56d30" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>116.0</LocalPath>
+							</Para>
+							<Para uID="para56d31" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>120.0</LocalPath>
+							</Para>
+							<Para uID="para56d32" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>124.0</LocalPath>
+							</Para>
+							<Para uID="para56d33" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>128.0</LocalPath>
+							</Para>
+							<Para uID="para56d34" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>132.0</LocalPath>
+							</Para>
+							<Para uID="para56d35" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>136.0</LocalPath>
+							</Para>
+							<Para uID="para56d36" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>140.0</LocalPath>
+							</Para>
+							<Para uID="para56d37" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>144.0</LocalPath>
+							</Para>
+							<Para uID="para56d38" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>148.0</LocalPath>
+							</Para>
+							<Para uID="para56d39" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>152.0</LocalPath>
+							</Para>
+							<Para uID="para56d40" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>156.0</LocalPath>
+							</Para>
+							<Para uID="para56d41" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>160.0</LocalPath>
+							</Para>
+							<Para uID="para56d42" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>164.0</LocalPath>
+							</Para>
+							<Para uID="para56d43" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>168.0</LocalPath>
+							</Para>
+							<Para uID="para56d44" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>172.0</LocalPath>
+							</Para>
+							<Para uID="para56d45" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>176.0</LocalPath>
+							</Para>
+							<Para uID="para56d46" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>180.0</LocalPath>
+							</Para>
+							<Para uID="para56d47" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>184.0</LocalPath>
+							</Para>
+							<Para uID="para56d48" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>188.0</LocalPath>
+							</Para>
+							<Para uID="para56d49" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>192.0</LocalPath>
+							</Para>
+							<Para uID="para56d50" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>196.0</LocalPath>
+							</Para>
+							<Para uID="para56d51" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>200.0</LocalPath>
+							</Para>
+							<Para uID="para56d52" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>204.0</LocalPath>
+							</Para>
+							<Para uID="para56d53" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>208.0</LocalPath>
+							</Para>
+							<Para uID="para56d54" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>212.0</LocalPath>
+							</Para>
+							<Para uID="para56d55" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>216.0</LocalPath>
+							</Para>
+							<Para uID="para56d56" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>220.0</LocalPath>
+							</Para>
+							<Para uID="para56d57" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>224.0</LocalPath>
+							</Para>
+							<Para uID="para56d58" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>228.0</LocalPath>
+							</Para>
+							<Para uID="para56d59" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>232.0</LocalPath>
+							</Para>
+							<Para uID="para56d60" type="AXLF:Param">
+								<Elementary access="RW">
+									<Unsigned32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>236.0</LocalPath>
+							</Para>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="o1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>000000B1</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00020040</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o3" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>512</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>512</Unsigned32>
+							</Elementary>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+							<Provides xPath="//PD[@type='AXLF:PD']"/>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_1" fromCEP="lcep1" toLayer="L12_1" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m0">
+						<Label dIDRef="daxlf" tID="t2003">All</Label>
+						<MIList>
+							<G uID="g00">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+							<G uID="g01">
+								<Label dIDRef="daxlf" tID="t2002">Parameter</Label>
+								<MI rUID="p560_0"/>
+								<MI rUID="p561_0"/>
+								<MI rUID="p562_0"/>
+							</G>
+							<G uID="g02">
+								<Label dIDRef="daxlf" tID="t1306">11 Bit Filter Function</Label>
+								<MI rUID="p56a_0"/>
+							</G>
+							<G uID="g03">
+								<Label dIDRef="daxlf" tID="t1307">Filter masks for 11 bit CAN Identifier</Label>
+								<MI rUID="p56b_1"/>
+								<MI rUID="p56b_2"/>
+								<MI rUID="p56b_3"/>
+								<MI rUID="p56b_4"/>
+								<MI rUID="p56b_5"/>
+								<MI rUID="p56b_6"/>
+								<MI rUID="p56b_7"/>
+								<MI rUID="p56b_8"/>
+								<MI rUID="p56b_9"/>
+								<MI rUID="p56b_10"/>
+								<MI rUID="p56b_11"/>
+								<MI rUID="p56b_12"/>
+								<MI rUID="p56b_13"/>
+								<MI rUID="p56b_14"/>
+								<MI rUID="p56b_15"/>
+								<MI rUID="p56b_16"/>
+								<MI rUID="p56b_17"/>
+								<MI rUID="p56b_18"/>
+								<MI rUID="p56b_19"/>
+								<MI rUID="p56b_20"/>
+								<MI rUID="p56b_21"/>
+								<MI rUID="p56b_22"/>
+								<MI rUID="p56b_23"/>
+								<MI rUID="p56b_24"/>
+								<MI rUID="p56b_25"/>
+								<MI rUID="p56b_26"/>
+								<MI rUID="p56b_27"/>
+								<MI rUID="p56b_28"/>
+								<MI rUID="p56b_29"/>
+								<MI rUID="p56b_30"/>
+								<MI rUID="p56b_31"/>
+								<MI rUID="p56b_32"/>
+								<MI rUID="p56b_33"/>
+								<MI rUID="p56b_34"/>
+								<MI rUID="p56b_35"/>
+								<MI rUID="p56b_36"/>
+								<MI rUID="p56b_37"/>
+								<MI rUID="p56b_38"/>
+								<MI rUID="p56b_39"/>
+								<MI rUID="p56b_40"/>
+								<MI rUID="p56b_41"/>
+								<MI rUID="p56b_42"/>
+								<MI rUID="p56b_43"/>
+								<MI rUID="p56b_44"/>
+								<MI rUID="p56b_45"/>
+								<MI rUID="p56b_46"/>
+								<MI rUID="p56b_47"/>
+								<MI rUID="p56b_48"/>
+								<MI rUID="p56b_49"/>
+								<MI rUID="p56b_50"/>
+								<MI rUID="p56b_51"/>
+								<MI rUID="p56b_52"/>
+								<MI rUID="p56b_53"/>
+								<MI rUID="p56b_54"/>
+								<MI rUID="p56b_55"/>
+								<MI rUID="p56b_56"/>
+								<MI rUID="p56b_57"/>
+								<MI rUID="p56b_58"/>
+								<MI rUID="p56b_59"/>
+								<MI rUID="p56b_60"/>
+								<MI rUID="p56b_61"/>
+								<MI rUID="p56b_62"/>
+								<MI rUID="p56b_63"/>
+								<MI rUID="p56b_64"/>
+								<MI rUID="p56b_65"/>
+								<MI rUID="p56b_66"/>
+								<MI rUID="p56b_67"/>
+								<MI rUID="p56b_68"/>
+								<MI rUID="p56b_69"/>
+								<MI rUID="p56b_70"/>
+								<MI rUID="p56b_71"/>
+								<MI rUID="p56b_72"/>
+								<MI rUID="p56b_73"/>
+								<MI rUID="p56b_74"/>
+								<MI rUID="p56b_75"/>
+								<MI rUID="p56b_76"/>
+								<MI rUID="p56b_77"/>
+								<MI rUID="p56b_78"/>
+								<MI rUID="p56b_79"/>
+								<MI rUID="p56b_80"/>
+								<MI rUID="p56b_81"/>
+								<MI rUID="p56b_82"/>
+								<MI rUID="p56b_83"/>
+								<MI rUID="p56b_84"/>
+								<MI rUID="p56b_85"/>
+								<MI rUID="p56b_86"/>
+								<MI rUID="p56b_87"/>
+								<MI rUID="p56b_88"/>
+								<MI rUID="p56b_89"/>
+								<MI rUID="p56b_90"/>
+								<MI rUID="p56b_91"/>
+								<MI rUID="p56b_92"/>
+								<MI rUID="p56b_93"/>
+								<MI rUID="p56b_94"/>
+								<MI rUID="p56b_95"/>
+								<MI rUID="p56b_96"/>
+								<MI rUID="p56b_97"/>
+								<MI rUID="p56b_98"/>
+								<MI rUID="p56b_99"/>
+								<MI rUID="p56b_100"/>
+								<MI rUID="p56b_101"/>
+								<MI rUID="p56b_102"/>
+								<MI rUID="p56b_103"/>
+								<MI rUID="p56b_104"/>
+								<MI rUID="p56b_105"/>
+								<MI rUID="p56b_106"/>
+								<MI rUID="p56b_107"/>
+								<MI rUID="p56b_108"/>
+								<MI rUID="p56b_109"/>
+								<MI rUID="p56b_110"/>
+								<MI rUID="p56b_111"/>
+								<MI rUID="p56b_112"/>
+								<MI rUID="p56b_113"/>
+								<MI rUID="p56b_114"/>
+								<MI rUID="p56b_115"/>
+								<MI rUID="p56b_116"/>
+								<MI rUID="p56b_117"/>
+								<MI rUID="p56b_118"/>
+								<MI rUID="p56b_119"/>
+								<MI rUID="p56b_120"/>
+							</G>
+							<G uID="g04">
+								<Label dIDRef="daxlf" tID="t1309">21 Bit Filter Function</Label>
+								<MI rUID="p56c_0"/>
+							</G>
+							<G uID="g05">
+								<Label dIDRef="daxlf" tID="t1310">Filter masks for 21 bit CAN Identifier</Label>
+								<MI rUID="p56d_1"/>
+								<MI rUID="p56d_2"/>
+								<MI rUID="p56d_3"/>
+								<MI rUID="p56d_4"/>
+								<MI rUID="p56d_5"/>
+								<MI rUID="p56d_6"/>
+								<MI rUID="p56d_7"/>
+								<MI rUID="p56d_8"/>
+								<MI rUID="p56d_9"/>
+								<MI rUID="p56d_10"/>
+								<MI rUID="p56d_11"/>
+								<MI rUID="p56d_12"/>
+								<MI rUID="p56d_13"/>
+								<MI rUID="p56d_14"/>
+								<MI rUID="p56d_15"/>
+								<MI rUID="p56d_16"/>
+								<MI rUID="p56d_17"/>
+								<MI rUID="p56d_18"/>
+								<MI rUID="p56d_19"/>
+								<MI rUID="p56d_20"/>
+								<MI rUID="p56d_21"/>
+								<MI rUID="p56d_22"/>
+								<MI rUID="p56d_23"/>
+								<MI rUID="p56d_24"/>
+								<MI rUID="p56d_25"/>
+								<MI rUID="p56d_26"/>
+								<MI rUID="p56d_27"/>
+								<MI rUID="p56d_28"/>
+								<MI rUID="p56d_29"/>
+								<MI rUID="p56d_30"/>
+								<MI rUID="p56d_31"/>
+								<MI rUID="p56d_32"/>
+								<MI rUID="p56d_33"/>
+								<MI rUID="p56d_34"/>
+								<MI rUID="p56d_35"/>
+								<MI rUID="p56d_36"/>
+								<MI rUID="p56d_37"/>
+								<MI rUID="p56d_38"/>
+								<MI rUID="p56d_39"/>
+								<MI rUID="p56d_40"/>
+								<MI rUID="p56d_41"/>
+								<MI rUID="p56d_42"/>
+								<MI rUID="p56d_43"/>
+								<MI rUID="p56d_44"/>
+								<MI rUID="p56d_45"/>
+								<MI rUID="p56d_46"/>
+								<MI rUID="p56d_47"/>
+								<MI rUID="p56d_48"/>
+								<MI rUID="p56d_49"/>
+								<MI rUID="p56d_50"/>
+								<MI rUID="p56d_51"/>
+								<MI rUID="p56d_52"/>
+								<MI rUID="p56d_53"/>
+								<MI rUID="p56d_54"/>
+								<MI rUID="p56d_55"/>
+								<MI rUID="p56d_56"/>
+								<MI rUID="p56d_57"/>
+								<MI rUID="p56d_58"/>
+								<MI rUID="p56d_59"/>
+								<MI rUID="p56d_60"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m1">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g10">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m2">
+						<Label dIDRef="daxlf" tID="t2002">Parameter</Label>
+						<MIList>
+							<G uID="g20">
+								<Label dIDRef="daxlf" tID="t2002">Parameter</Label>
+								<MI rUID="p560_0"/>
+								<MI rUID="p561_0"/>
+								<MI rUID="p562_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m3">
+						<Label dIDRef="daxlf" tID="t1306">11 Bit Filter Function</Label>
+						<MIList>
+							<G uID="g30">
+								<Label dIDRef="daxlf" tID="t1306">11 Bit Filter Function</Label>
+								<MI rUID="p56a_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m4">
+						<Label dIDRef="daxlf" tID="t1307">Filter masks for 11 bit CAN Identifier</Label>
+						<MIList>
+							<G uID="g03">
+								<Label dIDRef="daxlf" tID="t1307">Filter masks for 11 bit CAN Identifier</Label>
+								<MI rUID="p56b_1"/>
+								<MI rUID="p56b_2"/>
+								<MI rUID="p56b_3"/>
+								<MI rUID="p56b_4"/>
+								<MI rUID="p56b_5"/>
+								<MI rUID="p56b_6"/>
+								<MI rUID="p56b_7"/>
+								<MI rUID="p56b_8"/>
+								<MI rUID="p56b_9"/>
+								<MI rUID="p56b_10"/>
+								<MI rUID="p56b_11"/>
+								<MI rUID="p56b_12"/>
+								<MI rUID="p56b_13"/>
+								<MI rUID="p56b_14"/>
+								<MI rUID="p56b_15"/>
+								<MI rUID="p56b_16"/>
+								<MI rUID="p56b_17"/>
+								<MI rUID="p56b_18"/>
+								<MI rUID="p56b_19"/>
+								<MI rUID="p56b_20"/>
+								<MI rUID="p56b_21"/>
+								<MI rUID="p56b_22"/>
+								<MI rUID="p56b_23"/>
+								<MI rUID="p56b_24"/>
+								<MI rUID="p56b_25"/>
+								<MI rUID="p56b_26"/>
+								<MI rUID="p56b_27"/>
+								<MI rUID="p56b_28"/>
+								<MI rUID="p56b_29"/>
+								<MI rUID="p56b_30"/>
+								<MI rUID="p56b_31"/>
+								<MI rUID="p56b_32"/>
+								<MI rUID="p56b_33"/>
+								<MI rUID="p56b_34"/>
+								<MI rUID="p56b_35"/>
+								<MI rUID="p56b_36"/>
+								<MI rUID="p56b_37"/>
+								<MI rUID="p56b_38"/>
+								<MI rUID="p56b_39"/>
+								<MI rUID="p56b_40"/>
+								<MI rUID="p56b_41"/>
+								<MI rUID="p56b_42"/>
+								<MI rUID="p56b_43"/>
+								<MI rUID="p56b_44"/>
+								<MI rUID="p56b_45"/>
+								<MI rUID="p56b_46"/>
+								<MI rUID="p56b_47"/>
+								<MI rUID="p56b_48"/>
+								<MI rUID="p56b_49"/>
+								<MI rUID="p56b_50"/>
+								<MI rUID="p56b_51"/>
+								<MI rUID="p56b_52"/>
+								<MI rUID="p56b_53"/>
+								<MI rUID="p56b_54"/>
+								<MI rUID="p56b_55"/>
+								<MI rUID="p56b_56"/>
+								<MI rUID="p56b_57"/>
+								<MI rUID="p56b_58"/>
+								<MI rUID="p56b_59"/>
+								<MI rUID="p56b_60"/>
+								<MI rUID="p56b_61"/>
+								<MI rUID="p56b_62"/>
+								<MI rUID="p56b_63"/>
+								<MI rUID="p56b_64"/>
+								<MI rUID="p56b_65"/>
+								<MI rUID="p56b_66"/>
+								<MI rUID="p56b_67"/>
+								<MI rUID="p56b_68"/>
+								<MI rUID="p56b_69"/>
+								<MI rUID="p56b_70"/>
+								<MI rUID="p56b_71"/>
+								<MI rUID="p56b_72"/>
+								<MI rUID="p56b_73"/>
+								<MI rUID="p56b_74"/>
+								<MI rUID="p56b_75"/>
+								<MI rUID="p56b_76"/>
+								<MI rUID="p56b_77"/>
+								<MI rUID="p56b_78"/>
+								<MI rUID="p56b_79"/>
+								<MI rUID="p56b_80"/>
+								<MI rUID="p56b_81"/>
+								<MI rUID="p56b_82"/>
+								<MI rUID="p56b_83"/>
+								<MI rUID="p56b_84"/>
+								<MI rUID="p56b_85"/>
+								<MI rUID="p56b_86"/>
+								<MI rUID="p56b_87"/>
+								<MI rUID="p56b_88"/>
+								<MI rUID="p56b_89"/>
+								<MI rUID="p56b_90"/>
+								<MI rUID="p56b_91"/>
+								<MI rUID="p56b_92"/>
+								<MI rUID="p56b_93"/>
+								<MI rUID="p56b_94"/>
+								<MI rUID="p56b_95"/>
+								<MI rUID="p56b_96"/>
+								<MI rUID="p56b_97"/>
+								<MI rUID="p56b_98"/>
+								<MI rUID="p56b_99"/>
+								<MI rUID="p56b_100"/>
+								<MI rUID="p56b_101"/>
+								<MI rUID="p56b_102"/>
+								<MI rUID="p56b_103"/>
+								<MI rUID="p56b_104"/>
+								<MI rUID="p56b_105"/>
+								<MI rUID="p56b_106"/>
+								<MI rUID="p56b_107"/>
+								<MI rUID="p56b_108"/>
+								<MI rUID="p56b_109"/>
+								<MI rUID="p56b_110"/>
+								<MI rUID="p56b_111"/>
+								<MI rUID="p56b_112"/>
+								<MI rUID="p56b_113"/>
+								<MI rUID="p56b_114"/>
+								<MI rUID="p56b_115"/>
+								<MI rUID="p56b_116"/>
+								<MI rUID="p56b_117"/>
+								<MI rUID="p56b_118"/>
+								<MI rUID="p56b_119"/>
+								<MI rUID="p56b_120"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m5">
+						<Label dIDRef="daxlf" tID="t1309">21 Bit Filter Function</Label>
+						<MIList>
+							<G uID="g50">
+								<Label dIDRef="daxlf" tID="t1309">21 Bit Filter Function</Label>
+								<MI rUID="p56c_0"/>
+							</G>
+						</MIList>
+					</M>
+					<M uID="m6">
+						<Label dIDRef="daxlf" tID="t1310">Filter masks for 21 bit CAN Identifier</Label>
+						<MIList>
+							<G uID="g60">
+								<Label dIDRef="daxlf" tID="t1310">Filter masks for 21 bit CAN Identifier</Label>
+								<MI rUID="p56d_1"/>
+								<MI rUID="p56d_2"/>
+								<MI rUID="p56d_3"/>
+								<MI rUID="p56d_4"/>
+								<MI rUID="p56d_5"/>
+								<MI rUID="p56d_6"/>
+								<MI rUID="p56d_7"/>
+								<MI rUID="p56d_8"/>
+								<MI rUID="p56d_9"/>
+								<MI rUID="p56d_10"/>
+								<MI rUID="p56d_11"/>
+								<MI rUID="p56d_12"/>
+								<MI rUID="p56d_13"/>
+								<MI rUID="p56d_14"/>
+								<MI rUID="p56d_15"/>
+								<MI rUID="p56d_16"/>
+								<MI rUID="p56d_17"/>
+								<MI rUID="p56d_18"/>
+								<MI rUID="p56d_19"/>
+								<MI rUID="p56d_20"/>
+								<MI rUID="p56d_21"/>
+								<MI rUID="p56d_22"/>
+								<MI rUID="p56d_23"/>
+								<MI rUID="p56d_24"/>
+								<MI rUID="p56d_25"/>
+								<MI rUID="p56d_26"/>
+								<MI rUID="p56d_27"/>
+								<MI rUID="p56d_28"/>
+								<MI rUID="p56d_29"/>
+								<MI rUID="p56d_30"/>
+								<MI rUID="p56d_31"/>
+								<MI rUID="p56d_32"/>
+								<MI rUID="p56d_33"/>
+								<MI rUID="p56d_34"/>
+								<MI rUID="p56d_35"/>
+								<MI rUID="p56d_36"/>
+								<MI rUID="p56d_37"/>
+								<MI rUID="p56d_38"/>
+								<MI rUID="p56d_39"/>
+								<MI rUID="p56d_40"/>
+								<MI rUID="p56d_41"/>
+								<MI rUID="p56d_42"/>
+								<MI rUID="p56d_43"/>
+								<MI rUID="p56d_44"/>
+								<MI rUID="p56d_45"/>
+								<MI rUID="p56d_46"/>
+								<MI rUID="p56d_47"/>
+								<MI rUID="p56d_48"/>
+								<MI rUID="p56d_49"/>
+								<MI rUID="p56d_50"/>
+								<MI rUID="p56d_51"/>
+								<MI rUID="p56d_52"/>
+								<MI rUID="p56d_53"/>
+								<MI rUID="p56d_54"/>
+								<MI rUID="p56d_55"/>
+								<MI rUID="p56d_56"/>
+								<MI rUID="p56d_57"/>
+								<MI rUID="p56d_58"/>
+								<MI rUID="p56d_59"/>
+								<MI rUID="p56d_60"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+					<P uID="p560_0">
+						<Label dIDRef="daxlf" tID="t1292">PI-Exchange-Stop PD-Command</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<Unsigned8 xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1293">flag inactive</Label>
+								<Unsigned8>0</Unsigned8>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1294">flag active</Label>
+								<Unsigned8>1</Unsigned8>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="para560"/>
+					</P>
+					<P uID="p561_0">
+						<Label dIDRef="daxlf" tID="t1295">CAN-Stop PD-Command</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<Unsigned8 xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1293">flag inactive</Label>
+								<Unsigned8>0</Unsigned8>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1294">flag active</Label>
+								<Unsigned8>1</Unsigned8>
+							</EnumDefaultEntry>
+						</Enumerated>
+						<ParaRef rUID="para561"/>
+					</P>
+					<P uID="p562_0">
+						<Label dIDRef="daxlf" tID="t1296">CAN Bus bit-rate</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<Unsigned32 xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1297">10 kBit</Label>
+								<Unsigned32>10000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1298">20 kBit</Label>
+								<Unsigned32>20000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1299">50 kBit</Label>
+								<Unsigned32>50000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1300">100 kBit</Label>
+								<Unsigned32>100000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1301">125 kBit</Label>
+								<Unsigned32>125000</Unsigned32>
+							</EnumEntry>
+							<EnumDefaultEntry>
+								<Label dIDRef="daxlf" tID="t1302">250 kBit</Label>
+								<Unsigned32>250000</Unsigned32>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1303">500 kBit</Label>
+								<Unsigned32>500000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1304">800 kBit</Label>
+								<Unsigned32>800000</Unsigned32>
+							</EnumEntry>
+							<EnumEntry>
+								<Label dIDRef="daxlf" tID="t1305">1000 kBit</Label>
+								<Unsigned32>1000000</Unsigned32>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="para562"/>
+					</P>
+					<P uID="p56a_0">
+						<Label dIDRef="daxlf" tID="t1306">11 Bit Filter Function</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<Unsigned8 xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label>receive_all</Label>
+								<Unsigned8>0</Unsigned8>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label>block_all</Label>
+								<Unsigned8>1</Unsigned8>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>receive_ Filter11BitRanges</Label>
+								<Unsigned8>2</Unsigned8>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>block_ Filter11BitRanges</Label>
+								<Unsigned8>3</Unsigned8>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="para56a"/>
+					</P>
+					<P uID="p56b_1">
+						<Label>Min_ID_1</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bitzero"/>
+						<ParaRef rUID="para56b1"/>
+					</P>
+					<P uID="p56b_2">
+						<Label>Max_ID_1</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit2047"/>
+						<ParaRef rUID="para56b2"/>
+					</P>
+					<P uID="p56b_3">
+						<Label>Min_ID_2</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b3"/>
+					</P>
+					<P uID="p56b_4">
+						<Label>Max_ID_2</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b4"/>
+					</P>
+					<P uID="p56b_5">
+						<Label>Min_ID_3</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b5"/>
+					</P>
+					<P uID="p56b_6">
+						<Label>Max_ID_3</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b6"/>
+					</P>
+					<P uID="p56b_7">
+						<Label>Min_ID_4</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b7"/>
+					</P>
+					<P uID="p56b_8">
+						<Label>Max_ID_4</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b8"/>
+					</P>
+					<P uID="p56b_9">
+						<Label>Min_ID_5</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b9"/>
+					</P>
+					<P uID="p56b_10">
+						<Label>Max_ID_5</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b10"/>
+					</P>
+					<P uID="p56b_11">
+						<Label>Min_ID_6</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b11"/>
+					</P>
+					<P uID="p56b_12">
+						<Label>Max_ID_6</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b12"/>
+					</P>
+					<P uID="p56b_13">
+						<Label>Min_ID_7</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b13"/>
+					</P>
+					<P uID="p56b_14">
+						<Label>Max_ID_7</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b14"/>
+					</P>
+					<P uID="p56b_15">
+						<Label>Min_ID_8</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b15"/>
+					</P>
+					<P uID="p56b_16">
+						<Label>Max_ID_8</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b16"/>
+					</P>
+					<P uID="p56b_17">
+						<Label>Min_ID_9</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b17"/>
+					</P>
+					<P uID="p56b_18">
+						<Label>Max_ID_9</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b18"/>
+					</P>
+					<P uID="p56b_19">
+						<Label>Min_ID_10</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b19"/>
+					</P>
+					<P uID="p56b_20">
+						<Label>Max_ID_10</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b20"/>
+					</P>
+					<P uID="p56b_21">
+						<Label>Min_ID_11</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b21"/>
+					</P>
+					<P uID="p56b_22">
+						<Label>Max_ID_11</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b22"/>
+					</P>
+					<P uID="p56b_23">
+						<Label>Min_ID_12</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b23"/>
+					</P>
+					<P uID="p56b_24">
+						<Label>Max_ID_12</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b24"/>
+					</P>
+					<P uID="p56b_25">
+						<Label>Min_ID_13</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b25"/>
+					</P>
+					<P uID="p56b_26">
+						<Label>Max_ID_13</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b26"/>
+					</P>
+					<P uID="p56b_27">
+						<Label>Min_ID_14</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b27"/>
+					</P>
+					<P uID="p56b_28">
+						<Label>Max_ID_14</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b28"/>
+					</P>
+					<P uID="p56b_29">
+						<Label>Min_ID_15</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b29"/>
+					</P>
+					<P uID="p56b_30">
+						<Label>Max_ID_15</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b30"/>
+					</P>
+					<P uID="p56b_31">
+						<Label>Min_ID_16</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b31"/>
+					</P>
+					<P uID="p56b_32">
+						<Label>Max_ID_16</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b32"/>
+					</P>
+					<P uID="p56b_33">
+						<Label>Min_ID_17</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b33"/>
+					</P>
+					<P uID="p56b_34">
+						<Label>Max_ID_17</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b34"/>
+					</P>
+					<P uID="p56b_35">
+						<Label>Min_ID_18</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b35"/>
+					</P>
+					<P uID="p56b_36">
+						<Label>Max_ID_18</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b36"/>
+					</P>
+					<P uID="p56b_37">
+						<Label>Min_ID_19</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b37"/>
+					</P>
+					<P uID="p56b_38">
+						<Label>Max_ID_19</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b38"/>
+					</P>
+					<P uID="p56b_39">
+						<Label>Min_ID_20</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b39"/>
+					</P>
+					<P uID="p56b_40">
+						<Label>Max_ID_20</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b40"/>
+					</P>
+					<P uID="p56b_41">
+						<Label>Min_ID_21</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b41"/>
+					</P>
+					<P uID="p56b_42">
+						<Label>Max_ID_21</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b42"/>
+					</P>
+					<P uID="p56b_43">
+						<Label>Min_ID_22</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b43"/>
+					</P>
+					<P uID="p56b_44">
+						<Label>Max_ID_22</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b44"/>
+					</P>
+					<P uID="p56b_45">
+						<Label>Min_ID_23</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b45"/>
+					</P>
+					<P uID="p56b_46">
+						<Label>Max_ID_23</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b46"/>
+					</P>
+					<P uID="p56b_47">
+						<Label>Min_ID_24</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b47"/>
+					</P>
+					<P uID="p56b_48">
+						<Label>Max_ID_24</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b48"/>
+					</P>
+					<P uID="p56b_49">
+						<Label>Min_ID_25</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b49"/>
+					</P>
+					<P uID="p56b_50">
+						<Label>Max_ID_25</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b50"/>
+					</P>
+					<P uID="p56b_51">
+						<Label>Min_ID_26</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b51"/>
+					</P>
+					<P uID="p56b_52">
+						<Label>Max_ID_26</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b52"/>
+					</P>
+					<P uID="p56b_53">
+						<Label>Min_ID_27</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b53"/>
+					</P>
+					<P uID="p56b_54">
+						<Label>Max_ID_27</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b54"/>
+					</P>
+					<P uID="p56b_55">
+						<Label>Min_ID_28</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b55"/>
+					</P>
+					<P uID="p56b_56">
+						<Label>Max_ID_28</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b56"/>
+					</P>
+					<P uID="p56b_57">
+						<Label>Min_ID_29</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b57"/>
+					</P>
+					<P uID="p56b_58">
+						<Label>Max_ID_29</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b58"/>
+					</P>
+					<P uID="p56b_59">
+						<Label>Min_ID_30</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b59"/>
+					</P>
+					<P uID="p56b_60">
+						<Label>Max_ID_30</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b60"/>
+					</P>
+					<P uID="p56b_61">
+						<Label>Min_ID_31</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b61"/>
+					</P>
+					<P uID="p56b_62">
+						<Label>Max_ID_31</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b62"/>
+					</P>
+					<P uID="p56b_63">
+						<Label>Min_ID_32</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b63"/>
+					</P>
+					<P uID="p56b_64">
+						<Label>Max_ID_32</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b64"/>
+					</P>
+					<P uID="p56b_65">
+						<Label>Min_ID_33</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b65"/>
+					</P>
+					<P uID="p56b_66">
+						<Label>Max_ID_33</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b66"/>
+					</P>
+					<P uID="p56b_67">
+						<Label>Min_ID_34</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b67"/>
+					</P>
+					<P uID="p56b_68">
+						<Label>Max_ID_34</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b68"/>
+					</P>
+					<P uID="p56b_69">
+						<Label>Min_ID_35</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b69"/>
+					</P>
+					<P uID="p56b_70">
+						<Label>Max_ID_35</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b70"/>
+					</P>
+					<P uID="p56b_71">
+						<Label>Min_ID_36</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b71"/>
+					</P>
+					<P uID="p56b_72">
+						<Label>Max_ID_36</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b72"/>
+					</P>
+					<P uID="p56b_73">
+						<Label>Min_ID_37</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b73"/>
+					</P>
+					<P uID="p56b_74">
+						<Label>Max_ID_37</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b74"/>
+					</P>
+					<P uID="p56b_75">
+						<Label>Min_ID_38</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b75"/>
+					</P>
+					<P uID="p56b_76">
+						<Label>Max_ID_38</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b76"/>
+					</P>
+					<P uID="p56b_77">
+						<Label>Min_ID_39</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b77"/>
+					</P>
+					<P uID="p56b_78">
+						<Label>Max_ID_39</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b78"/>
+					</P>
+					<P uID="p56b_79">
+						<Label>Min_ID_40</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b79"/>
+					</P>
+					<P uID="p56b_80">
+						<Label>Max_ID_40</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b80"/>
+					</P>
+					<P uID="p56b_81">
+						<Label>Min_ID_41</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b81"/>
+					</P>
+					<P uID="p56b_82">
+						<Label>Max_ID_41</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b82"/>
+					</P>
+					<P uID="p56b_83">
+						<Label>Min_ID_42</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b83"/>
+					</P>
+					<P uID="p56b_84">
+						<Label>Max_ID_42</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b84"/>
+					</P>
+					<P uID="p56b_85">
+						<Label>Min_ID_43</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b85"/>
+					</P>
+					<P uID="p56b_86">
+						<Label>Max_ID_43</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b86"/>
+					</P>
+					<P uID="p56b_87">
+						<Label>Min_ID_44</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b87"/>
+					</P>
+					<P uID="p56b_88">
+						<Label>Max_ID_44</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b88"/>
+					</P>
+					<P uID="p56b_89">
+						<Label>Min_ID_45</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b89"/>
+					</P>
+					<P uID="p56b_90">
+						<Label>Max_ID_45</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b90"/>
+					</P>
+					<P uID="p56b_91">
+						<Label>Min_ID_46</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b91"/>
+					</P>
+					<P uID="p56b_92">
+						<Label>Max_ID_46</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b92"/>
+					</P>
+					<P uID="p56b_93">
+						<Label>Min_ID_47</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b93"/>
+					</P>
+					<P uID="p56b_94">
+						<Label>Max_ID_47</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b94"/>
+					</P>
+					<P uID="p56b_95">
+						<Label>Min_ID_48</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b95"/>
+					</P>
+					<P uID="p56b_96">
+						<Label>Max_ID_48</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b96"/>
+					</P>
+					<P uID="p56b_97">
+						<Label>Min_ID_49</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b97"/>
+					</P>
+					<P uID="p56b_98">
+						<Label>Max_ID_49</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b98"/>
+					</P>
+					<P uID="p56b_99">
+						<Label>Min_ID_50</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b99"/>
+					</P>
+					<P uID="p56b_100">
+						<Label>Max_ID_50</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b100"/>
+					</P>
+					<P uID="p56b_101">
+						<Label>Min_ID_51</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b101"/>
+					</P>
+					<P uID="p56b_102">
+						<Label>Max_ID_51</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b102"/>
+					</P>
+					<P uID="p56b_103">
+						<Label>Min_ID_52</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b103"/>
+					</P>
+					<P uID="p56b_104">
+						<Label>Max_ID_52</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b104"/>
+					</P>
+					<P uID="p56b_105">
+						<Label>Min_ID_53</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b105"/>
+					</P>
+					<P uID="p56b_106">
+						<Label>Max_ID_53</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b106"/>
+					</P>
+					<P uID="p56b_107">
+						<Label>Min_ID_54</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b107"/>
+					</P>
+					<P uID="p56b_108">
+						<Label>Max_ID_54</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b108"/>
+					</P>
+					<P uID="p56b_109">
+						<Label>Min_ID_55</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b109"/>
+					</P>
+					<P uID="p56b_110">
+						<Label>Max_ID_55</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b110"/>
+					</P>
+					<P uID="p56b_111">
+						<Label>Min_ID_56</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b111"/>
+					</P>
+					<P uID="p56b_112">
+						<Label>Max_ID_56</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b112"/>
+					</P>
+					<P uID="p56b_113">
+						<Label>Min_ID_57</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b113"/>
+					</P>
+					<P uID="p56b_114">
+						<Label>Max_ID_57</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b114"/>
+					</P>
+					<P uID="p56b_115">
+						<Label>Min_ID_58</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b115"/>
+					</P>
+					<P uID="p56b_116">
+						<Label>Max_ID_58</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b116"/>
+					</P>
+					<P uID="p56b_117">
+						<Label>Min_ID_59</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b117"/>
+					</P>
+					<P uID="p56b_118">
+						<Label>Max_ID_59</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b118"/>
+					</P>
+					<P uID="p56b_119">
+						<Label>Min_ID_60</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b119"/>
+					</P>
+					<P uID="p56b_120">
+						<Label>Max_ID_60</Label>
+						<Help dIDRef="daxlf" tID="t1308">dec. (0-2047, 61166=unused)</Help>
+						<DTTRef rUID="dt11bit61166"/>
+						<ParaRef rUID="para56b120"/>
+					</P>
+					<P uID="p56c_0">
+						<Label dIDRef="daxlf" tID="t1309">11 Bit Filter Function</Label>
+						<Enumerated access="RW">
+							<DerivedFrom>
+								<Unsigned8 xsi:nil="true"/>
+							</DerivedFrom>
+							<EnumDefaultEntry>
+								<Label>receive_all</Label>
+								<Unsigned8>0</Unsigned8>
+							</EnumDefaultEntry>
+							<EnumEntry>
+								<Label>block_all</Label>
+								<Unsigned8>1</Unsigned8>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>receive_ Filter21BitRanges</Label>
+								<Unsigned8>2</Unsigned8>
+							</EnumEntry>
+							<EnumEntry>
+								<Label>block_ Filter21BitRanges</Label>
+								<Unsigned8>3</Unsigned8>
+							</EnumEntry>
+						</Enumerated>
+						<ParaRef rUID="para56c"/>
+					</P>
+					<P uID="p56d_1">
+						<Label>Min_ID_1</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bitzero"/>
+						<ParaRef rUID="para56d1"/>
+					</P>
+					<P uID="p56d_2">
+						<Label>Max_ID_1</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit536870911"/>
+						<ParaRef rUID="para56d2"/>
+					</P>
+					<P uID="p56d_3">
+						<Label>Min_ID_2</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d3"/>
+					</P>
+					<P uID="p56d_4">
+						<Label>Max_ID_2</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d4"/>
+					</P>
+					<P uID="p56d_5">
+						<Label>Min_ID_3</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d5"/>
+					</P>
+					<P uID="p56d_6">
+						<Label>Max_ID_3</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d6"/>
+					</P>
+					<P uID="p56d_7">
+						<Label>Min_ID_4</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d7"/>
+					</P>
+					<P uID="p56d_8">
+						<Label>Max_ID_4</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d8"/>
+					</P>
+					<P uID="p56d_9">
+						<Label>Min_ID_5</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d9"/>
+					</P>
+					<P uID="p56d_10">
+						<Label>Max_ID_5</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d10"/>
+					</P>
+					<P uID="p56d_11">
+						<Label>Min_ID_6</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d11"/>
+					</P>
+					<P uID="p56d_12">
+						<Label>Max_ID_6</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d12"/>
+					</P>
+					<P uID="p56d_13">
+						<Label>Min_ID_7</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d13"/>
+					</P>
+					<P uID="p56d_14">
+						<Label>Max_ID_7</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d14"/>
+					</P>
+					<P uID="p56d_15">
+						<Label>Min_ID_8</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d15"/>
+					</P>
+					<P uID="p56d_16">
+						<Label>Max_ID_8</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d16"/>
+					</P>
+					<P uID="p56d_17">
+						<Label>Min_ID_9</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d17"/>
+					</P>
+					<P uID="p56d_18">
+						<Label>Max_ID_9</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d18"/>
+					</P>
+					<P uID="p56d_19">
+						<Label>Min_ID_10</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d19"/>
+					</P>
+					<P uID="p56d_20">
+						<Label>Max_ID_10</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d20"/>
+					</P>
+					<P uID="p56d_21">
+						<Label>Min_ID_11</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d21"/>
+					</P>
+					<P uID="p56d_22">
+						<Label>Max_ID_11</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d22"/>
+					</P>
+					<P uID="p56d_23">
+						<Label>Min_ID_12</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d23"/>
+					</P>
+					<P uID="p56d_24">
+						<Label>Max_ID_12</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d24"/>
+					</P>
+					<P uID="p56d_25">
+						<Label>Min_ID_13</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d25"/>
+					</P>
+					<P uID="p56d_26">
+						<Label>Max_ID_13</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d26"/>
+					</P>
+					<P uID="p56d_27">
+						<Label>Min_ID_14</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d27"/>
+					</P>
+					<P uID="p56d_28">
+						<Label>Max_ID_14</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d28"/>
+					</P>
+					<P uID="p56d_29">
+						<Label>Min_ID_15</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d29"/>
+					</P>
+					<P uID="p56d_30">
+						<Label>Max_ID_15</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d30"/>
+					</P>
+					<P uID="p56d_31">
+						<Label>Min_ID_16</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d31"/>
+					</P>
+					<P uID="p56d_32">
+						<Label>Max_ID_16</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d32"/>
+					</P>
+					<P uID="p56d_33">
+						<Label>Min_ID_17</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d33"/>
+					</P>
+					<P uID="p56d_34">
+						<Label>Max_ID_17</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d34"/>
+					</P>
+					<P uID="p56d_35">
+						<Label>Min_ID_18</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d35"/>
+					</P>
+					<P uID="p56d_36">
+						<Label>Max_ID_18</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d36"/>
+					</P>
+					<P uID="p56d_37">
+						<Label>Min_ID_19</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d37"/>
+					</P>
+					<P uID="p56d_38">
+						<Label>Max_ID_19</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d38"/>
+					</P>
+					<P uID="p56d_39">
+						<Label>Min_ID_20</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d39"/>
+					</P>
+					<P uID="p56d_40">
+						<Label>Max_ID_20</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d40"/>
+					</P>
+					<P uID="p56d_41">
+						<Label>Min_ID_21</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d41"/>
+					</P>
+					<P uID="p56d_42">
+						<Label>Max_ID_21</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d42"/>
+					</P>
+					<P uID="p56d_43">
+						<Label>Min_ID_22</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d43"/>
+					</P>
+					<P uID="p56d_44">
+						<Label>Max_ID_22</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d44"/>
+					</P>
+					<P uID="p56d_45">
+						<Label>Min_ID_23</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d45"/>
+					</P>
+					<P uID="p56d_46">
+						<Label>Max_ID_23</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d46"/>
+					</P>
+					<P uID="p56d_47">
+						<Label>Min_ID_24</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d47"/>
+					</P>
+					<P uID="p56d_48">
+						<Label>Max_ID_24</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d48"/>
+					</P>
+					<P uID="p56d_49">
+						<Label>Min_ID_25</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d49"/>
+					</P>
+					<P uID="p56d_50">
+						<Label>Max_ID_25</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d50"/>
+					</P>
+					<P uID="p56d_51">
+						<Label>Min_ID_26</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d51"/>
+					</P>
+					<P uID="p56d_52">
+						<Label>Max_ID_26</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d52"/>
+					</P>
+					<P uID="p56d_53">
+						<Label>Min_ID_27</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d53"/>
+					</P>
+					<P uID="p56d_54">
+						<Label>Max_ID_27</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d54"/>
+					</P>
+					<P uID="p56d_55">
+						<Label>Min_ID_28</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d55"/>
+					</P>
+					<P uID="p56d_56">
+						<Label>Max_ID_28</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d56"/>
+					</P>
+					<P uID="p56d_57">
+						<Label>Min_ID_29</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d57"/>
+					</P>
+					<P uID="p56d_58">
+						<Label>Max_ID_29</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d58"/>
+					</P>
+					<P uID="p56d_59">
+						<Label>Min_ID_30</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d59"/>
+					</P>
+					<P uID="p56d_60">
+						<Label>Max_ID_30</Label>
+						<Help dIDRef="daxlf" tID="t1311">dec. (0-536870911, 4008636142=unused)</Help>
+						<DTTRef rUID="dt21bit4008636142"/>
+						<ParaRef rUID="para56d60"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

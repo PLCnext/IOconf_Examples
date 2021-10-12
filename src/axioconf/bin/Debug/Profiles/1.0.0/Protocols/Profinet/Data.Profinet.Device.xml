@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="PN:Device" no="7"/>
+  <TextResourceList>
+    <TextResource dID="dpntype" xml:lang="de" xlink:type="simple" xlink:href=".\de\dpntype_de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="pnd00" type="PN:CfgDiff">
+      <Label dIDRef="dpntype" tID="t0100">Configuration differences</Label>
+      <Help dIDRef="dpntype" tID="t0101">Defines if a device is operated when projected and actual configuration differ.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <BOOL xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <BOOL>false</BOOL>
+        </EnumEntry>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <BOOL>true</BOOL>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnd01" type="PN:LogConStat">
+      <Label dIDRef="dpntype" tID="t0102">Log connection state</Label>
+            <Help dIDRef="dpntype" tID="t0103">Activate this setting to log information about the establishment and abortion of the communication connection
+to the IO devices in the diagnostic archive of the IO controller. This allows for example to detect a
+sporadic failure of an IO device.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Unsigned16 xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <Unsigned16>0</Unsigned16>
+        </EnumEntry>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <Unsigned16>1</Unsigned16>
+        </EnumDefaultEntry>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1002">reconnect</Label>
+          <Unsigned16>2</Unsigned16>
+        </EnumEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnd02" type="PN:IgnFS">
+      <Label dIDRef="dpntype" tID="t0104">Drive BF</Label>
+      <Help dIDRef="dpntype" tID="t0105">Select whether to flash BF LED on the IO Controller if connection cannot be established.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Bit xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <Bit>false</Bit>
+        </EnumEntry>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <Bit>true</Bit>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnd07" type="PN:MediaRedundancySupported">
+      <Label dIDRef="dpntype" tID="t0123">Media redundancy supported</Label>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Bit xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <Bit>false</Bit>
+        </EnumDefaultEntry>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <Bit>true</Bit>
+        </EnumEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnd08" type="PN:ARUID">
+      <Label dIDRef="dpntype" tID="t0112">AR UID</Label>
+      <Elementary access="RW">
+        <Unsigned16>0</Unsigned16>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnd09" type="PN:ARUUID">
+      <Label dIDRef="dpntype" tID="t0113">AR UUID</Label>
+      <Elementary access="RW">
+        <String enc="UTF-8"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnd10" type="PN:CRInputFrameID">
+      <Label dIDRef="dpntype" tID="t0114">Input frame ID</Label>
+      <Elementary access="RW">
+        <Unsigned16>0</Unsigned16>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnd11" type="PN:CROutputFrameID">
+      <Label dIDRef="dpntype" tID="t0115">Output frame ID</Label>
+      <Elementary access="RW">
+        <Unsigned16>65535</Unsigned16>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnd12" type="PN:StartAROnStartup">
+      <Label dIDRef="dpntype" tID="t0116">Start AR on startup</Label>
+            <Help dIDRef="dpntype" tID="t0132">Defines if the controller establishes a connection to this device on startup.
+If set to no, you can establish a connection from your application with the AR_MGT FB.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Bit xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <Bit>false</Bit>
+        </EnumEntry>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <Bit>true</Bit>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnd13" type="PN:LocalAlarmRef">
+      <Label dIDRef="dpntype" tID="t0117">Local alarm reference</Label>
+      <Elementary access="RW">
+        <Unsigned16>0</Unsigned16>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnd14" type="PN:SubsModeInput">
+      <Label dIDRef="dpntype" tID="t0130">Substitute value behavior of inputs</Label>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Unsigned8 xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1003">Set to zero</Label>
+          <Unsigned8>0</Unsigned8>
+        </EnumDefaultEntry>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1004">Keep values</Label>
+          <Unsigned8>1</Unsigned8>
+        </EnumEntry>
+      </Enumerated>
+    </Obj>
+        <Obj uID="pnd15" type="AmlApcStationName">
+          <Label dIDRef="dpntype" tID="t1007">AML APC station name</Label>
+          <Help dIDRef="dpntype" tID="t1009">Station name for AutomationML im-/export.</Help>
+          <Elementary access="RW">
+            <String enc="UTF-8"/>
+          </Elementary>
+        </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>

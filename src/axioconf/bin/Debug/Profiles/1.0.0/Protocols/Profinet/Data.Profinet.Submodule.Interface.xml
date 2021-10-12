@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="PN:Submodule:Interface" no="7"/>
+  <TextResourceList>
+    <TextResource dID="dpntype" xml:lang="de" xlink:type="simple" xlink:href=".\de\dpntype_de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="pnsmi00" type="SlotNumber">
+      <Label dIDRef="dpntype" tID="t0204">Subslot number</Label>
+      <Elementary access="R">
+        <Unsigned16 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi01" type="PN:NodeID">
+      <Label dIDRef="dpntype" tID="t0202">Node ID</Label>
+      <Help dIDRef="dpntype" tID="t0203">This is a unique ID to be used as address in Profinet communication function blocks.</Help>
+      <Elementary access="R">
+        <Unsigned32 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi02" type="PN:WtchD">
+      <Label dIDRef="dpntype" tID="t0106">Monitor factor (symmetric/inputs)</Label>
+      <Help dIDRef="dpntype" tID="t0107">
+        Multiplier of update time to terminate the connection if no data can be exchanged.
+        The entered value must be a multiple of 3.
+      </Help>
+      <Subrange access="RW">
+        <Min>
+          <Unsigned16>3</Unsigned16>
+        </Min>
+        <Max>
+          <Unsigned16>255</Unsigned16>
+        </Max>
+        <Default>
+          <Unsigned16>3</Unsigned16>
+        </Default>
+        <Step>
+          <Unsigned16>3</Unsigned16>
+        </Step>
+      </Subrange>
+    </Obj>
+    <Obj uID="pnsmi03" type="PN:UpdateTime">
+      <Label dIDRef="dpntype" tID="t0119">Update time (symmetric/inputs)</Label>
+      <Help dIDRef="dpntype" tID="t0133">
+        The cycle time with which IO data is exchanged between controller and device.
+        It is the product of the controllers send clock and the reduction ratio of this interface.
+      </Help>
+      <Elementary access="RW" uom="ms">
+        <Float64>0</Float64>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi04" type="PN:MonitorTime">
+      <Label dIDRef="dpntype" tID="t0111">Monitor time (symmetric/inputs)</Label>
+      <Help dIDRef="dpntype" tID="t0124">
+        The communication will be terminated if no cyclic data could be exchanged in the given time.
+        It is the product of update time and monitor factor.
+      </Help>
+      <Elementary access="RW" uom="ms">
+        <Float64>0</Float64>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi05" type="PN:RedRatUI">
+      <Label dIDRef="dpntype" tID="t0134">Reduction ratio (symmetric/inputs)</Label>
+      <Help dIDRef="dpntype" tID="t0135">This value determines the frequency of the data transmission.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Unsigned16 xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label>8</Label>
+          <Unsigned16>8</Unsigned16>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnsmi06" type="PN:WtchDOutput">
+      <Label dIDRef="dpntype" tID="t0139">Monitor factor (outputs)</Label>
+      <Help dIDRef="dpntype" tID="t0107">
+        Multiplier of update time to terminate the connection if no data can be exchanged.
+        The entered value must be a multiple of 3.
+      </Help>
+      <Subrange access="RW">
+        <Min>
+          <Unsigned16>3</Unsigned16>
+        </Min>
+        <Max>
+          <Unsigned16>255</Unsigned16>
+        </Max>
+        <Default>
+          <Unsigned16>3</Unsigned16>
+        </Default>
+        <Step>
+          <Unsigned16>3</Unsigned16>
+        </Step>
+      </Subrange>
+    </Obj>
+    <Obj uID="pnsmi07" type="PN:UpdateTimeOutput">
+      <Label dIDRef="dpntype" tID="t0141">Update time (outputs)</Label>
+      <Help dIDRef="dpntype" tID="t0133">
+        The cycle time with which IO data is exchanged between controller and device.
+        It is the product of the controllers send clock and the reduction ratio of this interface.
+      </Help>
+      <Elementary access="RW" uom="ms">
+        <Float64>0</Float64>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi08" type="PN:MonitorTimeOutput">
+      <Label dIDRef="dpntype" tID="t0140">Monitor time (outputs)</Label>
+      <Help dIDRef="dpntype" tID="t0124">
+        The communication will be terminated if no cyclic data could be exchanged in the given time.
+        It is the product of update time and monitor factor.
+      </Help>
+      <Elementary access="RW" uom="ms">
+        <Float64>0</Float64>
+      </Elementary>
+    </Obj>
+    <Obj uID="pnsmi09" type="PN:RedRatUIOutput">
+      <Label dIDRef="dpntype" tID="t0142">Reduction ratio (outputs)</Label>
+      <Help dIDRef="dpntype" tID="t0135">This value determines the frequency of the data transmission.</Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Unsigned16 xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label>8</Label>
+          <Unsigned16>8</Unsigned16>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnsmi10" type="PN:AsymTiming">
+      <Label dIDRef="dpntype" tID="t0138">Timing</Label>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <BOOL xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t0136">Asymmetric</Label>
+          <BOOL>true</BOOL>
+          <RelaList>
+            <Rela tion="show">
+              <ObjRef rUID="pnsmi06"/>
+              <ObjRef rUID="pnsmi07"/>
+              <ObjRef rUID="pnsmi08"/>
+              <ObjRef rUID="pnsmi09"/>
+            </Rela>
+          </RelaList>
+        </EnumEntry>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t0137">Symmetric</Label>
+          <BOOL>false</BOOL>
+          <RelaList>
+            <Rela tion="hide">
+              <ObjRef rUID="pnsmi06"/>
+              <ObjRef rUID="pnsmi07"/>
+              <ObjRef rUID="pnsmi08"/>
+              <ObjRef rUID="pnsmi09"/>
+            </Rela>
+          </RelaList>
+        </EnumDefaultEntry>
+      </Enumerated>
+    </Obj>
+    <Obj uID="pnsm01" type="PN:Activated">
+      <Label dIDRef="dpntype" tID="t0205">Active</Label>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <BOOL xsi:nil="true"/>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label dIDRef="dpntype" tID="t1001">Yes</Label>
+          <BOOL>true</BOOL>
+        </EnumDefaultEntry>
+        <EnumEntry>
+          <Label dIDRef="dpntype" tID="t1000">No</Label>
+          <BOOL>false</BOOL>
+        </EnumEntry>
+      </Enumerated>
+    </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>

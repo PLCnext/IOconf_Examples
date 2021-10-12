@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!-- Scopes -->
+  <ScopeList>
+    <Import uri="../Core/Scopes/PrePostCompose.Scopes.xml"></Import>
+  </ScopeList>
+  <ImportList>
+    <EventList>
+      <Import uri="../Core/Events/PrePostCompose.Events.xml"></Import>
+    </EventList>
+    <!-- compiler assembly imports -->
+    <AssemblyList>
+      <Import uri="./Protocols/Agnostic/PrePostCompose.Agnostic.xml"></Import>
+      <Import uri="./Protocols/TcpIP/PrePostCompose.TcpIP.xml"></Import>
+      <Import uri="./Protocols/Profinet/PrePostCompose.Profinet.xml"></Import>
+    </AssemblyList>
+  </ImportList>
+  <!-- compiler target definitions -->
+  <TargetList>
+    <!-- creation of Instances -->
+    <Target id="PrePostCompose">
+      <ProvidesScope>
+        <ScopeRef id="GlobalScope"></ScopeRef>
+      </ProvidesScope>
+      <Phase id="permit">
+        <ProvidesScope>
+          <ScopeRef id="PrePostComposeScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="compose.permit">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCompose.Dependencies.xml" xpath="/Dependencies[@target='PrePostCompose']/Dependencies[@phase='permit']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <!-- AGNOSTIC -->
+          <Group id="Agnostic">
+            <Condition>
+              <IsProfileVersion protocol="Agnostic" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="NetworkCompositionCheck"></TaskRef>
+              <TaskRef name="ControllerCompositionCheck"></TaskRef>
+              <TaskRef name="DeviceCompositionCheck"></TaskRef>
+            </Executes>
+          </Group>
+          <Group id="TCPIP">
+            <Condition>
+              <IsProfileVersion protocol="IP" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="ComposeChildrenTcpIPCheck"></TaskRef>
+              <TaskRef name="ComposeTcpIPCheck"></TaskRef>
+            </Executes>
+          </Group>
+          <Group id="PN">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <!--<TaskRef name="ProfinetDeviceCompositionCheckTask"></TaskRef>
+              <TaskRef name="ProfinetModuleCompositionCheckTask"></TaskRef>
+              <TaskRef name="ProfinetSubmoduleCompositionCheckTask"></TaskRef>-->
+              <TaskRef name="AgnosticCompositionDeviceCheckTaskPN"></TaskRef>
+              <!--<TaskRef name="AgnosticPhysicalCompositionModuleCheckTaskPN"></TaskRef>-->
+              <TaskRef name="AgnosticLogicalCompositionModuleCheckTaskPN"></TaskRef>
+              <TaskRef name="AgnosticCompositionSubmoduleCheckTaskPN"></TaskRef>
+              <TaskRef name="ProfinetSrlDeviceInsertCheckTask"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="before">
+        <ProvidesScope>
+          <ScopeRef id="PrePostComposeScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="compose.before">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCompose.Dependencies.xml" xpath="/Dependencies[@target='PrePostCompose']/Dependencies[@phase='before']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <!-- PROFINET -->
+          <Group id="PN">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="ProfinetDeviceAdjustVirtualSlotNumberTask"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="on">
+        <ProvidesScope>
+          <ScopeRef id="PrePostComposeScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="compose.on">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCompose.Dependencies.xml" xpath="/Dependencies[@target='PrePostCompose']/Dependencies[@phase='on']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <Group id="Agnostic">
+            <Condition>
+              <IsProfileVersion protocol="Agnostic" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="NetworkComposition"></TaskRef>
+              <TaskRef name="ControllerComposition"></TaskRef>
+              <TaskRef name="DeviceComposition"></TaskRef>
+            </Executes>
+          </Group>
+          <Group id="TCPIP">
+            <Condition>
+              <IsProfileVersion protocol="IP" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="ComposeChildrenTcpIPTask"></TaskRef>
+              <TaskRef name="ComposeTcpIPTask"></TaskRef>
+              <TaskRef name="TcpIPInitializePropertiesTask"></TaskRef>
+            </Executes>
+          </Group>
+          <Group id="PN">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes ExecutionMode="Sequential">
+              <TaskRef name="ProfinetDeviceIdAssignmentTask"></TaskRef>
+              <TaskRef name="AgnosticCompositionDeviceTaskPN"></TaskRef>
+              <TaskRef name="AgnosticLogicalCompositionModuleTaskPN"></TaskRef>
+              <!--<TaskRef name="AgnosticPhysicalCompositionModuleTaskPN"></TaskRef>-->
+              <TaskRef name="AgnosticCompositionSubmoduleTaskPN"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="after">
+        <ProvidesScope>
+          <ScopeRef id="PrePostComposeScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="compose.after">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCompose.Dependencies.xml" xpath="/Dependencies[@target='PrePostCompose']/Dependencies[@phase='after']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <TaskRef name="DeviceIndex"></TaskRef>
+          <TaskRef name="DeviceId"></TaskRef>
+          <TaskRef name="ControllerId"></TaskRef>
+        </Executes>
+      </Phase>
+    </Target>
+  </TargetList>
+</Configuration>

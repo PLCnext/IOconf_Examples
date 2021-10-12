@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventList>
+  <!-- Instance creation -->
+  <Event id="create-Instance.permit">
+    <ProvidesScope>
+      <ScopeRef id="PermitCreateScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="create-Instance.before">
+    <ProvidesScope>
+      <ScopeRef id="BeforeCreateScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="create-Instance.on">
+    <ProvidesScope>
+      <ScopeRef id="OnCreateScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="create-Instance.after">
+    <ProvidesScope>
+      <ScopeRef id="AfterCreateScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+</EventList>

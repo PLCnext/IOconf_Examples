@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Axioline F device instance data -->
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="IP" no="3-4"/>
+  <TextResourceList>
+    <TextResource dID="de" xml:lang="de" xlink:type="simple" xlink:href=".\de\de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="ip100" type="IP:IpAddress">
+      <Label dIDRef="diptype" tID="t0100">IP address</Label>
+      <Help dIDRef="diptype" tID="t0100h">To assign an IP address manually choose &apos;manual&apos; at &apos;IP address assignment mode&apos;.</Help>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip101" type="IP:DnsName">
+      <Label dIDRef="diptype" tID="t0101">DNS hostname</Label>
+      <Help dIDRef="diptype" tID="t0104">Hostname of device according to RFC 3490.</Help>
+      <DerivedString access="RW" CharLen="255">
+        <StringASCII xsi:nil="true"/>
+      </DerivedString>
+    </Obj>
+    <Obj uID="ip102" type="IP:ExtendedDomainName">
+      <Label dIDRef="diptype" tID="t0110">Name of station</Label>
+      <Help dIDRef="diptype" tID="t0105">
+        Name of device according to the Topology and Engineering Guideline for Profinet.
+        This entry is automatically converted to a DNS-compatible hostname.
+      </Help>
+      <DerivedString access="RW" CharLen="240">
+        <String enc="UTF-8" xsi:nil="true"/>
+      </DerivedString>
+    </Obj>
+    <Obj uID="ip103" type="IP:DefaultGateway">
+      <Label dIDRef="diptype" tID="t0102">Gateway</Label>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip104" type="IP:SubnetMask">
+      <Label dIDRef="diptype" tID="t0009">Subnet mask</Label>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip105" type="IP:IndividualSettings">
+      <Label dIDRef="diptype" tID="t010e">IP address assignment mode</Label>
+      <Help dIDRef="diptype" tID="t010f">
+        Defines whether the IP address assigment is done automatically
+        or has to be done manually per device. If &apos;automatic&apos; is selected
+        the device gets the next free IP address of the predefined
+        IP range of the subnet.
+      </Help>
+      <Enumerated access="RW">
+        <DerivedFrom>
+          <Boolean>true</Boolean>
+        </DerivedFrom>
+        <EnumDefaultEntry>
+          <Label dIDRef="diptype" tID="t1004">automatic</Label>
+          <Boolean>false</Boolean>
+          <RelaList>
+            <Rela tion="dis">
+              <ObjRef rUID="ip100"/>
+              <ObjRef rUID="ip103"/>
+              <ObjRef rUID="ip104"/>
+            </Rela>
+          </RelaList>
+        </EnumDefaultEntry>
+        <EnumEntry>
+          <Label dIDRef="diptype" tID="t1005">manual</Label>
+          <Boolean>true</Boolean>
+          <RelaList>
+            <Rela tion="en">
+              <ObjRef rUID="ip100"/>
+              <ObjRef rUID="ip103"/>
+              <ObjRef rUID="ip104"/>
+            </Rela>
+          </RelaList>
+        </EnumEntry>
+      </Enumerated>
+    </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>

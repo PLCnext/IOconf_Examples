@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssemblyList>
+  <Assembly fullName="Ade.Network.Compiler.TcpIPImpl">
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.TcpIPInitializePropertiesTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <And>
+          <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+          <Compare Property="IsProjectModification">true</Compare>
+        </And>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.ComposeChildrenTcpIPCheck">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.ComposeTcpIPCheck">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.ComposeTcpIPTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+    <Task fullName="Ade.Network.Compiler.TcpIP.Tasks.ComposeChildrenTcpIPTask">
+      <RequiresScope>
+        <ScopeRef id="PrePostComposeScope">
+          <BindTo>
+            <ProtocolBinding protocol="IP" layer="Layer3-4"></ProtocolBinding>
+          </BindTo>
+        </ScopeRef>
+      </RequiresScope>
+      <Condition>
+        <Match Property="InstanceType">//Device[exists(./Layer3-4[@type='IP'])]</Match>
+      </Condition>
+    </Task>
+  </Assembly>
+</AssemblyList>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!-- Scopes -->
+  <ScopeList>
+    <Import uri="../Core/Scopes/PrePostCreate.Scopes.xml"></Import>
+  </ScopeList>
+  <ImportList>
+    <EventList>
+      <Import uri="../Core/Events/PrePostCreate.Events.xml"></Import>
+    </EventList>
+    <AssemblyList>
+      <Import uri="./Protocols/Agnostic/PrePostCreate.Agnostic.xml"></Import>
+      <Import uri="./Protocols/Profinet/PrePostCreate.Profinet.xml"></Import>
+    </AssemblyList>
+  </ImportList>
+  <!-- compiler target definitions -->
+  <TargetList>
+    <!-- creation of Instances -->
+    <Target id="PrePostCreate">
+      <ProvidesScope>
+        <ScopeRef id="GlobalScope"></ScopeRef>
+      </ProvidesScope>
+      <Phase id="permit">
+        <ProvidesScope>
+          <ScopeRef id="PreCreateScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="create-Instance.permit">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCreate.Dependencies.xml" xpath="//Dependencies[@target='PrePostCreate']/Dependencies[@phase='permit']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+        </Executes>
+      </Phase>
+      <Phase id="before">
+        <ProvidesScope>
+          <ScopeRef id="PreCreateScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="create-Instance.before">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCreate.Dependencies.xml" xpath="/Dependencies[@target='PrePostCreate']/Dependencies[@phase='before']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+        </Executes>
+      </Phase>
+      <Phase id="on">
+        <ProvidesScope>
+          <ScopeRef id="PostCreateScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="create-Instance.on">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCreate.Dependencies.xml" xpath="/Dependencies[@target='PrePostCreate']/Dependencies[@phase='on']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <Group id="GENERIC" ExecutionMode="Sequential">
+            <Condition>
+              <IsProfileVersion protocol="*" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+      <Phase id="after">
+        <ProvidesScope>
+          <ScopeRef id="PostCreateScope"></ScopeRef>
+        </ProvidesScope>
+        <TriggeredBy>
+          <Event id="create-Instance.after">
+          </Event>
+        </TriggeredBy>
+        <Dependencies>
+          <Import uri="../PrePostCreate.Dependencies.xml" xpath="/Dependencies[@target='PrePostCreate']/Dependencies[@phase='after']/Dependency"></Import>
+        </Dependencies>
+        <Executes ExecutionMode="Automatic">
+          <!-- AGNOSTIC -->
+          <Group id="Agnostic" ExecutionMode="Sequential">
+            <Condition>
+              <IsProfileVersion protocol="*" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="GenerateApplicationDataTask"></TaskRef>
+              <TaskRef name="GenerateTransportDataTask"></TaskRef>
+              <TaskRef name="GeneratePhysicalDataTask"></TaskRef>
+              <TaskRef name="GenerateParametersTask"></TaskRef>
+              <TaskRef name="GenerateProcessDataTask"></TaskRef>
+              <TaskRef name="InitializeControllerID"></TaskRef>
+              <TaskRef name="InitializeDeviceID"></TaskRef>
+            </Executes>
+          </Group>
+          <!-- PROFINET -->
+          <Group id="PN" ExecutionMode="Sequential">
+            <Condition>
+              <IsProfileVersion protocol="PN" version="1.0.0"></IsProfileVersion>
+            </Condition>
+            <Executes>
+              <TaskRef name="ProfinetCreateMaster"></TaskRef>
+              <TaskRef name="ProfinetCreateSubmodule"></TaskRef>
+            </Executes>
+          </Group>
+        </Executes>
+      </Phase>
+    </Target>
+  </TargetList>
+</Configuration>

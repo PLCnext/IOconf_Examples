@@ -1,0 +1,1296 @@
+C:\IOConf\axioconf\axioconf\bin\Release\Axiocontrol.pcwlx
+C:\IOConf\axioconf\axioconf\bin\Release\axioconf.exe.config
+C:\IOConf\axioconf\axioconf\bin\Release\axioconf.exe
+C:\IOConf\axioconf\axioconf\bin\Release\axioconf.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\BouncyCastle.Crypto.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Build.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Build.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Build.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compare.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compare.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compare.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compiler.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compiler.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Compiler.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Components.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Components.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Components.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ComponentsImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ComponentsImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ComponentsImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Core.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Core.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Core.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CoreImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CoreImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CoreImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CrossReferences.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CrossReferences.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.CrossReferences.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataList.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataList.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataList.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataTypes.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataTypes.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DataTypes.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Diagnostics.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Diagnostics.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Diagnostics.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Documents.UI.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Documents.UI.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Documents.UI.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Documents.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Documents.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Base.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Base.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Base.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.BaseImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.BaseImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.BaseImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Network.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Network.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Network.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.NetworkImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.NetworkImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.NetworkImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Persistence.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Persistence.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Persistence.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Project.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Project.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.Project.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Platform.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.PlatformImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.PlatformImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.PlatformImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.Base.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.Base.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.Base.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Project.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.ProjectImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.ProjectImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.ProjectImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Workspace.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Workspace.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.Workspace.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Domain.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DomainImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DomainImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.DomainImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ExtenderProvider.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ExtenderProvider.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.ExtenderProvider.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Fdcml.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Fdcml.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Fdcml.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Gsdml.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Gsdml.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Gsdml.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.GsdmlImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.GsdmlImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.GsdmlImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.HierarchyPresenter.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.HierarchyPresenter.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.HierarchyPresenter.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IO.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IO.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IO.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IOImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IOImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IOImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IntelliSense.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IntelliSense.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.IntelliSense.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.Configuration.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.Configuration.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.Configuration.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.CompilerImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.CompilerImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.CompilerImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Configuration.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Configuration.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Configuration.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ConfigurationImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ConfigurationImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ConfigurationImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Core.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Core.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Core.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Device.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Device.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Device.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceEditor.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceEditor.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceEditor.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.DeviceImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Axioline.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Axioline.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Axioline.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Profinet.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Profinet.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Model.Profinet.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ModelImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ModelImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ModelImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profiles.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profiles.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profiles.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProfilesImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProfilesImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProfilesImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profinet.Encoding.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profinet.Encoding.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Profinet.Encoding.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Provider.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Provider.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.Provider.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProviderImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProviderImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.ProviderImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Network.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Discovery.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Discovery.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Discovery.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Protocol.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Protocol.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.Protocol.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Online.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Patterns.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Patterns.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Patterns.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Esm.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Esm.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Esm.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Plm.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Plm.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.Plm.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.PlcNext.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Hmi.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Hmi.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Hmi.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IO.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IO.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IO.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IOImpl.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IOImpl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.IOImpl.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Plc.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Plc.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.Plc.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Project.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Security.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Security.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Security.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Shell.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Shell.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Shell.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Text.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Text.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Text.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.UIFramework.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.UIFramework.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.UIFramework.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.Compiler.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.Compiler.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.Compiler.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.XmlSerializers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Ade.Variables.pdb
+C:\IOConf\axioconf\axioconf\bin\Release\MoreLinq.dll
+C:\IOConf\axioconf\axioconf\bin\Release\MurmurHash.dll
+C:\IOConf\axioconf\axioconf\bin\Release\WupiEngineNet.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Buffers.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Collections.Immutable.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.IO.Packaging.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.IO.Ports.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Memory.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Numerics.Vectors.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Reactive.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Security.AccessControl.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Security.Cryptography.ProtectedData.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Security.Permissions.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Security.Principal.Windows.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.ServiceModel.Primitives.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Text.Encodings.Web.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Text.Json.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Threading.Channels.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\IOConf\axioconf\axioconf\bin\Release\System.ValueTuple.dll
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXC F2152v00_2019.6.0.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXC1xxx.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL 2 byte IO.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL 64 byte IO.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 1Hv02_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 XC 1Hv02_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI4 I 1Hv01_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI4 I XC 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI4 U 1Hv01_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI4 U XC 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI8 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI8 W 1Fv02_1.30.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI8 XC 1Fv00_1.21.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AI8 XC1Fv00_1.21.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.10.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.10.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO8 1Fv03_1.30.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F AO8 XC 1Fv00_1.21.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 1Fv03_1.20.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 XC 1Fv00_1.20.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_1 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO16_1 2H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO8_2-2A 2H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_1 HS 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_4 2F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI16_4 XC 2F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI32_1 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI32_1 2H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI32_1 XC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI64_1 2F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 XC 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_2 110_220DC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_2 24DC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_2 48_60DC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DI8_3 DO8_3 2H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO16 FLK 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO16_1 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO16_3 2Fv03.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO16_3 XC 2F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO32_1 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO32_1 XC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO4_3 AC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO64_1 2F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DO8_2 2A 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F DOR4_2 AC_220DC 1F.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F IF CAN 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F IMPULSE2 XC 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F IOL8 2Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F LPSDO8_3 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F MA IB 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PM EF 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PM UT 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PM UT 1M 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PSDI8_4 1F.v00_1.01.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PSDO8_3 1F.v00_1.01.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PWM2 1Hv01_1.10.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F PWR 1H.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RS TIME RX 1Hv02_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RS UNI 1Hv01_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RS UNI XC 1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RTD4 1Hv01_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RTD8 1Fv05_1.30.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RTD8 ENI 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RTD8 S 1Fv06_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F RTD8 XC 1Fv00_1.30.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F SSDI8_4 1Fv01_2.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F SSDO8_3 1Fv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F SSI1 AO1 1Hv03_1.01.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F UTH4 1Hv00_1.01.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F UTH8 1Fv00_1.10.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F UTH8 XC 1Fv00_1.10.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL F physical.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL MTS LINESKIP.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL PHYCONV LINESKIP.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE AI4 I 4-20v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE AI4 U 0-10v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE AO4 I 4-20v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE AO4 U 0-10v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE CNT1v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE DI16_1v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE DO16_1v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE INC1 SYMv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE IOL4v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE RS485v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE RTD4 PT100v00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL SE SC-Av00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL_F_DO16_2-2Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL_F_DO32_1_2Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL_F_MA_DALI2_1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL_F_PWM2_1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AXL_F_SGI2_1Hv00_1.00.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineFFull.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineFHalf.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineFHalf2.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineFSFull.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineFSHalf.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineSE.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineSEFull.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\AxiolineSEHalf.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\EtherNetIP.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\Ethernet.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\HMI.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\IP.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\InlineMaster.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\MasterAXIO.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\OPCUA.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\Profinet.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\SWIOC.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\SWIOCv0.0_0.0.0.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.3.0.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.4.0.fdcml
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\de\AXCTextRes_de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\de\AXLFTextRes_de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\eCLR.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Fdcml\plcnext.16.png
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Build.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\PrePostCompose.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\PrePostCreate.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\PrePostEdit.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Build.Agnostic.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Device.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Master.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCompose.Agnostic.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCreate.Agnostic.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostEdit.Agnostic.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\de\de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\Data.Axioline.Device.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\de\de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Build.Profinet.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Device.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Master.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.DAP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.DAP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Interface.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Port.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCompose.Profinet.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCreate.Profinet.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostEdit.Profinet.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\de\dpntype_de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Build.TcpIP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.IP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.Tcp.IP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCompose.TcpIP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCreate.TcpIP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostEdit.TcpIP.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\de\diptype_de.fdcmlres
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Build.Dependencies.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Events\Build.Events.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Events\PrePostCompose.Events.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Events\PrePostCreate.Events.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Events\PrePostEdit.Events.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Scopes\Build.Scopes.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCompose.Scopes.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCreate.Scopes.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Scopes\PrePostEdit.Scopes.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\Core\Scopes\Scopes.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\PrePostCompose.Dependencies.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\PrePostCreate.Dependencies.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Profiles\PrePostEdit.Dependencies.xml
+C:\IOConf\axioconf\axioconf\bin\Release\Projects\Axiocontrol.pcwlx
+C:\IOConf\axioconf\axioconf\bin\Release\Projects\Inline Profinet.pcwlx
+C:\IOConf\axioconf\axioconf\bin\Release\Projects\NetCI.ioconfx
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.exe.config
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.csproj.CoreCompileInputs.cache
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.csproj.CopyComplete
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.exe
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.pdb
+C:\IOConf\axioconf\axioconf\obj\Release\axioconf.csprojAssemblyReference.cache
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Axiocontrol.pcwlx
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\axioconf.exe.config
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\axioconf.exe
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\axioconf.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\BouncyCastle.Crypto.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Build.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Build.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Build.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Components.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Components.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Components.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Core.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Core.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Core.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IO.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IO.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IO.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Network.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Online.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Project.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Security.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Security.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Security.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Text.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Text.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Text.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.XmlSerializers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.pdb
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\MoreLinq.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\MurmurHash.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\WupiEngineNet.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Buffers.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Collections.Immutable.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.IO.Packaging.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.IO.Ports.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Memory.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Numerics.Vectors.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Reactive.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Security.AccessControl.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Security.Cryptography.ProtectedData.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Security.Permissions.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Security.Principal.Windows.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.ServiceModel.Primitives.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Text.Encodings.Web.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Text.Json.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Threading.Channels.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\System.ValueTuple.dll
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXC F2152v00_2019.6.0.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXC1xxx.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL 2 byte IO.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL 64 byte IO.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 XC 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 I 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 I XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 U 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 U XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 W 1Fv02_1.30.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 XC 1Fv00_1.21.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 XC1Fv00_1.21.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.10.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.10.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO8 1Fv03_1.30.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO8 XC 1Fv00_1.21.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 1Fv03_1.20.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 XC 1Fv00_1.20.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO16_1 2H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO8_2-2A 2H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 HS 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_4 2F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_4 XC 2F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 2H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 XC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI64_1 2F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 XC 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 110_220DC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 24DC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 48_60DC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_3 DO8_3 2H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16 FLK 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_1 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_3 2Fv03.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_3 XC 2F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO32_1 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO32_1 XC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO4_3 AC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO64_1 2F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO8_2 2A 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DOR4_2 AC_220DC 1F.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IF CAN 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IMPULSE2 XC 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IOL8 2Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F LPSDO8_3 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F MA IB 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM EF 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM UT 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM UT 1M 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PSDI8_4 1F.v00_1.01.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PSDO8_3 1F.v00_1.01.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PWM2 1Hv01_1.10.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PWR 1H.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS TIME RX 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS UNI 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS UNI XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD4 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 1Fv05_1.30.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 ENI 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 S 1Fv06_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 XC 1Fv00_1.30.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSDI8_4 1Fv01_2.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSDO8_3 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSI1 AO1 1Hv03_1.01.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH4 1Hv00_1.01.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH8 1Fv00_1.10.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH8 XC 1Fv00_1.10.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F physical.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL MTS LINESKIP.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL PHYCONV LINESKIP.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AI4 I 4-20v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AI4 U 0-10v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AO4 I 4-20v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AO4 U 0-10v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE CNT1v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE DI16_1v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE DO16_1v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE INC1 SYMv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE IOL4v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE RS485v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE RTD4 PT100v00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE SC-Av00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_DO16_2-2Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_DO32_1_2Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_MA_DALI2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_PWM2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_SGI2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFFull.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFHalf.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFHalf2.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFSFull.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFSHalf.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSE.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSEFull.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSEHalf.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\EtherNetIP.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\Ethernet.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\HMI.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\IP.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\InlineMaster.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\MasterAXIO.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\OPCUA.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\Profinet.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOC.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_0.0.0.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.3.0.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.4.0.fdcml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\de\AXCTextRes_de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\de\AXLFTextRes_de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\eCLR.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Fdcml\plcnext.16.png
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Build.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostCompose.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostCreate.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostEdit.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Build.Agnostic.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Device.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Master.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCompose.Agnostic.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCreate.Agnostic.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostEdit.Agnostic.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\de\de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\Data.Axioline.Device.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\de\de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Build.Profinet.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Device.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Master.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.DAP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.DAP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Interface.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Port.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCompose.Profinet.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCreate.Profinet.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostEdit.Profinet.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\de\dpntype_de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Build.TcpIP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.IP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.Tcp.IP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCompose.TcpIP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCreate.TcpIP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostEdit.TcpIP.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\de\diptype_de.fdcmlres
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Build.Dependencies.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\Build.Events.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostCompose.Events.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostCreate.Events.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostEdit.Events.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\Build.Scopes.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCompose.Scopes.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCreate.Scopes.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostEdit.Scopes.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\Scopes.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostCompose.Dependencies.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostCreate.Dependencies.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostEdit.Dependencies.xml
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Projects\Axiocontrol.pcwlx
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Projects\Inline Profinet.pcwlx
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\bin\Release\Projects\NetCI.ioconfx
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.csprojAssemblyReference.cache
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.exe.config
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.csproj.CoreCompileInputs.cache
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.csproj.CopyComplete
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.exe
+C:\PLCnext\GIT\PLCnext_IOconf_Examples\src\axioconf\obj\Release\axioconf.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Axiocontrol.pcwlx
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\axioconf.exe.config
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\axioconf.exe
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\axioconf.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\BouncyCastle.Crypto.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Build.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Build.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Build.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compare.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Compiler.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Components.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Components.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Components.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ComponentsImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Core.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Core.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Core.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CoreImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.CrossReferences.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataList.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DataTypes.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Diagnostics.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.UI.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Documents.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Base.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.BaseImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Network.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.NetworkImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Persistence.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.PersistenceImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.Project.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.ProjectImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Platform.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.PlatformImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.Base.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Project.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.ProjectImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.Workspace.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.WorkspaceImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Domain.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.DomainImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.ExtenderProvider.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Fdcml.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Gsdml.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.GsdmlImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.HierarchyPresenter.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IO.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IO.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IO.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IOImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.IntelliSense.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.Configuration.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ConfigurationImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.ProfinetImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Compiler.TcpIPImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.CompilerImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Configuration.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ConfigurationImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Core.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Device.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceEditor.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.DeviceImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Axioline.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.AxiolineImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Model.Profinet.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ModelImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profiles.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProfilesImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Profinet.Encoding.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Protocols.AgnosticImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.Provider.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.ProviderImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Network.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Discovery.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.Protocol.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Online.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Patterns.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Esm.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.Plm.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.PlcNext.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Hmi.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IO.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.IOImpl.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.Plc.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Project.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Security.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Security.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Security.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Shell.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Text.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Text.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Text.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.UIFramework.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.Compiler.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.XmlSerializers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Ade.Variables.pdb
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\MoreLinq.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\MurmurHash.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\WupiEngineNet.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Buffers.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Collections.Immutable.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.IO.Packaging.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.IO.Ports.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Memory.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Numerics.Vectors.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Reactive.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Security.AccessControl.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Security.Cryptography.ProtectedData.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Security.Permissions.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Security.Principal.Windows.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.ServiceModel.Primitives.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Text.Encodings.Web.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Text.Json.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Threading.Channels.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\System.ValueTuple.dll
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXC F2152v00_2019.6.0.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXC1xxx.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL 2 byte IO.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL 64 byte IO.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI2 AO2 XC 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 I 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 I XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 U 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI4 U XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 W 1Fv02_1.30.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 XC 1Fv00_1.21.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AI8 XC1Fv00_1.21.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 1Hv01_1.10.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO4 XC 1Hv00_1.10.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO8 1Fv03_1.30.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F AO8 XC 1Fv00_1.21.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 1Fv03_1.20.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F CNT2 INC2 XC 1Fv00_1.20.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO16_1 2H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 DO8_2-2A 2H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_1 HS 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_4 2F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI16_4 XC 2F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 2H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI32_1 XC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI64_1 2F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_1 DO8_1 XC 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 110_220DC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 24DC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_2 48_60DC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DI8_3 DO8_3 2H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16 FLK 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_1 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_3 2Fv03.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO16_3 XC 2F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO32_1 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO32_1 XC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO4_3 AC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO64_1 2F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DO8_2 2A 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F DOR4_2 AC_220DC 1F.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IF CAN 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IMPULSE2 XC 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F IOL8 2Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F LPSDO8_3 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F MA IB 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM EF 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM UT 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PM UT 1M 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PSDI8_4 1F.v00_1.01.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PSDO8_3 1F.v00_1.01.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PWM2 1Hv01_1.10.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F PWR 1H.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS TIME RX 1Hv02_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS UNI 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RS UNI XC 1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD4 1Hv01_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 1Fv05_1.30.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 ENI 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 S 1Fv06_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F RTD8 XC 1Fv00_1.30.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSDI8_4 1Fv01_2.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSDO8_3 1Fv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F SSI1 AO1 1Hv03_1.01.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH4 1Hv00_1.01.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH8 1Fv00_1.10.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F UTH8 XC 1Fv00_1.10.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL F physical.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL MTS LINESKIP.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL PHYCONV LINESKIP.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AI4 I 4-20v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AI4 U 0-10v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AO4 I 4-20v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE AO4 U 0-10v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE CNT1v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE DI16_1v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE DO16_1v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE INC1 SYMv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE IOL4v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE RS485v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE RTD4 PT100v00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL SE SC-Av00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_DO16_2-2Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_DO32_1_2Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_MA_DALI2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_PWM2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AXL_F_SGI2_1Hv00_1.00.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFFull.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFHalf.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFHalf2.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFSFull.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineFSHalf.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSE.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSEFull.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\AxiolineSEHalf.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\EtherNetIP.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\Ethernet.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\HMI.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\IP.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\InlineMaster.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\MasterAXIO.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\OPCUA.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\Profinet.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOC.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_0.0.0.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.3.0.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\SWIOCv0.0_6.4.0.fdcml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\de\AXCTextRes_de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\de\AXLFTextRes_de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\eCLR.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Fdcml\plcnext.16.png
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Build.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostCompose.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostCreate.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\PrePostEdit.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Build.Agnostic.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Device.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\Data.Agnostic.Master.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCompose.Agnostic.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostCreate.Agnostic.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\PrePostEdit.Agnostic.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Agnostic\de\de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\Data.Axioline.Device.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Axioline\de\de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Build.Profinet.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Device.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Master.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.DAP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Module.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.DAP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Interface.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.Port.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\Data.Profinet.Submodule.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCompose.Profinet.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostCreate.Profinet.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\PrePostEdit.Profinet.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\Profinet\de\dpntype_de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Build.TcpIP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.IP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\Data.Tcp.IP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCompose.TcpIP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostCreate.TcpIP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\PrePostEdit.TcpIP.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\1.0.0\Protocols\TcpIP\de\diptype_de.fdcmlres
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Build.Dependencies.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\Build.Events.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostCompose.Events.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostCreate.Events.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Events\PrePostEdit.Events.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\Build.Scopes.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCompose.Scopes.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostCreate.Scopes.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\PrePostEdit.Scopes.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\Core\Scopes\Scopes.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostCompose.Dependencies.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostCreate.Dependencies.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Profiles\PrePostEdit.Dependencies.xml
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Projects\Axiocontrol.pcwlx
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Projects\Inline Profinet.pcwlx
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\bin\Release\Projects\NetCI.ioconfx
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.csprojAssemblyReference.cache
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.exe.config
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.csproj.CoreCompileInputs.cache
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.csproj.CopyComplete
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.exe
+C:\PLCnext\GIT\IOconf_Examples\src\axioconf\obj\Release\axioconf.pdb

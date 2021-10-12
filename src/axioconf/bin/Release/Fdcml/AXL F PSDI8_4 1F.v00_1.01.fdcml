@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCML xmlns="http://www.FDCML.org/3/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+	<DocumentMeta>
+		<dcec>
+			<dc:creator>BHe</dc:creator>
+			<dc:date>2015-01-09</dc:date>
+			<dc:format>FDCML 3 v1.0</dc:format>
+		</dcec>
+	</DocumentMeta>
+	<ProfileBody>
+		<TextResourceList>
+			<TextResource dID="daxlf" xml:lang="de" xlink:type="simple" xlink:href=".\de\AXLFTextRes_de.fdcmlres"/>
+		</TextResourceList>
+		<DeviceIdentity>
+			<Vendor>
+				<Label>Phoenix Contact</Label>
+			</Vendor>
+			<DeviceFamily>
+				<Label dIDRef="daxlf" tID="t257">Safe digital inputs</Label>
+			</DeviceFamily>
+			<ProductFamily>
+				<Label>AXL F</Label>
+			</ProductFamily>
+			<ProductName>
+				<Label>AXL F PSDI8/4 1F</Label>
+			</ProductName>
+			<ArticleNumber>
+				<Label>2701559</Label>
+			</ArticleNumber>
+			<Version>
+				<Label>00/1.01</Label>
+			</Version>
+			<IdObj access="R" type="guid" uID="guid">
+				<Label>{E1A0C650-1520-408C-9733-7EA871E84429}</Label>
+			</IdObj>
+			<IdObj access="R" uID="id0" type="InstName">
+				<Label>sdi</Label>
+			</IdObj>
+		</DeviceIdentity>
+		<DeviceManager>
+			<DTTList>
+				<DerivedString uID="dteid" access="RW" CharLen="32">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<DerivedString uID="dtloc" access="RW" CharLen="22">
+					<StringASCII xsi:nil="true"/>
+				</DerivedString>
+				<Derived uID="dtp80" access="W">
+					<OctetstringN octets="14"/>
+				</Derived>
+				<Derived uID="dtp8A" access="W">
+					<OctetstringN octets="6"/>
+				</Derived>
+				<Derived uID="dt2bit" access="W">
+					<BitstringX bits="2" xsi:nil="true"/>
+				</Derived>
+				<Derived uID="dt3bit" access="W">
+					<BitstringX bits="3" xsi:nil="true"/>
+				</Derived>
+			</DTTList>
+			<ImgList>
+				<RImage type="16.PNG" xlink:type="simple" xlink:href="AxiolineFFull.16.png"/>
+			</ImgList>
+			<HW>
+				<TrmList>
+					<Trm uID="trma1">
+						<Label>a1</Label>
+						<Help>24 V DC</Help>
+					</Trm>
+					<Trm uID="trma2">
+						<Label>a2</Label>
+						<Help>24 V DC</Help>
+					</Trm>
+					<Trm uID="trmb1">
+						<Label>b1</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trmb2">
+						<Label>b2</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm00">
+						<Label>00</Label>
+						<Help>IN0_CH1</Help>
+					</Trm>
+					<Trm uID="trm01">
+						<Label>01</Label>
+						<Help>IN0_CH2</Help>
+					</Trm>
+					<Trm uID="trm02">
+						<Label>02</Label>
+						<Help>IN1_CH1</Help>
+					</Trm>
+					<Trm uID="trm03">
+						<Label>03</Label>
+						<Help>IN1_CH2</Help>
+					</Trm>
+					<Trm uID="trm04">
+						<Label>04</Label>
+						<Help>IN2_CH1</Help>
+					</Trm>
+					<Trm uID="trm05">
+						<Label>05</Label>
+						<Help>IN2_CH2</Help>
+					</Trm>
+					<Trm uID="trm06">
+						<Label>06</Label>
+						<Help>IN3_CH1</Help>
+					</Trm>
+					<Trm uID="trm07">
+						<Label>07</Label>
+						<Help>IN3_CH2</Help>
+					</Trm>
+					<Trm uID="trm10">
+						<Label>10</Label>
+						<Help>Clock T1</Help>
+					</Trm>
+					<Trm uID="trm11">
+						<Label>11</Label>
+						<Help>Clock T2</Help>
+					</Trm>
+					<Trm uID="trm12">
+						<Label>12</Label>
+						<Help>Clock T1</Help>
+					</Trm>
+					<Trm uID="trm13">
+						<Label>13</Label>
+						<Help>Clock T2</Help>
+					</Trm>
+					<Trm uID="trm14">
+						<Label>14</Label>
+						<Help>Clock T1</Help>
+					</Trm>
+					<Trm uID="trm15">
+						<Label>15</Label>
+						<Help>Clock T2</Help>
+					</Trm>
+					<Trm uID="trm16">
+						<Label>16</Label>
+						<Help>Clock T1</Help>
+					</Trm>
+					<Trm uID="trm17">
+						<Label>17</Label>
+						<Help>Clock T2</Help>
+					</Trm>
+					<Trm uID="trm20">
+						<Label>20</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm21">
+						<Label>21</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm22">
+						<Label>22</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm23">
+						<Label>23</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm24">
+						<Label>24</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm25">
+						<Label>25</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm26">
+						<Label>26</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm27">
+						<Label>27</Label>
+						<Help>GND</Help>
+					</Trm>
+					<Trm uID="trm30">
+						<Label>30</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm31">
+						<Label>31</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm32">
+						<Label>32</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm33">
+						<Label>33</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm34">
+						<Label>34</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm35">
+						<Label>35</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm36">
+						<Label>36</Label>
+						<Help>FE</Help>
+					</Trm>
+					<Trm uID="trm37">
+						<Label>37</Label>
+						<Help>FE</Help>
+					</Trm>
+				</TrmList>
+			</HW>
+			<Layer1-2 type="AXLF" uID="L12_1">
+				<PCEPList>
+					<PCEP uID="mau0" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="in">
+						<Label dIDRef="daxlf" tID="t200">Bus base (incoming)</Label>
+						<Prop type="AXLF:LogicCurrent">
+							<Label dIDRef="daxlf" tID="t201">max. current consumption from Ubus</Label>
+							<Elementary access="R" uom="mA">
+								<DINT>-310</DINT>
+							</Elementary>
+						</Prop>
+					</PCEP>
+					<PCEP uID="mau1" pL="AXLF" pLT="AXLF" pLDC="true" dLL="AXLF" dLLFlow="out">
+						<Label dIDRef="daxlf" tID="t202">Bus base (outgoing)</Label>
+					</PCEP>
+				</PCEPList>
+				<Layer7 type="AXLF:Device" uID="L7_1">
+					<PDList>
+						<PD uID="pd01" type="AXLF:PSPD">
+							<Label>IN00 CH1/2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="pd02" type="AXLF:PSPD">
+							<Label>IN00 CH2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.1</LocalPath>
+						</PD>
+						<PD uID="pd03" type="AXLF:PSPD">
+							<Label>IN01 CH1/2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.2</LocalPath>
+						</PD>
+						<PD uID="pd04" type="AXLF:PSPD">
+							<Label>IN01 CH2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.3</LocalPath>
+						</PD>
+						<PD uID="pd05" type="AXLF:PSPD">
+							<Label>IN02 CH1/2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.4</LocalPath>
+						</PD>
+						<PD uID="pd06" type="AXLF:PSPD">
+							<Label>IN02 CH2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.5</LocalPath>
+						</PD>
+						<PD uID="pd07" type="AXLF:PSPD">
+							<Label>IN03 CH1/2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.6</LocalPath>
+						</PD>
+						<PD uID="pd08" type="AXLF:PSPD">
+							<Label>IN03 CH2</Label>
+							<Elementary access="R">
+								<BOOL xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.7</LocalPath>
+						</PD>
+						<PD uID="pd100" type="AXLF:PSFTRAIL" vis="false">
+							<Label>FTRAILIN</Label>
+							<Elementary access="R">
+								<DWORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>1.0</LocalPath>
+						</PD>
+						<PD uID="pd101" type="AXLF:PSFTRAIL" vis="false">
+							<Label>FTRAILOUT</Label>
+							<Elementary access="W">
+								<DWORD xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="pd102" type="AXLF:PSFMSG" vis="false">
+							<Label>FMSGIN</Label>
+							<Elementary access="R">
+								<OctetstringN octets="5" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+						<PD uID="pd103" type="AXLF:PSFMSG" vis="false">
+							<Label>FMSGOUT</Label>
+							<Elementary access="W">
+								<OctetstringN octets="4" xsi:nil="true"/>
+							</Elementary>
+							<LocalPath>0.0</LocalPath>
+						</PD>
+					</PDList>
+					<ParaList>
+						<Para uID="bp14" type="AXLF:Param">
+							<DTTRef rUID="dtloc"/>
+							<LocalPath>0x14#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="bp15" type="AXLF:Param">
+							<DTTRef rUID="dteid"/>
+							<LocalPath>0x15#0</LocalPath>
+							<Prop type="AXL:isStartup">
+								<Elementary access="R">
+									<Boolean>true</Boolean>
+								</Elementary>
+							</Prop>
+						</Para>
+						<Para uID="p80" type="AXLF:Param">
+							<Label>FPar</Label>
+							<DTTRef rUID="dtp80"/>
+							<LocalPath>0x80</LocalPath>
+							<Prop type="PN:TransferSequence">
+								<Elementary access="R">
+									<Unsigned16>1</Unsigned16>
+								</Elementary>
+							</Prop>
+							<Para uID="p80_00" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>0.0</LocalPath>
+								<PresentationRef rUID="F_Check_Seq_Nr"/>
+							</Para>
+							<Para uID="p80_01" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>0.1</LocalPath>
+								<PresentationRef rUID="F_Check_iPar"/>
+							</Para>
+							<Para uID="p80_02" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>0.2</LocalPath>
+								<PresentationRef rUID="F_SIL"/>
+							</Para>
+							<Para uID="p80_04" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>0.4</LocalPath>
+								<PresentationRef rUID="F_CRC_Length"/>
+							</Para>
+							<Para uID="p80_06" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>0.6</LocalPath>
+								<PresentationRef rUID="reserved_F_Prm_Flag1"/>
+							</Para>
+							<Para uID="p80_10" type="AXLF:Param">
+								<DTTRef rUID="dt3bit"/>
+								<LocalPath>1.0</LocalPath>
+								<PresentationRef rUID="reserved_F_Prm_Flag2"/>
+							</Para>
+							<Para uID="p80_13" type="AXLF:Param">
+								<DTTRef rUID="dt3bit"/>
+								<LocalPath>1.3</LocalPath>
+								<PresentationRef rUID="F_Block_ID"/>
+							</Para>
+							<Para uID="p80_16" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>1.6</LocalPath>
+								<PresentationRef rUID="F_Par_Version"/>
+							</Para>
+							<Para uID="p80_20" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>2.0</LocalPath>
+								<PresentationRef rUID="F_Source_Add"/>
+							</Para>
+							<Para uID="p80_40" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>4.0</LocalPath>
+								<PresentationRef rUID="F_Dest_Add"/>
+							</Para>
+							<Para uID="p80_60" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>6.0</LocalPath>
+								<PresentationRef rUID="F_WD_Time"/>
+							</Para>
+							<Para uID="p80_80" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring32 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>8.0</LocalPath>
+								<PresentationRef rUID="F_iPar_CRC"/>
+							</Para>
+							<Para uID="p80_120" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>12.0</LocalPath>
+								<PresentationRef rUID="F_Par_CRC"/>
+							</Para>
+						</Para>
+						<Para uID="p8A" type="AXLF:Param">
+							<Label>iPar</Label>
+							<DTTRef rUID="dtp8A"/>
+							<LocalPath>0x8A</LocalPath>
+							<Prop type="PN:TransferSequence">
+								<Elementary access="R">
+									<Unsigned16>2</Unsigned16>
+								</Elementary>
+							</Prop>
+							<Para uID="p8A_00" type="AXLF:Param">
+								<Elementary access="W">
+									<Bitstring16 xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>0.0</LocalPath>
+								<PresentationRef rUID="PST_Device_ID"/>
+							</Para>
+							<Para uID="p8A_20" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>2.0</LocalPath>
+								<PresentationRef rUID="sp_I00_05"/>
+							</Para>
+							<Para uID="p8A_21" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>2.1</LocalPath>
+								<PresentationRef rUID="sp_I00_04"/>
+							</Para>
+							<Para uID="p8A_22" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>2.2</LocalPath>
+								<PresentationRef rUID="sp_I00_03"/>
+							</Para>
+							<Para uID="p8A_24" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>2.4</LocalPath>
+								<PresentationRef rUID="sp_I00_02"/>
+							</Para>
+							<Para uID="p8A_26" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>2.6</LocalPath>
+								<PresentationRef rUID="sp_I00_01"/>
+							</Para>
+							<Para uID="p8A_30" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>3.0</LocalPath>
+								<PresentationRef rUID="sp_I01_05"/>
+							</Para>
+							<Para uID="p8A_31" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>3.1</LocalPath>
+								<PresentationRef rUID="sp_I01_04"/>
+							</Para>
+							<Para uID="p8A_32" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>3.2</LocalPath>
+								<PresentationRef rUID="sp_I01_03"/>
+							</Para>
+							<Para uID="p8A_34" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>3.4</LocalPath>
+								<PresentationRef rUID="sp_I01_02"/>
+							</Para>
+							<Para uID="p8A_36" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>3.6</LocalPath>
+								<PresentationRef rUID="sp_I01_01"/>
+							</Para>
+							<Para uID="p8A_40" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>4.0</LocalPath>
+								<PresentationRef rUID="sp_I02_05"/>
+							</Para>
+							<Para uID="p8A_41" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>4.1</LocalPath>
+								<PresentationRef rUID="sp_I02_04"/>
+							</Para>
+							<Para uID="p8A_42" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>4.2</LocalPath>
+								<PresentationRef rUID="sp_I02_03"/>
+							</Para>
+							<Para uID="p8A_44" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>4.4</LocalPath>
+								<PresentationRef rUID="sp_I02_02"/>
+							</Para>
+							<Para uID="p8A_46" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>4.6</LocalPath>
+								<PresentationRef rUID="sp_I02_01"/>
+							</Para>
+							<Para uID="p8A_50" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.0</LocalPath>
+								<PresentationRef rUID="sp_I03_05"/>
+							</Para>
+							<Para uID="p8A_51" type="AXLF:Param">
+								<Elementary access="W">
+									<BOOL xsi:nil="true"/>
+								</Elementary>
+								<LocalPath>5.1</LocalPath>
+								<PresentationRef rUID="sp_I03_04"/>
+							</Para>
+							<Para uID="p8A_52" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>5.2</LocalPath>
+								<PresentationRef rUID="sp_I03_03"/>
+							</Para>
+							<Para uID="p8A_54" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>5.4</LocalPath>
+								<PresentationRef rUID="sp_I03_02"/>
+							</Para>
+							<Para uID="p8A_56" type="AXLF:Param">
+								<DTTRef rUID="dt2bit"/>
+								<LocalPath>5.6</LocalPath>
+								<PresentationRef rUID="sp_I03_01"/>
+							</Para>
+						</Para>
+					</ParaList>
+					<L7ObjList>
+						<Obj uID="axlfo1" type="AXLF:LowerDeviceType">
+							<Label dIDRef="daxlf" tID="t203">Axioline F device type (Byte 0-3)</Label>
+							<Elementary access="R">
+								<Bitstring32>00000FD1</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo2" type="AXLF:UpperDeviceType">
+							<Label dIDRef="daxlf" tID="t204">Axioline F device type (Byte 4-7)</Label>
+							<Elementary access="R">
+								<Bitstring32>00810001</Bitstring32>
+							</Elementary>
+						</Obj>
+						<Obj uID="axlfo4" type="AXLF:PDLength">
+							<Label dIDRef="daxlf" tID="t205">Process data length</Label>
+							<Elementary access="R">
+								<Unsigned32>40</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o4" type="AXLF:LengthCode">
+							<Elementary access="R">
+								<Unsigned32>48</Unsigned32>
+							</Elementary>
+						</Obj>
+						<Obj uID="o5" type="PN:isProfiSafe">
+							<Elementary access="R">
+								<BOOL>true</BOOL>
+							</Elementary>
+						</Obj>
+						<Obj uID="o6" type="PN:FDestAdd">
+							<Label>F_Dest_Add</Label>
+							<Subrange access="RW">
+								<Min>
+									<Unsigned16>1</Unsigned16>
+								</Min>
+								<Max>
+									<Unsigned16>1023</Unsigned16>
+								</Max>
+								<Default>
+									<Unsigned16>1</Unsigned16>
+								</Default>
+							</Subrange>
+						</Obj>
+					</L7ObjList>
+					<LCEPList>
+						<LCEP uID="lcep1" type="AXLF" role="slave">
+							<Label>AXL F</Label>
+						</LCEP>
+					</LCEPList>
+				</Layer7>
+			</Layer1-2>
+			<CEPConList>
+				<CEPCon fromLayer="L7_1" fromCEP="lcep1" toLayer="L12_1" toCEP="mau0"/>
+			</CEPConList>
+		</DeviceManager>
+		<DeviceFunction>
+			<StdFuncPresentation>
+				<MList appCtx="NetworkStartup">
+					<M uID="m11">
+						<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+						<MIList>
+							<G uID="g100">
+								<Label dIDRef="daxlf" tID="t2000">Identification</Label>
+								<MI rUID="b15_0"/>
+								<MI rUID="b14_0"/>
+							</G>
+						</MIList>
+					</M>
+				</MList>
+				<PList>
+					<P uID="b14_0">
+						<Label dIDRef="daxlf" tID="t1015">Location</Label>
+						<Help dIDRef="daxlf" tID="t1265">This is the location of the device. You can enter up to 22 characters.</Help>
+						<DTTRef rUID="dtloc"/>
+						<ParaRef rUID="bp14"/>
+					</P>
+					<P uID="b15_0">
+						<Label dIDRef="daxlf" tID="t1016">Function</Label>
+						<Help dIDRef="daxlf" tID="t1264">Describe the function  of the device. You can enter up to 32 characters.</Help>
+						<DTTRef rUID="dteid"/>
+						<ParaRef rUID="bp15"/>
+					</P>
+				</PList>
+			</StdFuncPresentation>
+		</DeviceFunction>
+		<DeviceFunction>
+			<SafetyLegacyFuncPresentation>
+				<safetyParameterList paramCRC32="0x4C44A3D6" paramDefaultCRC32="0xE4AD2B85" byteLength="52" safetyParameterListType="PNIOSafetyParameter" CRCStart="40" CRCEnd="52">
+					<labelCRC32 xml:lang="en-us" CRC="0x0EDAF27B"/>
+					<labelCRC32 xml:lang="de" CRC="0x5B1E2BC0"/>
+					<safetyParameterGroup uniqueID="spg_F_Parameter">
+						<label xml:lang="en-us">F_Parameter</label>
+						<label xml:lang="de">F_Parameter</label>
+						<safetyParameter uniqueID="F_iPar_CRC" bitLength="32" address="0" enabled="YES">
+							<label xml:lang="en-us">F_iPar_CRC</label>
+							<label xml:lang="de">F_iPar_CRC</label>
+							<metaBitStreamCRC CRCStart="415" CRCEnd="384" CRCStartValue="0x810" CRCVisible="NO" CRCSequenceControl="2" CRCZeroRepresentation="1" CRCType="4"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Check_SeqNr" bitLength="1" address="32" enabled="YES">
+							<label xml:lang="en-us">F_Check_SeqNr</label>
+							<label xml:lang="de">F_Check_SeqNr</label>
+							<bitString value="0x00"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Check_iPar" bitLength="1" address="33" enabled="YES">
+							<label xml:lang="en-us">F_Check_iPar</label>
+							<label xml:lang="de">F_Check_iPar</label>
+							<bitString value="0x00"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_SIL" bitLength="2" address="34" enabled="YES">
+							<label xml:lang="en-us">F_SIL</label>
+							<label xml:lang="de">F_SIL</label>
+							<bitString value="0x02"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_CRC_Length" bitLength="2" address="36" enabled="YES">
+							<label xml:lang="en-us">F_CRC_Length</label>
+							<label xml:lang="de">F_CRC_Length</label>
+							<bitString value="0x00"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="reserved_F_Prm_Flag1" bitLength="2" address="38" enabled="YES">
+							<label xml:lang="en-us">reserved</label>
+							<label xml:lang="de">reserviert</label>
+							<bitString value="0x00"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="reserved_F_Prm_Flag2" bitLength="3" address="40" enabled="YES">
+							<label xml:lang="en-us">reserved</label>
+							<label xml:lang="de">reserviert</label>
+							<bitString value="0x00"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Block_ID" bitLength="3" address="43" enabled="YES">
+							<label xml:lang="en-us">F_Block_ID</label>
+							<label xml:lang="de">F_Block_ID</label>
+							<bitString value="0x01"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Par_Version" bitLength="2" address="46" enabled="YES">
+							<label xml:lang="en-us">F_Par_Version</label>
+							<label xml:lang="de">F_Par_Version</label>
+							<bitString value="0x01"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Source_Add" bitLength="16" address="48" visible="YES" enabled="YES">
+							<label xml:lang="en-us">F_Source_Add</label>
+							<label xml:lang="de">F_Source_Add</label>
+							<metaBitStreamSimple type="F_Source_Add" endianess="5"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Dest_Add" bitLength="16" address="64" visible="YES" enabled="YES">
+							<label xml:lang="en-us">F_Dest_Add</label>
+							<label xml:lang="de">F_Dest_Add</label>
+							<metaBitStreamSimple type="F_Dest_Add" endianess="5"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_WD_Time" bitLength="16" address="80" endianess="2" enabled="YES">
+							<label xml:lang="en-us">F_WD_Time</label>
+							<label xml:lang="de">F_WD_Time</label>
+							<range>
+								<minVal>
+									<unsigned16>1</unsigned16>
+								</minVal>
+								<maxVal>
+									<unsigned16>10000</unsigned16>
+								</maxVal>
+								<stepVal>
+									<unsigned16>1</unsigned16>
+								</stepVal>
+								<default>
+									<unsigned16>150</unsigned16>
+								</default>
+							</range>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_Par_CRC" bitLength="16" address="96" enabled="YES">
+							<label xml:lang="en-us">F_Par_CRC</label>
+							<label xml:lang="de">F_Par_CRC</label>
+							<metaBitStreamCRC CRCStart="0" CRCEnd="95" CRCStartValue="0" CRCVisible="YES" CRCSequenceControl="3" CRCZeroRepresentation="1" CRCType="3"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_reserved" bitLength="176" address="112" visible="NO" endianess="" enabled="YES">
+							<label xml:lang="en-us">reserved</label>
+							<label xml:lang="de">Reserve</label>
+							<bitString value="0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_crc" bitLength="32" address="288" visible="NO" enabled="YES">
+							<label xml:lang="en-us">CRC Parameter</label>
+							<label xml:lang="de">CRC Parameter</label>
+							<bitString value="0xFF, 0xFF, 0xFF, 0xFF"/>
+						</safetyParameter>
+						
+						<safetyParameter uniqueID="F_Dest_Add_2" bitLength="16" address="320" visible="NO" enabled="YES">
+							<label xml:lang="en-us">F_Dest_Add</label>
+							<label xml:lang="de">F_Dest_Add</label>
+							<metaBitStreamSimple type="F_Dest_Add" endianess="5"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="PST_Device_ID" bitLength="16" address="336" visible="NO" enabled="YES">
+							<label xml:lang="en-us">PST_Device_ID</label>
+							<label xml:lang="de">PST_Device_ID</label>
+							<bitString value="0x08, 0x10"/>
+						</safetyParameter>
+						<safetyParameter uniqueID="F_iPar_CRC_2" bitLength="32" address="352" visible="NO" enabled="YES">
+							<label xml:lang="en-us">F_iPar_CRC</label>
+							<label xml:lang="de">F_iPar_CRC</label>
+							<metaBitStreamCRC CRCStart="415" CRCEnd="384" CRCStartValue="0x810" CRCVisible="NO" CRCSequenceControl="1" CRCZeroRepresentation="1" CRCType="4"/>
+						</safetyParameter>
+					</safetyParameterGroup>
+					<safetyParameterGroup uniqueID="spg_I00">
+						<label xml:lang="en-us">Input 00 Channel 1 / Channel 2</label>
+						<label xml:lang="de">Eingang 00 Kanal 1 / Kanal 2</label>
+						<safetyParameter uniqueID="sp_I00_01" bitLength="2" address="390">
+							<label xml:lang="en-us">Assignment</label>
+							<label xml:lang="de">Belegung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">both not used</label>
+								<label xml:lang="de">beide nicht belegt</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">both single-channel</label>
+								<label xml:lang="de">beide einkanalig</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">double-channel equivalent</label>
+								<label xml:lang="de">zweikanalig äquivalent</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">double-channel non-equivalent</label>
+								<label xml:lang="de">zweikanalig antivalent</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I00_02" bitLength="2" address="388">
+							<label xml:lang="en-us">Max Filter Duration</label>
+							<label xml:lang="de">Maximale Filterzeit</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">1,5 ms</label>
+								<label xml:lang="de">1,5 ms</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">3 ms</label>
+								<label xml:lang="de">3 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">5 ms</label>
+								<label xml:lang="de">5 ms</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">15 ms</label>
+								<label xml:lang="de">15 ms</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I00_03" bitLength="2" address="386">
+							<label xml:lang="en-us">Symmetry</label>
+							<label xml:lang="de">Symmetrie</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">deactivated</label>
+								<label xml:lang="de">ausgeschaltet</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">100 ms</label>
+								<label xml:lang="de">100 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">1 s</label>
+								<label xml:lang="de">1 s</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">5 s</label>
+								<label xml:lang="de">5 s</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I00_04" bitLength="1" address="385">
+							<label xml:lang="en-us">Start inhibit due to symmetry violation</label>
+							<label xml:lang="de">Einschaltsperre bei Symmetrieverletzung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">off</label>
+								<label xml:lang="de">aus</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">on</label>
+								<label xml:lang="de">ein</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I00_05" bitLength="1" address="384">
+							<label xml:lang="en-us">Cross-circuit detection</label>
+							<label xml:lang="de">Querschlussüberwachung</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">no cross-circuit detection</label>
+								<label xml:lang="de">keine Querschlussüberwachung</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">cross-circuit detection</label>
+								<label xml:lang="de">Querschlussüberwachung</label>
+							</bitEnum>
+						</safetyParameter>
+					</safetyParameterGroup>
+					<safetyParameterGroup uniqueID="spg_I01">
+						<label xml:lang="en-us">Input 01 Channel 1 / Channel 2</label>
+						<label xml:lang="de">Eingang 01 Kanal 1 / Kanal 2</label>
+						<safetyParameter uniqueID="sp_I01_01" bitLength="2" address="398">
+							<label xml:lang="en-us">Assignment</label>
+							<label xml:lang="de">Belegung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">both not used</label>
+								<label xml:lang="de">beide nicht belegt</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">both single-channel</label>
+								<label xml:lang="de">beide einkanalig</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">double-channel equivalent</label>
+								<label xml:lang="de">zweikanalig äquivalent</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">double-channel non-equivalent</label>
+								<label xml:lang="de">zweikanalig antivalent</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I01_02" bitLength="2" address="396">
+							<label xml:lang="en-us">Max Filter Duration</label>
+							<label xml:lang="de">Maximale Filterzeit</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">1,5 ms</label>
+								<label xml:lang="de">1,5 ms</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">3 ms</label>
+								<label xml:lang="de">3 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">5 ms</label>
+								<label xml:lang="de">5 ms</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">15 ms</label>
+								<label xml:lang="de">15 ms</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I01_03" bitLength="2" address="394">
+							<label xml:lang="en-us">Symmetry</label>
+							<label xml:lang="de">Symmetrie</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">deactivated</label>
+								<label xml:lang="de">ausgeschaltet</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">100 ms</label>
+								<label xml:lang="de">100 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">1 s</label>
+								<label xml:lang="de">1 s</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">5 s</label>
+								<label xml:lang="de">5 s</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I01_04" bitLength="1" address="393">
+							<label xml:lang="en-us">Start inhibit due to symmetry violation</label>
+							<label xml:lang="de">Einschaltsperre bei Symmetrieverletzung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">off</label>
+								<label xml:lang="de">aus</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">on</label>
+								<label xml:lang="de">ein</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I01_05" bitLength="1" address="392">
+							<label xml:lang="en-us">Cross-circuit detection</label>
+							<label xml:lang="de">Querschlussüberwachung</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">no cross-circuit detection</label>
+								<label xml:lang="de">keine Querschlussüberwachung</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">cross-circuit detection</label>
+								<label xml:lang="de">Querschlussüberwachung</label>
+							</bitEnum>
+						</safetyParameter>
+					</safetyParameterGroup>
+					<safetyParameterGroup uniqueID="spg_I02">
+						<label xml:lang="en-us">Input 02 Channel 1 / Channel 2</label>
+						<label xml:lang="de">Eingang 02 Kanal 1 / Kanal 2</label>
+						<safetyParameter uniqueID="sp_I02_01" bitLength="2" address="406">
+							<label xml:lang="en-us">Assignment</label>
+							<label xml:lang="de">Belegung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">both not used</label>
+								<label xml:lang="de">beide nicht belegt</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">both single-channel</label>
+								<label xml:lang="de">beide einkanalig</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">double-channel equivalent</label>
+								<label xml:lang="de">zweikanalig äquivalent</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">double-channel non-equivalent</label>
+								<label xml:lang="de">zweikanalig antivalent</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I02_02" bitLength="2" address="404">
+							<label xml:lang="en-us">Max Filter Duration</label>
+							<label xml:lang="de">Maximale Filterzeit</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">1,5 ms</label>
+								<label xml:lang="de">1,5 ms</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">3 ms</label>
+								<label xml:lang="de">3 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">5 ms</label>
+								<label xml:lang="de">5 ms</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">15 ms</label>
+								<label xml:lang="de">15 ms</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I02_03" bitLength="2" address="402">
+							<label xml:lang="en-us">Symmetry</label>
+							<label xml:lang="de">Symmetrie</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">deactivated</label>
+								<label xml:lang="de">ausgeschaltet</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">100 ms</label>
+								<label xml:lang="de">100 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">1 s</label>
+								<label xml:lang="de">1 s</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">5 s</label>
+								<label xml:lang="de">5 s</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I02_04" bitLength="1" address="401">
+							<label xml:lang="en-us">Start inhibit due to symmetry violation</label>
+							<label xml:lang="de">Einschaltsperre bei Symmetrieverletzung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">off</label>
+								<label xml:lang="de">aus</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">on</label>
+								<label xml:lang="de">ein</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I02_05" bitLength="1" address="400">
+							<label xml:lang="en-us">Cross-circuit detection</label>
+							<label xml:lang="de">Querschlussüberwachung</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">no cross-circuit detection</label>
+								<label xml:lang="de">keine Querschlussüberwachung</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">cross-circuit detection</label>
+								<label xml:lang="de">Querschlussüberwachung</label>
+							</bitEnum>
+						</safetyParameter>
+					</safetyParameterGroup>
+					<safetyParameterGroup uniqueID="spg_I03">
+						<label xml:lang="en-us">Input 03 Channel 1 / Channel 2</label>
+						<label xml:lang="de">Eingang 03 Kanal 1 / Kanal 2</label>
+						<safetyParameter uniqueID="sp_I03_01" bitLength="2" address="414">
+							<label xml:lang="en-us">Assignment</label>
+							<label xml:lang="de">Belegung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">both not used</label>
+								<label xml:lang="de">beide nicht belegt</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">both single-channel</label>
+								<label xml:lang="de">beide einkanalig</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">double-channel equivalent</label>
+								<label xml:lang="de">zweikanalig äquivalent</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">double-channel non-equivalent</label>
+								<label xml:lang="de">zweikanalig antivalent</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I03_02" bitLength="2" address="412">
+							<label xml:lang="en-us">Max Filter Duration</label>
+							<label xml:lang="de">Maximale Filterzeit</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">1,5 ms</label>
+								<label xml:lang="de">1,5 ms</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">3 ms</label>
+								<label xml:lang="de">3 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">5 ms</label>
+								<label xml:lang="de">5 ms</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">15 ms</label>
+								<label xml:lang="de">15 ms</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I03_03" bitLength="2" address="410">
+							<label xml:lang="en-us">Symmetry</label>
+							<label xml:lang="de">Symmetrie</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">deactivated</label>
+								<label xml:lang="de">ausgeschaltet</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">100 ms</label>
+								<label xml:lang="de">100 ms</label>
+							</bitEnum>
+							<bitEnum value="2">
+								<label xml:lang="en-us">1 s</label>
+								<label xml:lang="de">1 s</label>
+							</bitEnum>
+							<bitEnum value="3">
+								<label xml:lang="en-us">5 s</label>
+								<label xml:lang="de">5 s</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I03_04" bitLength="1" address="409">
+							<label xml:lang="en-us">Start inhibit due to symmetry violation</label>
+							<label xml:lang="de">Einschaltsperre bei Symmetrieverletzung</label>
+							<bitEnum value="0" default="YES">
+								<label xml:lang="en-us">off</label>
+								<label xml:lang="de">aus</label>
+							</bitEnum>
+							<bitEnum value="1">
+								<label xml:lang="en-us">on</label>
+								<label xml:lang="de">ein</label>
+							</bitEnum>
+						</safetyParameter>
+						<safetyParameter uniqueID="sp_I03_05" bitLength="1" address="408">
+							<label xml:lang="en-us">Cross-circuit detection</label>
+							<label xml:lang="de">Querschlussüberwachung</label>
+							<bitEnum value="0">
+								<label xml:lang="en-us">no cross-circuit detection</label>
+								<label xml:lang="de">keine Querschlussüberwachung</label>
+							</bitEnum>
+							<bitEnum value="1" default="YES">
+								<label xml:lang="en-us">cross-circuit detection</label>
+								<label xml:lang="de">Querschlussüberwachung</label>
+							</bitEnum>
+						</safetyParameter>
+					</safetyParameterGroup>
+				</safetyParameterList>
+			</SafetyLegacyFuncPresentation>
+		</DeviceFunction>
+	</ProfileBody>
+</FDCML>

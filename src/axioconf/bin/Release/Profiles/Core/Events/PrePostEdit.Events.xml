@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventList>
+  <!-- Instance creation -->
+  <Event id="edit.before">
+    <ProvidesScope>
+      <ScopeRef id="BeforeEditScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+  <Event id="edit.after">
+    <ProvidesScope>
+      <ScopeRef id="AfterEditScope"></ScopeRef>
+    </ProvidesScope>
+  </Event>
+</EventList>
+

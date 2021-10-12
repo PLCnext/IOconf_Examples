@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDCMLLayerTypes xmlns="http://www.FDCML.org/3/1.0"
+                 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation="http://www.FDCML.org/3/1.0 ..\..\fdcml3v1.0.xsd">
+  <LayerInfo type="IP:Network" no="3-4"/>
+  <!-- aka Network -->
+  <TextResourceList>
+    <TextResource dID="diptype" xml:lang="de" xlink:type="simple" xlink:href=".\de\diptype_de.fdcmlres"/>
+  </TextResourceList>
+  <TypeObjList>
+    <Obj uID="ip02" type="IP:FirstIpAddress">
+      <Label dIDRef="diptype" tID="t0003">Start IP address</Label>
+      <Help dIDRef="diptype" tID="t0004">Your Ethernet devices will automatically get an IP address from the range defined here.</Help>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="false">192.168.0.2</IPV4>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip03" type="IP:LastIpAddress">
+      <Label dIDRef="diptype" tID="t0005">End IP address</Label>
+      <Help dIDRef="diptype" tID="t0004">Your Ethernet devices will automatically get an IP address from the range defined here.</Help>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="false">192.168.0.254</IPV4>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip04" type="IP:DefaultGateway">
+      <Label dIDRef="diptype" tID="t0007">Default gateway</Label>
+      <Help dIDRef="diptype" tID="t1008">If no default gateway address is given, all devices will have their own IP address as gateway address.</Help>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="true"/>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip05" type="IP:SubnetMask">
+      <Label dIDRef="diptype" tID="t0009">Subnet mask</Label>
+      <Help dIDRef="diptype" tID="t000a">All devices assigned to this subnet will get this subnet mask assigned automatically.</Help>
+      <Elementary access="RW">
+        <IPV4 xsi:nil="false">255.255.255.0</IPV4>
+      </Elementary>
+    </Obj>
+    <Obj uID="ip06" type="IP:SubnetRepresentation">
+      <Label dIDRef="diptype" tID="t000b">Network name</Label>
+      <Help dIDRef="diptype" tID="t000c">You can give this subnet a name for convenience here.</Help>
+      <DerivedString access="RW" CharLen="255">
+        <String enc="UTF-8" xsi:nil="false">network01</String>
+      </DerivedString>
+    </Obj>
+    <Obj uID="ip07" type="IP:TopLevelDomain">
+      <Label dIDRef="diptype" tID="t000d">Top-level domain</Label>
+      <Help dIDRef="diptype" tID="t000e">This TLD will be added to the hostname of your devices (separated by a dot).</Help>
+      <DerivedString access="RW" CharLen="63">
+        <StringASCII xsi:nil="true"/>
+      </DerivedString>
+    </Obj>
+  </TypeObjList>
+</FDCMLLayerTypes>
